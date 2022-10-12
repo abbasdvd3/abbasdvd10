@@ -1,0 +1,802 @@
+trojan://956d6c3f-1b38-4691-8b17-bbe0eec86f93@45.moons.team:8088?sni=45.moons.team&allowInsecure=0#🇺🇸 _美国_YouTube:VV科技_9
+trojan://956d6c3f-1b38-4691-8b17-bbe0eec86f93@44.moons.team:8088?sni=44.moons.team&allowInsecure=0#🇺🇸 _美国_YouTube:VV科技_11
+trojan://sharecentre@hk.hkt.lilyco.cc:443?sni=hk.hkt.lilyco.cc&allowInsecure=0#🇭🇰 _香港_YouTube:VV科技_101
+trojan://916251fa-6aa5-459d-b7a1-968b49a01e4e@t3.ssrsub.com:8443?sni=t3.ssrsub.com&allowInsecure=0#🇨🇦 _加拿大_YouTube:VV科技_108
+trojan://535c9eef-40a3-4767-9253-706b0b128ed5@t4.ssrsub.com:8443?sni=t4.ssrsub.com&allowInsecure=0#🇨🇦 _加拿大_YouTube:VV科技_114
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20713?sni=azgy001.xiba1.xyz&allowInsecure=0#🇺🇸 _US_美国
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20712?sni=azgy001.xiba1.xyz&allowInsecure=0#🇺🇸 _US_美国 15
+trojan://c828e3ed-7826-4c94-8e08-608429f3b909@727tw02.ok365.cyou:25689?sni=727tw02.ok365.cyou&allowInsecure=0#🇸🇬 _SG_新加坡
+trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:33002?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇺🇸 _CN_中国->🇺🇸_US_美国
+trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:34003?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇭🇰 _CN_中国->🇭🇰_HK_香港
+trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:34001?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+trojan://7688df6f-bf65-3368-b55e-d78efea6a582@pp1.zhengzhongfeizhu.xyz:34002?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#_CN_中国
+trojan://d4e41ff772c7fd45@116.129.254.29:3381?sni=116.129.254.29&allowInsecure=0#中国(TG频道:@kxswa) 28
+trojan://d02058f4f819dced@116.129.253.134:3381?sni=116.129.253.134&allowInsecure=0#中国(TG频道:@kxswa) 29
+trojan://yQAgQC@139.227.182.124:12851?sni=139.227.182.124&allowInsecure=0#测试
+trojan://M288fab2@139.227.182.124:28158?sni=if2d.ft3.us&allowInsecure=1#韩国 B157 | 湘日隧道 | 0x
+trojan://M9cf6590@14.215.107.23:28157?sni=i23.t4v.fun&allowInsecure=1#韩国 B158 | IEPL中转、游戏 | 0x
+trojan://3dc79926-8d8e-4ad1-b79c-d1853b145027@hk-01.nodemao.com:10056?sni=hk-01.nodemao.com&allowInsecure=0#HK - 香港 | TR - x2
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#🇺🇸US-129.146.255.158-18
+trojan://50a90339-8afa-4579-832d-f5d608a6f569@t4.ssrsub.com:8443?sni=t4.ssrsub.com&allowInsecure=0#🇨🇦 _加拿大_t.me/vvkj11<油管:VV科技>_5
+trojan://tswmqssAcdphWMRdDSPZbeVSzhRVbGdp@hk-gz-hk-hkt-tr-b.cdn.savoy.click:60189?sni=hk-gz-hk-hkt-tr-b.cdn.savoy.click&allowInsecure=0#🇨🇳 _中国跳转_t.me/vvkj11<油管:VV科技>_15
+trojan://SfobRIcergHchqBFzzua@hk-gz-hk-hkt-tr-b.cdn.savoy.click:60189?sni=hk-gz-hk-hkt-tr-b.cdn.savoy.click&allowInsecure=0#🇨🇳 _中国跳转_t.me/vvkj11<油管:VV科技>_16
+trojan://4809af3e-b8f2-4f07-9cfb-79d0a7bb1219@s4.upyun.online:12340?sni=s4.upyun.online&allowInsecure=0#🇫🇷 _法国_t.me/vvkj11<油管:VV科技>_11
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@api.tcpbbr.net:443?sni=api.tcpbbr.net&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_10
+trojan://sharecentre@keli.scsevers.cf:443?sni=keli.scsevers.cf&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_124
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_7
+trojan://1fec465f-c917-4b58-9ae3-0239a2c629e7@vwvwvw.xyz:443?sni=vwvwvw.xyz&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_120
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@us2.tcpbbr.net:443?sni=us2.tcpbbr.net&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_126
+trojan://8aa575ab-8f26-3b63-88af-4110282e4100@trojan.shanjun.me:443?sni=trojan.shanjun.me&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_143
+trojan://d089a164-c8c5-43cc-86cc-e71256d3d59e@is3.vwvwvw.xyz:443?sni=is3.vwvwvw.xyz&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_43
+trojan://50a90339-8afa-4579-832d-f5d608a6f569@t4.ssrsub.com:8443?sni=t4.ssrsub.com&allowInsecure=0#🇨🇦 _加拿大_t.me/vvkj11<油管:VV科技>_5
+trojan://tswmqssAcdphWMRdDSPZbeVSzhRVbGdp@hk-gz-hk-hkt-tr-b.cdn.savoy.click:60189?sni=hk-gz-hk-hkt-tr-b.cdn.savoy.click&allowInsecure=0#🇨🇳 _中国跳转_t.me/vvkj11<油管:VV科技>_15
+trojan://SfobRIcergHchqBFzzua@hk-gz-hk-hkt-tr-b.cdn.savoy.click:60189?sni=hk-gz-hk-hkt-tr-b.cdn.savoy.click&allowInsecure=0#🇨🇳 _中国跳转_t.me/vvkj11<油管:VV科技>_16
+trojan://4809af3e-b8f2-4f07-9cfb-79d0a7bb1219@s4.upyun.online:12340?sni=s4.upyun.online&allowInsecure=0#🇫🇷 _法国_t.me/vvkj11<油管:VV科技>_11
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@api.tcpbbr.net:443?sni=api.tcpbbr.net&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_10
+trojan://sharecentre@keli.scsevers.cf:443?sni=keli.scsevers.cf&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_124
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_7
+trojan://1fec465f-c917-4b58-9ae3-0239a2c629e7@vwvwvw.xyz:443?sni=vwvwvw.xyz&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_120
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@us2.tcpbbr.net:443?sni=us2.tcpbbr.net&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_126
+trojan://8aa575ab-8f26-3b63-88af-4110282e4100@trojan.shanjun.me:443?sni=trojan.shanjun.me&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_143
+trojan://d089a164-c8c5-43cc-86cc-e71256d3d59e@is3.vwvwvw.xyz:443?sni=is3.vwvwvw.xyz&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_43
+trojan://7688df6f-bf65-3368-b55e-d78efea6a582@pp1.zhengzhongfeizhu.xyz:34002?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇨🇳 _CN_中国
+trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:34003?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇭🇰 _CN_中国->🇭🇰_HK_香港
+trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:34001?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+trojan://c828e3ed-7826-4c94-8e08-608429f3b909@727tw02.ok365.cyou:25689?sni=727tw02.ok365.cyou&allowInsecure=0#🇸🇬 _SG_新加坡
+trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:33002?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇺🇸 _CN_中国->🇺🇸_US_美国
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20713?sni=azgy001.xiba1.xyz&allowInsecure=0#🇺🇸 _US_美国
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20712?sni=azgy001.xiba1.xyz&allowInsecure=0#🇺🇸 _US_美国 15
+trojan://null@34.221.34.74:443?sni=34.221.34.74&allowInsecure=0#🇺🇸 US_AzadNet 7
+trojan://50a90339-8afa-4579-832d-f5d608a6f569@t4.ssrsub.com:8443?sni=t4.ssrsub.com&allowInsecure=0#🇨🇦 _加拿大_t.me/vvkj11<油管:VV科技>_5
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_7
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@api.tcpbbr.net:443?sni=api.tcpbbr.net&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_10
+trojan://4809af3e-b8f2-4f07-9cfb-79d0a7bb1219@s4.upyun.online:12340?sni=s4.upyun.online&allowInsecure=0#🇫🇷 _法国_t.me/vvkj11<油管:VV科技>_11
+trojan://tswmqssAcdphWMRdDSPZbeVSzhRVbGdp@hk-gz-hk-hkt-tr-b.cdn.savoy.click:60189?sni=hk-gz-hk-hkt-tr-b.cdn.savoy.click&allowInsecure=0#🇨🇳 _中国跳转_t.me/vvkj11<油管:VV科技>_15
+trojan://SfobRIcergHchqBFzzua@hk-gz-hk-hkt-tr-b.cdn.savoy.click:60189?sni=hk-gz-hk-hkt-tr-b.cdn.savoy.click&allowInsecure=0#🇨🇳 _中国跳转_t.me/vvkj11<油管:VV科技>_16
+trojan://d089a164-c8c5-43cc-86cc-e71256d3d59e@is3.vwvwvw.xyz:443?sni=is3.vwvwvw.xyz&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_43
+trojan://1fec465f-c917-4b58-9ae3-0239a2c629e7@vwvwvw.xyz:443?sni=vwvwvw.xyz&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_120
+trojan://sharecentre@keli.scsevers.cf:443?sni=keli.scsevers.cf&allowInsecure=0#🇭🇰 _香港_t.me/vvkj11<油管:VV科技>_124
+trojan://5c7b33c6-6d83-11eb-b77b-f23c913c8d2b@us2.tcpbbr.net:443?sni=us2.tcpbbr.net&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_126
+trojan://8aa575ab-8f26-3b63-88af-4110282e4100@trojan.shanjun.me:443?sni=trojan.shanjun.me&allowInsecure=0#🇺🇸 _美国_t.me/vvkj11<油管:VV科技>_143
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@mlxy-zf.jiashumao.net:27171?sni=mlxy.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 404
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@mlxy-zf.jiashumao.net:27171?sni=mlxy.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 405
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@hnyd.52147.top:30120?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 406
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@164.70.68.67:28000?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 407
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@hnyd.52147.top:30120?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 408
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@sg-zf.jiashumao.net:29465?sni=sg.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 409
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@203.138.98.199:28000?sni=203.138.98.199&allowInsecure=0#_油管：全网最强白嫖 410
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@hg.jiashumao.net:34210?sni=hg.jiashumao.net&allowInsecure=0#_油管：全网最强白嫖 411
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@hnyd.52147.top:30130?sni=hnyd.52147.top&allowInsecure=0#_油管：全网最强白嫖 412
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@hnyd.52147.top:30130?sni=hnyd.52147.top&allowInsecure=0#_油管：全网最强白嫖 413
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd2.52147.top:30120?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 414
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd1.52147.top:30130?sni=gzyd1.52147.top&allowInsecure=0#_油管：全网最强白嫖 415
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd2.52147.top:30130?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 416
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd1.52147.top:30120?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 417
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd2.52147.top:30120?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 418
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd1.52147.top:30120?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 419
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd2.52147.top:30130?sni=huayun.xyz&allowInsecure=1#_油管：全网最强白嫖 420
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@gzyd1.52147.top:30130?sni=gzyd1.52147.top&allowInsecure=0#_油管：全网最强白嫖 421
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@szdx-anhb.jiashumao.net:22481?sni=ahbn.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 422
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@yn-zf.jiashumao.net:40375?sni=yn.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 423
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@203.138.98.199:28000?sni=203.138.98.199&allowInsecure=0#_油管：全网最强白嫖 424
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@103.173.255.228:28000?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@sxdx-nf.jiashumao.net:35401?sni=nf.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 425
+trojan://841b229a-304f-46a2-a0fe-3b4e3e0e44f6@103.173.255.228:28443?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 2
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@103.173.255.127:28000?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 3
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@yn-zf.jiashumao.net:40375?sni=yn.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 426
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@jpa-zf.jiashumao.net:29881?sni=jpa.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 427
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@103.173.255.21:28000?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 4
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@103.173.255.228:28000?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 5
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@103.173.255.234:28000?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 6
+trojan://841b229a-304f-46a2-a0fe-3b4e3e0e44f6@103.173.255.228:28443?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 7
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@103.173.255.234:28000?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 8
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@hg.jiashumao.net:34210?sni=hg.jiashumao.net&allowInsecure=0#_油管：全网最强白嫖 428
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@103.173.255.127:28000?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 9
+trojan://52a98419-efab-4c34-b4cc-4e2a7bc37029@103.173.255.21:28000?sni=huayun.xyz&allowInsecure=1#油管：全网最强白嫖 10
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@jpa-zf.jiashumao.net:29881?sni=jpa.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 429
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@sg-zf.jiashumao.net:29465?sni=sg.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 430
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@szdx-anhb.jiashumao.net:22481?sni=ahbn.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 431
+trojan://375e1e34-8f6f-39be-bdb9-52080f546d4d@sxdx-nf.jiashumao.net:35401?sni=nf.jiashumao.net&allowInsecure=1#_油管：全网最强白嫖 432
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@921hk.tfzhc.top:443?sni=921hk.tfzhc.top&allowInsecure=0#🇨🇳:中国-trojan-921hk.tfzhc.top:443-可用-中转:43.156.45.226-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@99tw03.tfzhc.top:443?sni=99tw03.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-99tw03.tfzhc.top:443-可用-中转:165.154.253.95-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@913tw.tfzhc.top:44318?sni=913tw.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-913tw.tfzhc.top:44318-可用-中转:165.154.226.137-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@99tw02.tfzhc.top:443?sni=99tw02.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-99tw02.tfzhc.top:443-可用-中转:165.154.253.64-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@921tw.tfzhc.top:443?sni=921tw.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-921tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧
+trojan://dcb86018-4dcf-4de1-b57a-722e4680ab63@free.biggerdogs.eu.org:443?sni=free.biggerdogs.eu.org&allowInsecure=0#🇨🇦:加拿大-trojan-free.biggerdogs.eu.org:443-可用-中转:154.12.53.218-不支持Netflix
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@921hk.tfzhc.top:443?sni=921hk.tfzhc.top&allowInsecure=0#🇨🇳:中国-trojan-921hk.tfzhc.top:443-可用-中转:43.156.45.226-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@99tw03.tfzhc.top:443?sni=99tw03.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-99tw03.tfzhc.top:443-可用-中转:165.154.253.95-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@913tw.tfzhc.top:44318?sni=913tw.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-913tw.tfzhc.top:44318-可用-中转:165.154.226.137-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@99tw02.tfzhc.top:443?sni=99tw02.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-99tw02.tfzhc.top:443-可用-中转:165.154.253.64-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@921tw.tfzhc.top:443?sni=921tw.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-921tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧
+trojan://dcb86018-4dcf-4de1-b57a-722e4680ab63@free.biggerdogs.eu.org:443?sni=free.biggerdogs.eu.org&allowInsecure=0#🇨🇦:加拿大-trojan-free.biggerdogs.eu.org:443-可用-中转:154.12.53.218-不支持Netflix
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49010?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
+trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@168.138.43.89:443?sni=168.138.43.89&allowInsecure=0#🇯🇵_JP_日本_1
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49007?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇯🇵_JP_日本
+trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?sni=jgwld1.gaox.ml&allowInsecure=0#🇬🇧_GB_英国_1
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@924hk02.tfzhc.top:44388?sni=924hk02.tfzhc.top&allowInsecure=0#🇨🇳_CN_中国_1
+trojan://P9qGW38zz7@nice-jp03.tiktokcdn.buzz:43857?sni=nice-jp03.tiktokcdn.buzz&allowInsecure=0#🇯🇵_JP_日本_2
+trojan://Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS@45.64.22.5:443?sni=motivate.meijireform.com&allowInsecure=1#🇲🇴_MO_澳门->🇯🇵_JP_日本_1
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49001?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇹🇼_TW_台湾
+trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?sni=152.67.162.166&allowInsecure=0#🇮🇳_IN_印度_1
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#🇮🇳_IN_印度_2
+trojan://d30afdba-ca55-463a-b26e-27080698a2a6@kr1.api-aws.com:443?sni=kr1.api-aws.com&allowInsecure=0#🇰🇷_KR_韩国
+trojan://a992be42-bed4-3037-8788-9e860cd635d3@183.232.141.154:19202?sni=183.232.141.154&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_1
+trojan://c09eb137-bf68-4658-84e0-102d94b74168@150.230.217.213:443?sni=150.230.217.213&allowInsecure=0#🇺🇸_US_美国_1
+trojan://0Y9gOHSdRt@150.230.249.42:443?sni=150.230.249.42&allowInsecure=0#🇺🇸_US_美国_2
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@138.2.113.248:443?sni=138.2.113.248&allowInsecure=0#🇺🇸_US_美国_3
+trojan://d4e41ff772c7fd45@116.129.254.29:3381?sni=116.129.254.29&allowInsecure=0#🇨🇳_CN_中国->🇧🇭_BH_巴林
+trojan://02e653c9-7c93-46a9-999d-11834bd0c577@132.145.51.172:443?sni=132.145.51.172&allowInsecure=0#🇬🇧_GB_英国_3
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49004?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇺🇸_US_美国_1
+trojan://Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS@45.64.22.22:443?sni=upwardly.meijireform.com&allowInsecure=1#🇲🇴_MO_澳门->🇯🇵_JP_日本_2
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49011?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇭🇰_HK_香港
+trojan://8d2d5953-d649-4034-94f2-72f2df2623da@168.138.44.176:443?sni=168.138.44.176&allowInsecure=0#🇯🇵_JP_日本_3
+trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@129.146.190.42:443?sni=129.146.190.42&allowInsecure=0#🇺🇸_US_美国_6
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@921tw.tfzhc.top:44319?sni=921tw.tfzhc.top&allowInsecure=0#🇷🇺_RU_俄罗斯联邦
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49002?sni=us-a.bbbb.pw&allowInsecure=1#🇸🇬_SG_新加坡->🇺🇸_US_美国_2
+trojan://OsFEF0P0ia@hk-1.tiktokcdn.sbs:12288?sni=hk-1.tiktokcdn.sbs&allowInsecure=0#MD 1 → openitsub.com
+trojan://xxoo@138.124.183.216:443?sni=138.124.183.216&allowInsecure=0#NO 1 → openitsub.com
+trojan://xxoo@138.124.183.222:443?sni=138.124.183.222&allowInsecure=0#NO 2 → openitsub.com
+trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@140.238.205.173:443?sni=140.238.205.173&allowInsecure=0#🇦🇺 AU 1 → openitsub.com
+trojan://ff37081f-9043-476a-a6ea-854297b06839@nice-ca01.tiktokcdn.buzz:443?sni=nice-ca01.tiktokcdn.buzz&allowInsecure=0#🇨🇦 CA 1 → openitsub.com
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49011?sni=165.154.253.15&allowInsecure=0#🇨🇦 CA 2 → openitsub.com
+trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@cat1.sshocean.net:443?sni=cat1.sshocean.net&allowInsecure=0#🇨🇦 CA 3 → openitsub.com
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@1002tw.tfzhc.top:443?sni=1002tw.tfzhc.top&allowInsecure=0#🇨🇦 CA 4 → openitsub.com
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49000?sni=165.154.253.15&allowInsecure=0#🇨🇦 CA 5 → openitsub.com
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@shcuac.aag436.ccddn4.icu:65523?sni=shcuac.aag436.ccddn4.icu&allowInsecure=0#🇨🇳 CN 1 → openitsub.com
+trojan://M288fab2@139.227.182.124:28158?sni=if2d.ft3.us&allowInsecure=1#🇨🇳 CN 4 → openitsub.com
+trojan://137032ae-1bdb-445d-85e0-6edd7d343afb@nice-de02.nicevpn.top:443?sni=nice-de02.nicevpn.top&allowInsecure=0#🇩🇪 DE 1 → openitsub.com
+trojan://9ccc0c60-9df8-45a3-9886-c2765a52ba2e@ge-03.tiktokcdn.sbs:443?sni=ge-03.tiktokcdn.sbs&allowInsecure=0#🇩🇪 DE 2 → openitsub.com
+trojan://0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8@hk.vc3.hyperlinkvpn.xyz:52000?sni=hk.vc3.hyperlinkvpn.xyz&allowInsecure=0#🇭🇰 HK 1 → openitsub.com
+trojan://789d73af-b985-4778-9872-211047c28015@103.103.245.125:50206?sni=103.103.245.125&allowInsecure=0#🇭🇰 HK 2 → openitsub.com
+trojan://006bca8c-4e1f-44e0-9399-1cd4ff480a40@103.103.245.125:50350?sni=103.103.245.125&allowInsecure=0#🇭🇰 HK 3 → openitsub.com
+trojan://a70b39d1-62ea-4d9e-b681-9c5408352234@103.103.245.125:50418?sni=103.103.245.125&allowInsecure=0#🇭🇰 HK 4 → openitsub.com
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@102hk.tfzhc.top:443?sni=102hk.tfzhc.top&allowInsecure=0#🇯🇵 JP 1 → openitsub.com
+trojan://BXE9notY@nice-jp01.tiktokcdn.buzz:443?sni=nice-jp01.tiktokcdn.buzz&allowInsecure=0#🇯🇵 JP 2 → openitsub.com
+trojan://ca3a57c6-9bb5-4d19-876d-4552de4bb959@kr1.api-aws.com:443?sni=kr1.api-aws.com&allowInsecure=0#🇯🇵 JP 3 → openitsub.com
+trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@jgw2.gaox.ml:443?sni=jgw2.gaox.ml&allowInsecure=0#🇯🇵 JP 4 → openitsub.com
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@1002sg.tfzhc.top:443?sni=1002sg.tfzhc.top&allowInsecure=0#🇯🇵 JP 5 → openitsub.com
+trojan://3715ea7f-2915-48df-af11-4063fff72cdd@sg3-xhsa-45as-92js-ht8s.paolu.pics:22031?sni=sg3-xhsa-45as-92js-ht8s.paolu.pics&allowInsecure=0#🇸🇬 SG 1 → openitsub.com
+trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@168.138.43.89:443?sni=168.138.43.89&allowInsecure=0#🇺🇸 US 1 → openitsub.com
+trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@jgwxn4.gaox.ml:443?sni=jgwxn4.gaox.ml&allowInsecure=0#🇺🇸 US 10 → openitsub.com
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#🇺🇸 US 11 → openitsub.com
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml:443?sni=fhcarm1.gaox.ml&allowInsecure=0#🇺🇸 US 12 → openitsub.com
+trojan://dDbBcidENX@a.laolei.ml:50757?sni=a.laolei.ml&allowInsecure=0#🇺🇸 US 13 → openitsub.com
+trojan://Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS@35.190.229.93:443?sni=practice.meijireform.com&allowInsecure=1#🇺🇸 US 14 → openitsub.com
+trojan://zFyLKH62WN@www.sxsy88.tk:44150?sni=www.sxsy88.tk&allowInsecure=0#🇺🇸 US 2 → openitsub.com
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@jgwcc2.gaox.ml:443?sni=jgwcc2.gaox.ml&allowInsecure=0#🇺🇸 US 3 → openitsub.com
+trojan://ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax@spotted.bigkangaroo.net:443?sni=spotted.bigkangaroo.net&allowInsecure=0#🇺🇸 US 4 → openitsub.com
+trojan://012fc57b-69e5-3924-9da4-d6ac132c5fc9@98.126.214.30:19234?sni=98.126.214.30&allowInsecure=0#🇺🇸 US 5 → openitsub.com
+trojan://e23f408a-012e-4030-8b31-02022031cb50@fhcamd1.gaox.ml:443?sni=fhcamd1.gaox.ml&allowInsecure=0#🇺🇸 US 6 → openitsub.com
+trojan://null@nice-us01.tiktokcdn.buzz:443?sni=nice-us01.tiktokcdn.buzz&allowInsecure=0#🇺🇸 US 7 → openitsub.com
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#🇺🇸 US 8 → openitsub.com
+trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@jgwcc3.gaox.ml:443?sni=jgwcc3.gaox.ml&allowInsecure=0#🇺🇸 US 9 → openitsub.com
+trojan://ca3a57c6-9bb5-4d19-876d-4552de4bb959@kr1.api-aws.com:443?sni=kr1.api-aws.com&allowInsecure=0#🇰🇷 KR【付费推荐：wxfz.ml】
+trojan://3715ea7f-2915-48df-af11-4063fff72cdd@jp2-5s4d-sjf9-xaf1-sl99.paolu.pics:22031?sni=jp2-5s4d-sjf9-xaf1-sl99.paolu.pics&allowInsecure=0#🇯🇵 JP【付费推荐：wxfz.ml】
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49000?sni=165.154.253.15&allowInsecure=0#🇸🇬 SG【付费推荐：wxfz.ml】
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@120.241.126.83:65211?sni=gghkntt.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】
+trojan://1904200f-3823-40a1-a1ba-5a5fe0dd01f6@hk3.xjsn-595s-kkf9-knaf.paolu.pics:22031?sni=hk3.xjsn-595s-kkf9-knaf.paolu.pics&allowInsecure=0#🇸🇬 SG【付费推荐：wxfz.ml】 3
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@shcuac.aag436.ccddn4.icu:4988?sni=dl.shcujpntt.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 2
+trojan://0Y9gOHSdRt@150.230.249.42:443?sni=150.230.249.42&allowInsecure=0#🇺🇲 US【付费推荐：wxfz.ml】 2
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49011?sni=165.154.253.15&allowInsecure=0#🇸🇬 SG【付费推荐：wxfz.ml】 4
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@cn-sh.sasg4e.ccddn4.icu:65520?sni=dl.shcujpntt4.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 3
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇲 US【付费推荐：wxfz.ml】 4
+trojan://3715ea7f-2915-48df-af11-4063fff72cdd@hk2.plxs-u95s-h62a-xs1f.paolu.pics:22031?sni=hk2.plxs-u95s-h62a-xs1f.paolu.pics&allowInsecure=0#🇸🇬 SG【付费推荐：wxfz.ml】 5
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@shcuac.aag436.ccddn4.icu:65523?sni=dl.shcuhkt.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 4
+trojan://d4e41ff772c7fd45@116.129.254.29:3381?sni=116.129.254.29&allowInsecure=0#🇨🇳 CN【付费推荐：wxfz.ml】 5
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@120.241.126.83:65215?sni=120.241.126.83&allowInsecure=0#🇨🇳 CN【付费推荐：wxfz.ml】 6
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@shcuac.aag436.ccddn4.icu:65521?sni=dl.shcujpntt2.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 7
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@120.241.126.83:65201?sni=gzhkntt.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 12
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@138.2.45.243:443?sni=138.2.45.243&allowInsecure=0#🇺🇲 US【付费推荐：wxfz.ml】 8
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@cn-sh.sasg4e.ccddn4.icu:4901?sni=cn-sh.sasg4e.ccddn4.icu&allowInsecure=0#🇨🇳 CN【付费推荐：wxfz.ml】 13
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@cn-sh.sasg4e.ccddn4.icu:65523?sni=dl.shcujpntt5.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 14
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@120.241.126.83:65214?sni=gztwhinetz.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 16
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@150.230.96.103:443?sni=150.230.96.103&allowInsecure=0#🇺🇲 US【付费推荐：wxfz.ml】 9
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@shcuac.aag436.ccddn4.icu:65526?sni=dl.shcuhkt3.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 17
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@211.99.96.117:65302?sni=dl.sghkta.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 19
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@shcuac.aag436.ccddn4.icu:65524?sni=dl.shcujpntt3.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 20
+trojan://a153fb4e-6d1b-4db0-b03d-acb4012b7198@146.56.176.239:443?sni=146.56.176.239&allowInsecure=0#🇰🇷 KR【付费推荐：wxfz.ml】 2
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49001?sni=165.154.253.15&allowInsecure=0#🇸🇬 SG【付费推荐：wxfz.ml】 6
+trojan://M288fab2@139.227.182.124:28158?sni=139.227.182.124&allowInsecure=0#🇨🇳 CN【付费推荐：wxfz.ml】 26
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@shcuac.aag436.ccddn4.icu:4989?sni=gzhkhkt.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 27
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@102hk.tfzhc.top:443?sni=102hk.tfzhc.top&allowInsecure=0#🇨🇳 CN【付费推荐：wxfz.ml】 29
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@cn-sh.sasg4e.ccddn4.icu:65525?sni=cn-sh.sasg4e.ccddn4.icu&allowInsecure=0#🇨🇳 CN【付费推荐：wxfz.ml】 32
+trojan://xxoo@146.19.230.241:443?sni=146.19.230.241&allowInsecure=0#null【付费推荐：wxfz.ml】
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@cn-sh.sasg4e.ccddn4.icu:65521?sni=dl.shcuhkt2.cc.tjcct.xyz&allowInsecure=1#🇨🇳 CN【付费推荐：wxfz.ml】 38
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49007?sni=165.154.253.15&allowInsecure=0#🇸🇬 SG【付费推荐：wxfz.ml】 8
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49006?sni=165.154.253.15&allowInsecure=0#🇸🇬 SG【付费推荐：wxfz.ml】 9
+trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@138.2.113.84:443?sni=138.2.113.84&allowInsecure=0#🇺🇲 US【付费推荐：wxfz.ml】 24
+trojan://7243c2bd-5576-3c2d-aea0-594ff03522a0@shcuac.aag436.ccddn4.icu:4532?sni=shcuac.aag436.ccddn4.icu&allowInsecure=0#🇨🇳 CN【付费推荐：wxfz.ml】 41
+trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?sni=152.67.162.166&allowInsecure=0#IN【付费推荐：wxfz.ml】
+trojan://f2117e99-9b6e-47fd-b0a9-634a0b15b998@146.56.189.146:443?sni=146.56.189.146&allowInsecure=0#🇰🇷 KR【付费推荐：wxfz.ml】 4
+trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@168.138.43.89:443?sni=168.138.43.89&allowInsecure=0#🇯🇵 JP【付费推荐：wxfz.ml】 4
+trojan://ZD4dLSBXiMrmzdLd@185.253.47.79:443?sni=185.253.47.79&allowInsecure=0#CZ【付费推荐：wxfz.ml】
+trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@152.67.98.30:443?sni=152.67.98.30&allowInsecure=0#🇦🇺 AU【付费推荐：wxfz.ml】 2
+trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@144.24.72.126:443?sni=144.24.72.126&allowInsecure=0#GB【付费推荐：wxfz.ml】 2
+trojan://f2e57fc2-f887-4b7c-9f99-3b3ec10cd0d7@36.137.191.123:38627?sni=36.137.191.123&allowInsecure=0#中国(TG频道:@kxswa) 2
+trojan://6d5cac3c-9f10-3b5d-9052-623ea04e6deb@xjpa-zf.jiashumao.net:14687?sni=xjpa-zf.jiashumao.net&allowInsecure=0#中国(TG频道:@kxswa) 3
+trojan://f2e57fc2-f887-4b7c-9f99-3b3ec10cd0d7@36.139.153.95:41641?sni=36.139.153.95&allowInsecure=0#中国(TG频道:@kxswa) 6
+trojan://2bd47370-421b-422f-99dc-9f9afd909db8@trajp1.bitznet.one:32004?sni=trajp1.bitznet.one&allowInsecure=0#澳大利亚(TG频道:@kxswa)
+trojan://6d5cac3c-9f10-3b5d-9052-623ea04e6deb@twa-zf.jiashumao.net:27919?sni=twa-zf.jiashumao.net&allowInsecure=0#中国(TG频道:@kxswa) 7
+trojan://f2e57fc2-f887-4b7c-9f99-3b3ec10cd0d7@36.137.191.123:33431?sni=36.137.191.123&allowInsecure=0#中国(TG频道:@kxswa) 8
+trojan://6d5cac3c-9f10-3b5d-9052-623ea04e6deb@twb-zf.jiashumao.net:25888?sni=twb-zf.jiashumao.net&allowInsecure=0#中国(TG频道:@kxswa) 10
+trojan://f2e57fc2-f887-4b7c-9f99-3b3ec10cd0d7@36.137.191.123:60373?sni=36.137.191.123&allowInsecure=0#中国(TG频道:@kxswa) 32
+trojan://iyinglong@54.188.168.172:443?sni=54.188.168.172&allowInsecure=0#美国(TG频道:@kxswa) 2
+trojan://f2e57fc2-f887-4b7c-9f99-3b3ec10cd0d7@hnyd.alhttdw.cn:46838?sni=hnyd.alhttdw.cn&allowInsecure=0#中国(TG频道:@kxswa) 44
+trojan://f2e57fc2-f887-4b7c-9f99-3b3ec10cd0d7@36.139.153.95:62063?sni=36.139.153.95&allowInsecure=0#中国(TG频道:@kxswa) 46
+trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@cat1.sshocean.net:443?sni=cat1.sshocean.net&allowInsecure=0#加拿大(TG频道:@kxswa)
+trojan://iyinglong@13.40.126.229:443?sni=13.40.126.229&allowInsecure=0#英国(TG频道:@kxswa)
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@lv2sndwioabiaasw.hjspyto.cn:12344?sni=lv2sndwioabiaasw.hjspyto.cn&allowInsecure=0#中国(TG频道:@kxswa) 48
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@150.230.96.103:443?sni=150.230.96.103&allowInsecure=0#TG频道:@kxswa |美国 5
+trojan://d02058f4f819dced@116.129.253.134:3381?sni=116.129.253.134&allowInsecure=0#TG频道:@kxswa |中国 6
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@138.2.45.243:443?sni=138.2.45.243&allowInsecure=0#TG频道:@kxswa |美国 6
+trojan://xxoo@146.19.230.241:443?sni=146.19.230.241&allowInsecure=0#TG频道:@kxswa |null
+trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@149.56.141.11:443?sni=149.56.141.11&allowInsecure=0#TG频道:@kxswa |加拿大
+trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@cat1.sshocean.net:443?sni=cat1.sshocean.net&allowInsecure=0#TG频道:@kxswa |加拿大 2
+trojan://d4e41ff772c7fd45@116.129.254.29:3381?sni=116.129.254.29&allowInsecure=0#TG频道:@kxswa |中国 7
+trojan://84773125-8f79-481c-a80b-e1f4aad86850@kr1.api-aws.com:443?sni=kr1.api-aws.com&allowInsecure=0#TG频道:@kxswa |韩国
+trojan://4f308591-17f7-3d0f-8407-67f0c29ef27b@xjpa-zf.jiashumao.net:14687?sni=xjpa-zf.jiashumao.net&allowInsecure=0#TG频道:@kxswa |中国 8
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49001?sni=165.154.253.15&allowInsecure=0#TG频道:@kxswa |新加坡
+trojan://P9qGW38zz7@nice-jp03.tiktokcdn.buzz:43857?sni=nice-jp03.tiktokcdn.buzz&allowInsecure=0#TG频道:@kxswa |日本 7
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20713?sni=azgy001.xiba1.xyz&allowInsecure=0#🇺🇸 _US_美国
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20712?sni=azgy001.xiba1.xyz&allowInsecure=0#🇺🇸 _US_美国 15
+trojan://c828e3ed-7826-4c94-8e08-608429f3b909@727tw02.ok365.cyou:25689?sni=727tw02.ok365.cyou&allowInsecure=0#🇸🇬 _SG_新加坡
+trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:33002?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇺🇸 _CN_中国->🇺🇸_US_美国
+trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:34003?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇭🇰 _CN_中国->🇭🇰_HK_香港
+trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:34001?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+trojan://7688df6f-bf65-3368-b55e-d78efea6a582@pp1.zhengzhongfeizhu.xyz:34002?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#_CN_中国
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@921hk.tfzhc.top:443?sni=921hk.tfzhc.top&allowInsecure=0#🇨🇳:中国-trojan-921hk.tfzhc.top:443-可用-中转:43.156.45.226-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@99tw03.tfzhc.top:443?sni=99tw03.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-99tw03.tfzhc.top:443-可用-中转:165.154.253.95-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@913tw.tfzhc.top:44318?sni=913tw.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-913tw.tfzhc.top:44318-可用-中转:165.154.226.137-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@99tw02.tfzhc.top:443?sni=99tw02.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-99tw02.tfzhc.top:443-可用-中转:165.154.253.64-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@921tw.tfzhc.top:443?sni=921tw.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-921tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧
+trojan://dcb86018-4dcf-4de1-b57a-722e4680ab63@free.biggerdogs.eu.org:443?sni=free.biggerdogs.eu.org&allowInsecure=0#🇨🇦:加拿大-trojan-free.biggerdogs.eu.org:443-可用-中转:154.12.53.218-不支持Netflix
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@921hk.tfzhc.top:443?sni=921hk.tfzhc.top&allowInsecure=0#🇨🇳:中国-trojan-921hk.tfzhc.top:443-可用-中转:43.156.45.226-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@99tw03.tfzhc.top:443?sni=99tw03.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-99tw03.tfzhc.top:443-可用-中转:165.154.253.95-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@913tw.tfzhc.top:44318?sni=913tw.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-913tw.tfzhc.top:44318-可用-中转:165.154.226.137-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@99tw02.tfzhc.top:443?sni=99tw02.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-99tw02.tfzhc.top:443-可用-中转:165.154.253.64-仅支持新加坡地区NF自制剧
+trojan://eb50af3d-5339-4ef7-8471-6cde8dff1ba9@921tw.tfzhc.top:443?sni=921tw.tfzhc.top&allowInsecure=0#🇨🇦:加拿大-trojan-921tw.tfzhc.top:443-可用-中转:165.154.243.144-仅支持新加坡地区NF自制剧
+trojan://dcb86018-4dcf-4de1-b57a-722e4680ab63@free.biggerdogs.eu.org:443?sni=free.biggerdogs.eu.org&allowInsecure=0#🇨🇦:加拿大-trojan-free.biggerdogs.eu.org:443-可用-中转:154.12.53.218-不支持Netflix
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49010?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡
+trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@168.138.43.89:443?sni=168.138.43.89&allowInsecure=0#🇯🇵_JP_日本_1
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49007?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇯🇵_JP_日本
+trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?sni=jgwld1.gaox.ml&allowInsecure=0#🇬🇧_GB_英国_1
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@924hk02.tfzhc.top:44388?sni=924hk02.tfzhc.top&allowInsecure=0#🇨🇳_CN_中国_1
+trojan://P9qGW38zz7@nice-jp03.tiktokcdn.buzz:43857?sni=nice-jp03.tiktokcdn.buzz&allowInsecure=0#🇯🇵_JP_日本_2
+trojan://Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS@45.64.22.5:443?sni=motivate.meijireform.com&allowInsecure=1#🇲🇴_MO_澳门->🇯🇵_JP_日本_1
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49001?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇹🇼_TW_台湾
+trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?sni=152.67.162.166&allowInsecure=0#🇮🇳_IN_印度_1
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#🇮🇳_IN_印度_2
+trojan://d30afdba-ca55-463a-b26e-27080698a2a6@kr1.api-aws.com:443?sni=kr1.api-aws.com&allowInsecure=0#🇰🇷_KR_韩国
+trojan://a992be42-bed4-3037-8788-9e860cd635d3@183.232.141.154:19202?sni=183.232.141.154&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_1
+trojan://c09eb137-bf68-4658-84e0-102d94b74168@150.230.217.213:443?sni=150.230.217.213&allowInsecure=0#🇺🇸_US_美国_1
+trojan://0Y9gOHSdRt@150.230.249.42:443?sni=150.230.249.42&allowInsecure=0#🇺🇸_US_美国_2
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@138.2.113.248:443?sni=138.2.113.248&allowInsecure=0#🇺🇸_US_美国_3
+trojan://d4e41ff772c7fd45@116.129.254.29:3381?sni=116.129.254.29&allowInsecure=0#🇨🇳_CN_中国->🇧🇭_BH_巴林
+trojan://02e653c9-7c93-46a9-999d-11834bd0c577@132.145.51.172:443?sni=132.145.51.172&allowInsecure=0#🇬🇧_GB_英国_3
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49004?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇺🇸_US_美国_1
+trojan://Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS@45.64.22.22:443?sni=upwardly.meijireform.com&allowInsecure=1#🇲🇴_MO_澳门->🇯🇵_JP_日本_2
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49011?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇭🇰_HK_香港
+trojan://8d2d5953-d649-4034-94f2-72f2df2623da@168.138.44.176:443?sni=168.138.44.176&allowInsecure=0#🇯🇵_JP_日本_3
+trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@129.146.190.42:443?sni=129.146.190.42&allowInsecure=0#🇺🇸_US_美国_6
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@921tw.tfzhc.top:44319?sni=921tw.tfzhc.top&allowInsecure=0#🇷🇺_RU_俄罗斯联邦
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49002?sni=us-a.bbbb.pw&allowInsecure=1#🇸🇬_SG_新加坡->🇺🇸_US_美国_2
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49010?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇱🇺_LU_卢森堡_0@4
+trojan://d06a3f01-1ff0-4792-9b8e-a5a604bc74a2@168.138.43.89:443?sni=168.138.43.89&allowInsecure=0#🇯🇵_JP_日本_1_0@5
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49007?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇯🇵_JP_日本_0@6
+trojan://02e653c9-7c93-46a9-999d-11834bd0c577@jgwld1.gaox.ml:443?sni=jgwld1.gaox.ml&allowInsecure=0#🇬🇧_GB_英国_1_0@7
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@924hk02.tfzhc.top:44388?sni=924hk02.tfzhc.top&allowInsecure=0#🇨🇳_CN_中国_1_0@11
+trojan://P9qGW38zz7@nice-jp03.tiktokcdn.buzz:43857?sni=nice-jp03.tiktokcdn.buzz&allowInsecure=0#🇯🇵_JP_日本_2_0@12
+trojan://Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS@45.64.22.5:443?sni=motivate.meijireform.com&allowInsecure=1#🇲🇴_MO_澳门->🇯🇵_JP_日本_1_0@15
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49001?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇹🇼_TW_台湾_0@16
+trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?sni=152.67.162.166&allowInsecure=0#🇮🇳_IN_印度_1_0@18
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#🇮🇳_IN_印度_2_0@20
+trojan://d30afdba-ca55-463a-b26e-27080698a2a6@kr1.api-aws.com:443?sni=kr1.api-aws.com&allowInsecure=0#🇰🇷_KR_韩国_0@22
+trojan://a992be42-bed4-3037-8788-9e860cd635d3@183.232.141.154:19202?sni=183.232.141.154&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_1_0@23
+trojan://c09eb137-bf68-4658-84e0-102d94b74168@150.230.217.213:443?sni=150.230.217.213&allowInsecure=0#🇺🇸_US_美国_1_0@27
+trojan://0Y9gOHSdRt@150.230.249.42:443?sni=150.230.249.42&allowInsecure=0#🇺🇸_US_美国_2_0@28
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@138.2.113.248:443?sni=138.2.113.248&allowInsecure=0#🇺🇸_US_美国_3_0@29
+trojan://d4e41ff772c7fd45@116.129.254.29:3381?sni=116.129.254.29&allowInsecure=0#🇨🇳_CN_中国->🇧🇭_BH_巴林_0@30
+trojan://02e653c9-7c93-46a9-999d-11834bd0c577@132.145.51.172:443?sni=132.145.51.172&allowInsecure=0#🇬🇧_GB_英国_3_0@34
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49004?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇺🇸_US_美国_1_0@35
+trojan://Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS@45.64.22.22:443?sni=upwardly.meijireform.com&allowInsecure=1#🇲🇴_MO_澳门->🇯🇵_JP_日本_2_0@36
+trojan://6c4e3611-5f2d-4eb5-8c56-3e2b850e4cca@165.154.253.15:49011?sni=165.154.253.15&allowInsecure=0#🇸🇬_SG_新加坡->🇭🇰_HK_香港_0@39
+trojan://8d2d5953-d649-4034-94f2-72f2df2623da@168.138.44.176:443?sni=168.138.44.176&allowInsecure=0#🇯🇵_JP_日本_3_0@40
+trojan://dbf9bf9c-2c3f-474a-8031-d4c00666a989@129.146.190.42:443?sni=129.146.190.42&allowInsecure=0#🇺🇸_US_美国_6_0@42
+trojan://7c877b3a-5fa0-47e7-ae3e-8e045788569b@921tw.tfzhc.top:44319?sni=921tw.tfzhc.top&allowInsecure=0#🇷🇺_RU_俄罗斯联邦_0@43
+trojan://562c4c98-00c9-4037-a966-c7fc6a81367c@165.154.253.15:49002?sni=us-a.bbbb.pw&allowInsecure=1#🇸🇬_SG_新加坡->🇺🇸_US_美国_2_0@44
+trojan://ZD4dLSBXiMrmzdLd@185.253.47.79:443?sni=185.253.47.79&allowInsecure=0#🇨🇿_CZ_捷克_1@0
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@138.2.45.243:443?sni=138.2.45.243&allowInsecure=0#🇺🇸_US_美国_5_1@19
+trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@152.67.98.30:443?sni=152.67.98.30&allowInsecure=0#🇦🇺_AU_澳大利亚_1_1@24
+trojan://cb43b7c2-b744-41c5-bcc2-fd7467b332cf@140.238.205.173:443?sni=140.238.205.173&allowInsecure=0#🇦🇺_AU_澳大利亚_2_1@27
+trojan://xxoo@194.156.99.39:443?sni=194.156.99.39&allowInsecure=0#🇭🇰_HK_香港_10_1@33
+trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@144.24.72.126:443?sni=144.24.72.126&allowInsecure=0#🇬🇧_GB_英国_2_1@34
+trojan://a153fb4e-6d1b-4db0-b03d-acb4012b7198@146.56.176.239:443?sni=146.56.176.239&allowInsecure=0#🇰🇷_KR_韩国_1@38
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸_US_美国_8_1@41
+trojan://xxoo@146.19.230.241:443?sni=146.19.230.241&allowInsecure=0#_null_null_2@0
+trojan://00de03f4-8d4a-4694-a292-1c68afe9e1e9@212.50.246.229:50404?sni=212.50.246.229&allowInsecure=0#🇺🇸_US_美国_1_2@1
+trojan://2be3639a-f4cd-4161-ba78-49842b2269f6@1002tw.tfzhc.top:443?sni=1002tw.tfzhc.top&allowInsecure=0#🇸🇬_SG_新加坡_2@4
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@150.230.96.103:443?sni=150.230.96.103&allowInsecure=0#🇺🇸_US_美国_3_2@7
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#🇺🇸_US_美国_4_2@13
+trojan://ZCESAylB2u5jga736e8CTN3DcFCAOYz0DlDyx9F3ZpXnSp3IYRa4RwOSqe8Kax@spotted.bigkangaroo.net:443?sni=spotted.bigkangaroo.net&allowInsecure=0#🇺🇸_US_美国_6_2@17
+trojan://M07fa472@14.29.230.228:13325?sni=if3d.ft3.us&allowInsecure=1#🇨🇳_CN_中国->🇸🇬_SG_新加坡_2@20
+trojan://xxoo@138.124.183.222:443?sni=138.124.183.222&allowInsecure=0#🇺🇸_US_美国_8_2@24
+trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@cat1.sshocean.net:443?sni=cat1.sshocean.net&allowInsecure=0#🇨🇦_CA_加拿大_1_2@31
+trojan://BXE9notY@nice-jp01.tiktokcdn.buzz:443?sni=nice-jp01.tiktokcdn.buzz&allowInsecure=0#🇯🇵_JP_日本_1_2@35
+trojan://OsFEF0P0ia@hk-1.tiktokcdn.sbs:12288?sni=hk-1.tiktokcdn.sbs&allowInsecure=0#🇷🇴_RO_罗马尼亚_2@36
+trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@149.56.141.11:443?sni=149.56.141.11&allowInsecure=0#🇨🇦_CA_加拿大_2_2@42
+trojan://006bca8c-4e1f-44e0-9399-1cd4ff480a40@103.103.245.125:50350?sni=103.103.245.125&allowInsecure=0#🇭🇰_HK_香港_1_5@2
+trojan://bca9817f-77ad-4705-897d-121b4613aa9c@shouer.libi.eu.org:443?sni=shouer.libi.eu.org&allowInsecure=0#🇰🇷_KR_韩国_3_5@22
+trojan://411b1928-d9d2-4217-8724-ac2914597c33@927tw01.tfzhc.top:44319?sni=927tw01.tfzhc.top&allowInsecure=0#🇸🇬_SG_新加坡_2_5@38
+trojan://a70b39d1-62ea-4d9e-b681-9c5408352234@103.103.245.125:50418?sni=103.103.245.125&allowInsecure=0#🇭🇰_HK_香港_3_5@46
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@152.67.190.183:443?sni=152.67.190.183&allowInsecure=0#🇮🇳_IN_印度_1_6@8
+trojan://b62a64c0-4b87-436e-aef1-28eb22da69b7@99jp.tfzhc.top:44311?sni=99jp.tfzhc.top&allowInsecure=0#🇯🇵_JP_日本_6_6@15
+trojan://JmcedGAn@nice-jp02.tiktokcdn.buzz:443?sni=nice-jp02.tiktokcdn.buzz&allowInsecure=0#🇯🇵_JP_日本_8_6@19
+trojan://80bcf4f2-12f7-11ed-bb74-f23c9164ca5d@ssl.tcpbbr.net:12163?sni=ssl.tcpbbr.net&allowInsecure=0#🇭🇰_HK_香港_2_6@28
+trojan://ff37081f-9043-476a-a6ea-854297b06839@nice-ca01.tiktokcdn.buzz:443?sni=nice-ca01.tiktokcdn.buzz&allowInsecure=0#🇨🇦_CA_加拿大_6@29
+trojan://5d1b3b0a-de2a-4731-938d-4c7e15f034c1@43.229.153.148:50418?sni=43.229.153.148&allowInsecure=0#🇭🇰_HK_香港_3_6@36
+trojan://bFUAnc6jeU@se-1.tiktokcdn.sbs:49494?sni=se-1.tiktokcdn.sbs&allowInsecure=0#🇸🇪_SE_瑞典_6@40
+trojan://3b3431ac-05bf-44fd-b93c-10db87d4ff5c@5.180.76.172:28443?sni=5.180.76.172&allowInsecure=0#🇯🇵_JP_日本_2_7@6
+trojan://d02058f4f819dced@5.44.249.155:3389?sni=5.44.249.155&allowInsecure=0#🇸🇬_SG_新加坡_1_7@16
+trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@138.2.113.84:443?sni=138.2.113.84&allowInsecure=0#🇺🇸_US_美国_10_7@26
+trojan://RRy34GGwsPt47SuC@sky998dmit3.xyz:443?sni=sky998dmit3.xyz&allowInsecure=0#🇺🇸_US_美国_14_7@37
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hass.win:12340?sni=s3.hass.win&allowInsecure=0#🇺🇸_US_美国_15_7@39
+trojan://423b4a2b-987f-46a7-9222-776839117b3a@31.72img.xyz:443?sni=31.72img.xyz&allowInsecure=0#🇺🇸_US_美国_17_7@41
+trojan://bb5b1337-fa9e-4e00-b8c6-1110e626171d@sg-01.tiktokcdn.top:443?sni=sg-01.tiktokcdn.top&allowInsecure=0#🇺🇸_US_美国_18_7@43
+trojan://JmcedGAn@ffr6.awscn.buzz:44651?sni=ffr6.awscn.buzz&allowInsecure=0#🇨🇳_CN_中国->🇯🇵_JP_日本_2_7@49
+trojan://71354f48-e8c8-4c4c-a967-47d7ac5e953c@jk.jkk.mkitty.top:443?sni=jk.jkk.mkitty.top&allowInsecure=0#🇰🇷_KR_韩国_1_8@1
+trojan://3ad5547b-609b-4f59-916b-afebd85aba7d@921tw.tfzhc.top:443?sni=921tw.tfzhc.top&allowInsecure=0#🇷🇺_RU_俄罗斯联邦_8@6
+trojan://xxoo@138.124.183.226:443?sni=138.124.183.226&allowInsecure=0#🇺🇸_US_美国_7_8@14
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s3.hazz.win:12340?sni=s3.hazz.win&allowInsecure=0#🇺🇸_US_美国_8_8@15
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hazz.win:12340?sni=s4.hazz.win&allowInsecure=0#🇺🇸_US_美国_13_8@23
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s4.hass.win:12340?sni=s4.hass.win&allowInsecure=0#🇺🇸_US_美国_17_8@30
+trojan://3ad5547b-609b-4f59-916b-afebd85aba7d@913tw.tfzhc.top:44318?sni=913tw.tfzhc.top&allowInsecure=0#🇹🇼_TW_台湾_2_8@34
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12337?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_1_9@1
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12324?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_3_9@3
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12324?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_4_9@4
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12335?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_2_9@5
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12352?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_1_9@7
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12352?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_2_9@9
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@103.173.254.43:443?sni=103.173.254.43&allowInsecure=0#default_name_1_9@13
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@165.154.243.187:24568?sni=165.154.243.187&allowInsecure=0#🇷🇺_RU_俄罗斯联邦_1_9@15
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@103.173.254.205:443?sni=103.173.254.205&allowInsecure=0#default_name_2_9@16
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12337?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_3_9@19
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12332?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦_1_9@20
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12323?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_5_9@21
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12323?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_6_9@22
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12356?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3_9@25
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12334?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_4_9@27
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12333?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_5_9@31
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12337?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_6_9@32
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12335?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_7_9@33
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12336?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_8_9@36
+trojan://012fc57b-69e5-3924-9da4-d6ac132c5fc9@98.126.215.15:19231?sni=98.126.215.15&allowInsecure=0#🇺🇸_US_美国_5_9@37
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12355?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_4_9@39
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12333?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_9_9@40
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12332?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇲🇩_MD_摩尔多瓦_2_9@46
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12336?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_10_9@47
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12351?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_1_10@0
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12351?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_2_10@3
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12334?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_1_10@4
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12333?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_2_10@8
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12352?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3_10@10
+trojan://8e94c4bd-6266-43e2-8c3a-dc7e3439e3be@99tw03.tfzhc.top:443?sni=99tw03.tfzhc.top&allowInsecure=0#🇸🇬_SG_新加坡_2_10@13
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12323?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_2_10@17
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12355?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_7_10@32
+trojan://xxoo@138.124.183.216:443?sni=138.124.183.216&allowInsecure=0#🇺🇸_US_美国_5_10@37
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12355?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_8_10@41
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12335?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_7_10@44
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@165.154.235.186:24567?sni=165.154.235.186&allowInsecure=0#🇺🇸_US_美国_7_10@48
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@scus1.ddns-pop.cyou:24567?sni=scus1.ddns-pop.cyou&allowInsecure=0#🇺🇸_US_美国_6_11@15
+trojan://iyinglong@3.9.175.102:443?sni=3.9.175.102&allowInsecure=0#🇬🇧_GB_英国_1_11@19
+trojan://NGyhpgytIJ@susan.leosvps.space:443?sni=susan.leosvps.space&allowInsecure=0#🇺🇸_US_美国_8_11@27
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@165.154.243.248:24567?sni=165.154.243.248&allowInsecure=0#🇷🇺_RU_俄罗斯联邦_11@28
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12351?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_3_11@33
+trojan://iyinglong@52.47.99.22:443?sni=52.47.99.22&allowInsecure=0#🇫🇷_FR_法国_11@39
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.72:12354?sni=120.195.181.72&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6_11@42
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12356?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_7_11@45
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12354?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_8_11@49
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@120.195.181.51:12336?sni=120.195.181.51&allowInsecure=0#🇨🇳_CN_中国->🇱🇺_LU_卢森堡_1_12@0
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@dtbr1.bitznet.one:33016?sni=dtbr1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇧🇷_BR_巴西_1_12@2
+trojan://iyinglong@13.40.126.229:443?sni=13.40.126.229&allowInsecure=0#🇬🇧_GB_英国_1_12@4
+trojan://012fc57b-69e5-3924-9da4-d6ac132c5fc9@98.126.215.15:19233?sni=98.126.215.15&allowInsecure=0#🇺🇸_US_美国_1_12@7
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@dtau1.bitznet.one:33012?sni=dtau1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_1_12@11
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@trafr1.bitznet.one:32009?sni=trafr1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇫🇷_FR_法国_12@15
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@traau1.bitznet.one:32012?sni=traau1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇦🇺_AU_澳大利亚_2_12@17
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@traar1.bitznet.one:32015?sni=traar1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇦🇷_AR_阿根廷_12@19
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@trask1.bitznet.one:32005?sni=trask1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇰🇷_KR_韩国_12@23
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@dttw1.bitznet.one:33003?sni=dttw1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇹🇼_TW_台湾_12@25
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@trahk5.bitznet.one:32000?sni=trahk5.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_5_12@33
+trojan://b3f3d494-d74d-4c03-9931-5c7efb75d980@solink.ga:443?sni=solink.ga&allowInsecure=0#🇭🇰_HK_香港_12@34
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@dtus1.bitznet.one:33001?sni=dtus1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇺🇸_US_美国_1_12@38
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@traus1.bitznet.one:32001?sni=traus1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇺🇸_US_美国_2_12@39
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@124.71.16.99:12356?sni=124.71.16.99&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_6_12@41
+trojan://afa468e8-0d63-42fa-8759-43be8570164a@traru1.bitznet.one:32008?sni=traru1.bitznet.one&allowInsecure=0#🇨🇳_CN_中国->🇷🇺_RU_俄罗斯联邦_7_12@45
+trojan://ffcc8693-69bf-4dcf-9ae0-523e1518dece@xi.kanao.xyz:58820?sni=xi.kanao.xyz&allowInsecure=0#🇨🇳_CN_中国->🇭🇰_HK_香港_6_12@48
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hass.win:12340?sni=s1.hass.win&allowInsecure=0#🇺🇸_US_美国_1_22@0
+trojan://ef81a036-1db9-45ed-a3aa-f932a4750066@170.187.182.212:443?sni=cdn.qchwnd.moe&allowInsecure=1#🇺🇸_US_美国_6_22@9
+trojan://ef81a036-1db9-45ed-a3aa-f932a4750066@194.195.254.50:443?sni=cdn.qchwnd.moe&allowInsecure=1#🇦🇺_AU_澳大利亚_22@15
+trojan://iyinglong@18.141.8.87:443?sni=18.141.8.87&allowInsecure=0#🇸🇬_SG_新加坡_1_23@0
+trojan://iyinglong@35.180.122.151:443?sni=35.180.122.151&allowInsecure=0#🇫🇷_FR_法国_23@3
+trojan://iyinglong@52.12.10.181:443?sni=52.12.10.181&allowInsecure=0#🇺🇸_US_美国_2_23@8
+trojan://iyinglong@54.245.213.176:443?sni=54.245.213.176&allowInsecure=0#🇺🇸_US_美国_4_23@12
+trojan://iyinglong@13.112.247.141:443?sni=13.112.247.141&allowInsecure=0#🇯🇵_JP_日本_23@15
+trojan://iyinglong@54.255.235.191:443?sni=54.255.235.191&allowInsecure=0#🇸🇬_SG_新加坡_2_23@18
+trojan://iyinglong@34.219.183.33:443?sni=34.219.183.33&allowInsecure=0#🇺🇸_US_美国_5_23@19
+trojan://046c4ca7-9c88-4ad5-92e8-591723b52b25@cc.755657.xyz:443?sni=cc.755657.xyz&allowInsecure=0#🇨🇳_CN_中国->🇺🇸_US_美国_2_23@22
+trojan://xxoo@13.210.76.227:443?sni=13.210.76.227&allowInsecure=0#🇦🇺_AU_澳大利亚_23@23
+trojan://iyinglong@13.213.69.245:443?sni=13.213.69.245&allowInsecure=0#🇸🇬_SG_新加坡_3_23@28
+trojan://iyinglong@3.1.6.157:443?sni=3.1.6.157&allowInsecure=0#🇸🇬_SG_新加坡_4_23@32
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@azhj001.xibai6.top:20716?sni=azhj001.xibai6.top&allowInsecure=0#🇺🇸_US_美国_8_23@33
+trojan://0ba47cb6-e316-4afe-bb35-9e4853db6447@99tw02.tfzhc.top:443?sni=99tw02.tfzhc.top&allowInsecure=0#🇸🇬_SG_新加坡_5_23@35
+trojan://iyinglong@18.130.157.11:443?sni=18.130.157.11&allowInsecure=0#🇬🇧_GB_英国_2_23@39
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@azgy001.xibai6.top:20789?sni=azgy001.xibai6.top&allowInsecure=0#🇺🇸_US_美国_11_23@40
+trojan://iyinglong@34.219.230.191:443?sni=34.219.230.191&allowInsecure=0#🇺🇸_US_美国_13_23@44
+trojan://349667a5-8d06-4a24-b4be-eb02f3ed7bed@178.157.63.155:50182?sni=178.157.63.155&allowInsecure=0#🇺🇸_US_美国_1_24@0
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@azhj001.xibai6.top:20714?sni=azhj001.xibai6.top&allowInsecure=0#🇭🇰_HK_香港_1_24@5
+trojan://iyinglong@13.40.154.20:443?sni=13.40.154.20&allowInsecure=0#🇬🇧_GB_英国_1_24@6
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@20.239.188.10:20725?sni=20.239.188.10&allowInsecure=0#🇺🇸_US_美国_3_24@7
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@20.205.63.249:20770?sni=20.205.63.249&allowInsecure=0#🇭🇰_HK_香港->🇹🇼_TW_台湾_24@16
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@azhj001.xibai6.top:20715?sni=azhj001.xibai6.top&allowInsecure=0#🇭🇰_HK_香港->🇺🇸_US_美国_1_24@17
+trojan://iyinglong@54.218.99.141:443?sni=54.218.99.141&allowInsecure=0#🇺🇸_US_美国_9_24@26
+trojan://iyinglong@52.77.243.140:443?sni=52.77.243.140&allowInsecure=0#🇸🇬_SG_新加坡_3_24@27
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@20.205.63.249:20804?sni=20.205.63.249&allowInsecure=0#🇭🇰_HK_香港->🇯🇵_JP_日本_1_24@28
+trojan://iyinglong@35.180.247.162:443?sni=35.180.247.162&allowInsecure=0#🇫🇷_FR_法国_2_24@36
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@azgy001.xibai6.top:20790?sni=azgy001.xibai6.top&allowInsecure=0#🇺🇸_US_美国_13_24@40
+trojan://fb19aac3-b532-4f60-a97f-ec5de0fbbf6b@nf.755657.xyz:2083?sni=nf.755657.xyz&allowInsecure=0#🇭🇰_HK_香港->🇺🇸_US_美国_2_24@41
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@20.205.63.249:20800?sni=20.205.63.249&allowInsecure=0#🇭🇰_HK_香港->🇯🇵_JP_日本_2_24@43
+trojan://iyinglong@13.38.55.14:443?sni=13.38.55.14&allowInsecure=0#🇫🇷_FR_法国_3_24@44
+trojan://3d6e81e4-c6df-32ad-a808-e83d4fd1ca1a@20.239.188.10:20804?sni=20.239.188.10&allowInsecure=0#🇺🇸_US_美国->🇯🇵_JP_日本_24@48
+trojan://iyinglong@54.188.168.172:443?sni=54.188.168.172&allowInsecure=0#🇺🇸_US_美国_15_24@49
+trojan://012fc57b-69e5-3924-9da4-d6ac132c5fc9@98.126.214.30:19235?sni=98.126.214.30&allowInsecure=0#🇺🇸US-98.126.214.30-04
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#🇺🇸US-129.146.255.158-16
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸US-129.146.242.130-19
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml:443?sni=fhcarm1.gaox.ml&allowInsecure=0#🇺🇸US-129.146.242.130-20
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#🇺🇸US-129.146.255.158-21
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸US-129.146.242.130-22
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#🇺🇸US-129.146.255.158-31
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸US-129.146.242.130-36
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸US-129.146.242.130-45
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#🇺🇸US-23.94.103.146-47
+trojan://d724e4d0-841b-3b92-ac0d-70fcbbb7e934@s162.s2022.xyz:23802?sni=s162.s2022.xyz&allowInsecure=0#🇺🇸US-199.195.251.82-91
+trojan://ff37081f-9043-476a-a6ea-854297b06839@nice-ca01.tiktokcdn.buzz:443?sni=nice-ca01.tiktokcdn.buzz&allowInsecure=0#🇨🇦CA-15.223.72.22-97
+trojan://012fc57b-69e5-3924-9da4-d6ac132c5fc9@98.126.214.30:19235?sni=98.126.214.30&allowInsecure=0#🇺🇸US-98.126.214.30-04
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#🇺🇸US-129.146.255.158-16
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸US-129.146.242.130-19
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@fhcarm1.gaox.ml:443?sni=fhcarm1.gaox.ml&allowInsecure=0#🇺🇸US-129.146.242.130-20
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#🇺🇸US-129.146.255.158-21
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸US-129.146.242.130-22
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#🇺🇸US-129.146.255.158-31
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸US-129.146.242.130-36
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#🇺🇸US-129.146.242.130-45
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#🇺🇸US-23.94.103.146-47
+trojan://d724e4d0-841b-3b92-ac0d-70fcbbb7e934@s162.s2022.xyz:23802?sni=s162.s2022.xyz&allowInsecure=0#🇺🇸US-199.195.251.82-91
+trojan://ff37081f-9043-476a-a6ea-854297b06839@nice-ca01.tiktokcdn.buzz:443?sni=nice-ca01.tiktokcdn.buzz&allowInsecure=0#🇨🇦CA-15.223.72.22-97
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7Z29DRr1ts@cp-asus.ml:50275?sni=cp-asus.ml&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_8
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@jgwdb2.gaox.ml:443?sni=jgwdb2.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Osaka_9
+trojan://e5d46365e25e31d94279c2bcf93390a2@usa-sr-105.mitoption.com:443?sni=usa-sr-105.mitoption.com&allowInsecure=0#[09-26]|openrunner|美国(US)USA/Scottsdale_12
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@jgwdj3.gaox.ml:443?sni=jgwdj3.gaox.ml&allowInsecure=0#[09-26]|openrunner|日本(JP)Japan/Tokyo_16
+trojan://cfbabf31-2cf6-40ca-9688-abbb682370aa@cn.speedabc.xyz:32002?sni=jp-bgp.speedaccelerate.com&allowInsecure=1#[09-26]|openrunner|中国香港/中国台湾(CN)China/Shenzhen/(可能是中转节点)_25
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@jgwhdlb3.gaox.ml:443?sni=jgwhdlb3.gaox.ml&allowInsecure=0#[09-26]|openrunner|印度(IN)India/Hyderabad_26
+trojan://71b55a84-3fac-4458-abff-eaad79219c91@jgwld3.gaox.ml:443?sni=jgwld3.gaox.ml&allowInsecure=0#[09-26]|openrunner|英国(GB)United+Kiongdom/Slough_27
+trojan://e5d46365e25e31d94279c2bcf93390a2@sg-sr-116.mitoption.com:443?sni=sg-sr-116.mitoption.com&allowInsecure=0#[09-26]|openrunner|新加坡(SG)Singapore/Singapore_28
+trojan://7b4066ae-accc-11eb-a8bf-f23c91cfbbc9@ssl.tcpbbr.net:443?sni=ssl.tcpbbr.net&allowInsecure=0#[09-26]|openrunner|中国香港特别行政区(HK)Hongkong+SAR+China/Hong+Kong_42
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20713?sni=azgy001.xiba1.xyz&allowInsecure=0#🇺🇸 _US_美国
+trojan://7497242f-3044-3c77-bf48-14bb26c92a83@azgy001.xiba1.xyz:20712?sni=azgy001.xiba1.xyz&allowInsecure=0#🇺🇸 _US_美国 15
+trojan://c828e3ed-7826-4c94-8e08-608429f3b909@727tw02.ok365.cyou:25689?sni=727tw02.ok365.cyou&allowInsecure=0#🇸🇬 _SG_新加坡
+trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:33002?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇺🇸 _CN_中国->🇺🇸_US_美国
+trojan://2f606ee8-3cfa-30b2-a191-f88efe912f5c@pp1.zhengzhongfeizhu.xyz:34003?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇭🇰 _CN_中国->🇭🇰_HK_香港
+trojan://eb2f8154-ff58-3b99-b393-28c8eecdbe64@pp1.zhengzhongfeizhu.xyz:34001?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#🇭🇰 _CN_中国->🇭🇰_HK_香港 2
+trojan://7688df6f-bf65-3368-b55e-d78efea6a582@pp1.zhengzhongfeizhu.xyz:34002?sni=pp1.zhengzhongfeizhu.xyz&allowInsecure=0#_CN_中国
+trojan://d4e41ff772c7fd45@116.129.254.29:3381?sni=116.129.254.29&allowInsecure=0#🇨🇳 中国(TG频道:@kxswa) 28
+trojan://d02058f4f819dced@116.129.253.134:3381?sni=116.129.253.134&allowInsecure=0#🇨🇳 中国(TG频道:@kxswa) 29
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#mianfeifq 331
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#🇺🇸 US 11 → openitsub.com
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#🇺🇸 US 4 → openitsub.com
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#mianfeifq 331
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#🇺🇸 US 11 → openitsub.com
+trojan://8c836caa-3d53-4829-bcfb-cbe0aa453a57@23.94.103.146:443?sni=23.94.103.146&allowInsecure=0#🇺🇸 US 4 → openitsub.com
+trojan://yQAgQC@139.227.182.124:12851?sni=139.227.182.124&allowInsecure=0#测试
+trojan://3dc79926-8d8e-4ad1-b79c-d1853b145027@hk-01.nodemao.com:10056?sni=hk-01.nodemao.com&allowInsecure=0#🇭🇰 HK - 香港 | TR - x2
+trojan://M288fab2@139.227.182.124:28158?sni=if2d.ft3.us&allowInsecure=1#🇯🇵 韩国 B157 | 湘日隧道 | 0x
+trojan://M9cf6590@14.215.107.23:28157?sni=i23.t4v.fun&allowInsecure=1#🇰🇷 韩国 B158 | IEPL中转、游戏 | 0x
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@625us.ok365.cyou:443?sni=625us.ok365.cyou&allowInsecure=0#Relay_🇨🇦CA-🇨🇦CA_01
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@625tw.ok365.cyou:443?sni=625tw.ok365.cyou&allowInsecure=0#Relay_🇨🇦CA-🇨🇦CA_02
+trojan://3gLlCYBipVwr6Y5F@v2cross.com.02.v2ce.com:443?sni=v2cross.com.02.v2ce.com&allowInsecure=0#Relay_🇨🇿CZ-🇨🇿CZ_41
+trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?sni=v2cross.com.01.v2ce.com&allowInsecure=0#Relay_🇨🇿CZ-🇨🇿CZ_42
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@jp-03.licom.ml:8443?sni=jp-03.licom.ml&allowInsecure=0#🇯🇵 Relay_🇯🇵JP-🇯🇵JP_53
+trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-sg02.yiyodns.xyz:443?sni=tj-sg02.yiyodns.xyz&allowInsecure=0#🇸🇬 Relay_🇩🇪DE-🇸🇬SG_44
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@626sg05.ok365.cyou:80?sni=626sg05.ok365.cyou&allowInsecure=0#🇸🇬 Relay_🇸🇬SG-🇸🇬SG_108
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@sg-02.licom.ml:8443?sni=sg-02.licom.ml&allowInsecure=0#🇸🇬 Relay_🇸🇬SG-🇸🇬SG_109
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-sg02.yiyodns.xyz:443?sni=tj-sg02.yiyodns.xyz&allowInsecure=0#🇸🇬 Relay_🇺🇸US-🇸🇬SG_182
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?sni=tj-us02.yiyodns.xyz&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_180
+trojan://ukMzuFSmIXDvgW0h@cd.rutracker-cn.com:443?sni=cd.rutracker-cn.com&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_181
+trojan://cb5e2135-4d64-4454-be98-5bae4f2618d1@usfree2.jiantian.xyz:32462?sni=usfree2.jiantian.xyz&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_183
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@625us.ok365.cyou:443?sni=625us.ok365.cyou&allowInsecure=0#Relay_🇨🇦CA-🇨🇦CA_01
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@625tw.ok365.cyou:443?sni=625tw.ok365.cyou&allowInsecure=0#Relay_🇨🇦CA-🇨🇦CA_02
+trojan://3gLlCYBipVwr6Y5F@v2cross.com.02.v2ce.com:443?sni=v2cross.com.02.v2ce.com&allowInsecure=0#Relay_🇨🇿CZ-🇨🇿CZ_41
+trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?sni=v2cross.com.01.v2ce.com&allowInsecure=0#Relay_🇨🇿CZ-🇨🇿CZ_42
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@jp-03.licom.ml:8443?sni=jp-03.licom.ml&allowInsecure=0#🇯🇵 Relay_🇯🇵JP-🇯🇵JP_53
+trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-sg02.yiyodns.xyz:443?sni=tj-sg02.yiyodns.xyz&allowInsecure=0#🇸🇬 Relay_🇩🇪DE-🇸🇬SG_44
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@626sg05.ok365.cyou:80?sni=626sg05.ok365.cyou&allowInsecure=0#🇸🇬 Relay_🇸🇬SG-🇸🇬SG_108
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@sg-02.licom.ml:8443?sni=sg-02.licom.ml&allowInsecure=0#🇸🇬 Relay_🇸🇬SG-🇸🇬SG_109
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-sg02.yiyodns.xyz:443?sni=tj-sg02.yiyodns.xyz&allowInsecure=0#🇸🇬 Relay_🇺🇸US-🇸🇬SG_182
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?sni=tj-us02.yiyodns.xyz&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_180
+trojan://ukMzuFSmIXDvgW0h@cd.rutracker-cn.com:443?sni=cd.rutracker-cn.com&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_181
+trojan://cb5e2135-4d64-4454-be98-5bae4f2618d1@usfree2.jiantian.xyz:32462?sni=usfree2.jiantian.xyz&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_183
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@625us.ok365.cyou:443?sni=625us.ok365.cyou&allowInsecure=0#Relay_🇨🇦CA-🇨🇦CA_01
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@625tw.ok365.cyou:443?sni=625tw.ok365.cyou&allowInsecure=0#Relay_🇨🇦CA-🇨🇦CA_02
+trojan://3gLlCYBipVwr6Y5F@v2cross.com.02.v2ce.com:443?sni=v2cross.com.02.v2ce.com&allowInsecure=0#Relay_🇨🇿CZ-🇨🇿CZ_41
+trojan://mMQ6qJB9xbhiRvgg@v2cross.com.01.v2ce.com:443?sni=v2cross.com.01.v2ce.com&allowInsecure=0#Relay_🇨🇿CZ-🇨🇿CZ_42
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@jp-03.licom.ml:8443?sni=jp-03.licom.ml&allowInsecure=0#🇯🇵 Relay_🇯🇵JP-🇯🇵JP_53
+trojan://8c160526-9900-3a00-ad06-08ac76357b02@tj-sg02.yiyodns.xyz:443?sni=tj-sg02.yiyodns.xyz&allowInsecure=0#🇸🇬 Relay_🇩🇪DE-🇸🇬SG_44
+trojan://54f4dd9a-6a6c-4c84-b328-4a51da70793e@626sg05.ok365.cyou:80?sni=626sg05.ok365.cyou&allowInsecure=0#🇸🇬 Relay_🇸🇬SG-🇸🇬SG_108
+trojan://ce433528-39fa-4711-bc0d-25a5b1579574@sg-02.licom.ml:8443?sni=sg-02.licom.ml&allowInsecure=0#🇸🇬 Relay_🇸🇬SG-🇸🇬SG_109
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-sg02.yiyodns.xyz:443?sni=tj-sg02.yiyodns.xyz&allowInsecure=0#🇸🇬 Relay_🇺🇸US-🇸🇬SG_182
+trojan://7dafe71e-2be6-302f-bdfc-e6319a3299bc@tj-us02.yiyodns.xyz:443?sni=tj-us02.yiyodns.xyz&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_180
+trojan://ukMzuFSmIXDvgW0h@cd.rutracker-cn.com:443?sni=cd.rutracker-cn.com&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_181
+trojan://cb5e2135-4d64-4454-be98-5bae4f2618d1@usfree2.jiantian.xyz:32462?sni=usfree2.jiantian.xyz&allowInsecure=0#🇺🇸 Relay_🇺🇸US-🇺🇸US_183
+trojan://69a019dd-617b-449f-9af0-57762a476530@la.p1.gay:23511?sni=la.p1.gay&allowInsecure=0#🇬🇧 v2rayfree.eu.org - 英国  5
+trojan://0a8df927-324d-463c-a349-1a8144078683@924hk.tfzhc.top:44393?sni=924hk.tfzhc.top&allowInsecure=0#🇯🇵 v2rayfree.eu.org - 日本  15
+trojan://d4e41ff772c7fd45@116.129.254.29:3381?sni=116.129.254.29&allowInsecure=0#🇨🇳 中国(TG频道:@kxswa) 28
+trojan://d02058f4f819dced@116.129.253.134:3381?sni=116.129.253.134&allowInsecure=0#🇨🇳 中国(TG频道:@kxswa) 29
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#v2cross.com
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@150.230.96.103:443?sni=150.230.96.103&allowInsecure=0#v2cross.com
+trojan://7d3a7131-5334-45ed-84c7-2f64b05ddf0e@shanghai.qii9.com:13100?sni=shanghai.qii9.com&allowInsecure=0#v2cross.com
+trojan://7d3a7131-5334-45ed-84c7-2f64b05ddf0e@shanghai.qii9.com:10888?sni=shanghai.qii9.com&allowInsecure=0#v2cross.com
+trojan://7d3a7131-5334-45ed-84c7-2f64b05ddf0e@hk02.bpshop.eu.org:117?sni=HK02.bpshop.eu.org&allowInsecure=1#v2cross.com
+trojan://7d3a7131-5334-45ed-84c7-2f64b05ddf0e@awsjp.libi.eu.org:13000?sni=awsjp.libi.eu.org&allowInsecure=0#v2cross.com
+trojan://yaNBfZZXna@nice-uk02.tiktokcdn.buzz:53659?sni=nice-uk02.tiktokcdn.buzz&allowInsecure=0#US19→v2cross.com
+trojan://yaNBfZZXna@nice-uk02.tiktokcdn.buzz:53659?sni=nice-uk02.tiktokcdn.buzz&allowInsecure=0#US19→v2cross.com
+trojan://yaNBfZZXna@nice-uk02.tiktokcdn.buzz:53659?sni=nice-uk02.tiktokcdn.buzz&allowInsecure=0#英国(TG频道:@kxswa)
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@80.78.132.177:28443?sni=glc.hruqoaw.cn&allowInsecure=1#DE1→v2cross.com
+trojan://xxoo@138.124.183.222:443?sni=138.124.183.222&allowInsecure=0#NO1→v2cross.com
+trojan://xxoo@138.124.183.226:443?sni=138.124.183.226&allowInsecure=0#NO+3+→+v2cross.com
+trojan://xxoo@138.124.183.216:443?sni=138.124.183.216&allowInsecure=0#NO+2+→+v2cross.com
+trojan://ab1e9bdd-6f92-42b7-b4ac-f476802a2aa1@nice-se01.tiktokcdn.buzz:8443?sni=nice-se01.tiktokcdn.buzz&allowInsecure=0#US+6+→+v2cross.com
+trojan://a9b56b59-ee82-4331-91f8-955d1fdc4e10@nice-ca02.tiktokcdn.buzz:8443?sni=nice-ca02.tiktokcdn.buzz&allowInsecure=0#CA3→v2cross.com
+trojan://xxoo@138.124.183.216:443?sni=138.124.183.216&allowInsecure=0#NO+2+→+v2cross.com
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@152.67.190.183:443?sni=152.67.190.183&allowInsecure=0#印度(TG频道:@kxswa)
+trojan://xxoo@138.124.183.226:443?sni=138.124.183.226&allowInsecure=0#NO+3+→+v2cross.com
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#US7→v2cross.com
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#US1→v2cross.com
+trojan://a9b56b59-ee82-4331-91f8-955d1fdc4e10@nice-ca02.tiktokcdn.buzz:8443?sni=nice-ca02.tiktokcdn.buzz&allowInsecure=0#CA3→v2cross.com
+trojan://ab1e9bdd-6f92-42b7-b4ac-f476802a2aa1@nice-se01.tiktokcdn.buzz:8443?sni=nice-se01.tiktokcdn.buzz&allowInsecure=0#US+6+→+v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@45.88.148.234:28443?sni=glc.hruqoaw.cn&allowInsecure=1#US+25+→+v2cross.com
+trojan://bFUAnc6jeU@se-1.tiktokcdn.sbs:49494?sni=se-1.tiktokcdn.sbs&allowInsecure=0#瑞典(TG频道:@kxswa)
+trojan://fPrIXmKPn0@rbobo.tk:31142?sni=rbobo.tk&allowInsecure=0#US3→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@89.163.220.99:28443?sni=glc.hruqoaw.cn&allowInsecure=1#DE2→v2cross.com
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#US7→v2cross.com
+trojan://bFUAnc6jeU@se-1.tiktokcdn.sbs:49494?sni=se-1.tiktokcdn.sbs&allowInsecure=0#瑞典(TG频道:@kxswa)
+trojan://80bcf4f2-12f7-11ed-bb74-f23c9164ca5d@ssl.tcpbbr.net:12163?sni=ssl.tcpbbr.net&allowInsecure=0#HK7→v2cross.com
+trojan://5d36674a-1a01-41e9-b246-72bc762faa82@sssvip01.goumaituijian.xyz:19586?sni=sssvip01.goumaituijian.xyz&allowInsecure=0#香港-IPLC-01
+trojan://0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8@hk.vc3.hyperlinkvpn.xyz:52000?sni=hk.vc3.hyperlinkvpn.xyz&allowInsecure=0#HK2→v2cross.com
+trojan://4bc92fb7-2d61-484c-a5e8-561f81197271@sssvip03.goumaituijian.xyz:19588?sni=sssvip03.goumaituijian.xyz&allowInsecure=0#US+10+→+v2cross.com
+trojan://80bcf4f2-12f7-11ed-bb74-f23c9164ca5d@ssl.tcpbbr.net:12163?sni=ssl.tcpbbr.net&allowInsecure=0#HK7→v2cross.com
+trojan://4bc92fb7-2d61-484c-a5e8-561f81197271@sssvip02.goumaituijian.xyz:19587?sni=sssvip02.goumaituijian.xyz&allowInsecure=0#github.com/Pawdroid+-+美国纽约州纽约DigitalOcean数据中心+21
+trojan://JmcedGAn@nice-jp02.tiktokcdn.buzz:443?sni=nice-jp02.tiktokcdn.buzz&allowInsecure=0#JP4→v2cross.com
+trojan://4bc92fb7-2d61-484c-a5e8-561f81197271@sssvip09.goumaituijian.xyz:29556?sni=sssvip09.goumaituijian.xyz&allowInsecure=0#github.com/Pawdroid+-+美国纽约州纽约DigitalOcean数据中心+32
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@zf1.windowsupdate1.com:30060?sni=glc.hruqoaw.cn&allowInsecure=1#US22→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@202.8.9.67:28443?sni=glc.hruqoaw.cn&allowInsecure=1#AU1→v2cross.com
+trojan://6A30qqSh8W@45.136.14.70:15410?sni=45.136.14.70&allowInsecure=0#333
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@202.8.9.27:28443?sni=glc.hruqoaw.cn&allowInsecure=1#AU2→v2cross.com
+trojan://5d36674a-1a01-41e9-b246-72bc762faa82@sssvip09.goumaituijian.xyz:29556?sni=sssvip09.goumaituijian.xyz&allowInsecure=0#美国-IPLC-01
+trojan://74c56afa-8137-4471-b770-d06b4dd250e9@sssvip02.goumaituijian.xyz:19587?sni=sssvip02.goumaituijian.xyz&allowInsecure=0#US9→v2cross.com
+trojan://6A30qqSh8W@45.136.14.70:15410?sni=45.136.14.70&allowInsecure=0#FR1→v2cross.com
+trojan://5d36674a-1a01-41e9-b246-72bc762faa82@sssvip010.goumaituijian.xyz:29559?sni=sssvip010.goumaituijian.xyz&allowInsecure=0#US14→v2cross.com
+trojan://JmcedGAn@nice-jp02.tiktokcdn.buzz:443?sni=nice-jp02.tiktokcdn.buzz&allowInsecure=0#JP4→v2cross.com
+trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@144.24.72.126:443?sni=144.24.72.126&allowInsecure=0#GB+1+→+v2cross.com
+trojan://5d36674a-1a01-41e9-b246-72bc762faa82@sssvip013.goumaituijian.xyz:41655?sni=sssvip013.goumaituijian.xyz&allowInsecure=0#蒙古-IPLC-01
+trojan://4bc92fb7-2d61-484c-a5e8-561f81197271@sssvip01.goumaituijian.xyz:19586?sni=sssvip01.goumaituijian.xyz&allowInsecure=0#github.com/Pawdroid+-+美国纽约州纽约DigitalOcean数据中心+12
+trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@144.24.72.126:443?sni=144.24.72.126&allowInsecure=0#GB1→v2cross.com
+trojan://0aa9e572-ca8b-4d2c-bef6-501fc3eacbb8@hk.vc3.hyperlinkvpn.xyz:52000?sni=hk.vc3.hyperlinkvpn.xyz&allowInsecure=0#HK2→v2cross.com
+trojan://9c822f05-cfdc-479a-9534-60f3d4127435@138.2.113.248:443?sni=138.2.113.248&allowInsecure=0#US35→v2cross.com
+trojan://7118b5f4-0ea4-4c11-be7f-11471cb91e4a@144.24.72.126:443?sni=144.24.72.126&allowInsecure=0#GB1→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@download1hkt.windowsupdate1.com:28443?sni=glc.hruqoaw.cn&allowInsecure=1#HK7→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@download1tw.windowsupdate1.com:28443?sni=glc.hruqoaw.cn&allowInsecure=1#TW2→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@zf2.windowsupdate1.com:30060?sni=glc.hruqoaw.cn&allowInsecure=1#HK6→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@zf2.windowsupdate1.com:30040?sni=glc.hruqoaw.cn&allowInsecure=1#HK+8+→+v2cross.com
+trojan://9b039851-270c-4837-b500-f1ab5e2350f7@165.154.246.195:49008?sni=165.154.246.195&allowInsecure=0#CA1→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@zf2.windowsupdate1.com:30010?sni=glc.hruqoaw.cn&allowInsecure=1#HK+5+→+v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@zf1.windowsupdate1.com:30010?sni=glc.hruqoaw.cn&allowInsecure=1#US21→v2cross.com
+trojan://BXE9notY@nice-jp01.tiktokcdn.buzz:443?sni=nice-jp01.tiktokcdn.buzz&allowInsecure=0#JP1→v2cross.com
+trojan://BXE9notY@nice-jp01.tiktokcdn.buzz:443?sni=nice-jp01.tiktokcdn.buzz&allowInsecure=0#JP1→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@zf2.windowsupdate1.com:30050?sni=glc.hruqoaw.cn&allowInsecure=1#HK9→v2cross.com
+trojan://192a315a-a324-4d92-a017-2b30e6b75324@nicekr-01.tiktokcdn.buzz:23564?sni=nicekr-01.tiktokcdn.buzz&allowInsecure=0#KR+1+→+v2cross.com
+trojan://192a315a-a324-4d92-a017-2b30e6b75324@nicekr-01.tiktokcdn.buzz:23564?sni=nicekr-01.tiktokcdn.buzz&allowInsecure=0#KR+1+→+v2cross.com
+trojan://80bcf4f2-12f7-11ed-bb74-f23c9164ca5d@api.tcpbbr.net:18443?sni=api.tcpbbr.net&allowInsecure=0#HK+5+→+v2cross.com
+trojan://80bcf4f2-12f7-11ed-bb74-f23c9164ca5d@api.tcpbbr.net:18443?sni=api.tcpbbr.net&allowInsecure=0#HK+5+→+v2cross.com
+trojan://ZD4dLSBXiMrmzdLd@185.253.47.79:443?sni=185.253.47.79&allowInsecure=0#UA1→v2cross.com
+trojan://74c56afa-8137-4471-b770-d06b4dd250e9@sssvip011.goumaituijian.xyz:16888?sni=sssvip011.goumaituijian.xyz&allowInsecure=0#US+7+→+v2cross.com
+trojan://ZD4dLSBXiMrmzdLd@185.253.47.79:443?sni=185.253.47.79&allowInsecure=0#UA1→v2cross.com
+trojan://4bc92fb7-2d61-484c-a5e8-561f81197271@sssvip05.goumaituijian.xyz:29550?sni=sssvip05.goumaituijian.xyz&allowInsecure=0#US13→v2cross.com
+trojan://ZD4dLSBXiMrmzdLd@185.253.47.79:443?sni=185.253.47.79&allowInsecure=0#UA1→v2cross.com
+trojan://9b039851-270c-4837-b500-f1ab5e2350f7@165.154.246.195:49007?sni=165.154.246.195&allowInsecure=0#CA2→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@45.82.253.234:28443?sni=glc.hruqoaw.cn&allowInsecure=1#US24→v2cross.com
+trojan://6b1b5af1-31c2-4841-b56c-dff351e32e00@download2tw.windowsupdate1.com:28443?sni=glc.hruqoaw.cn&allowInsecure=1#TW+3+→+v2cross.com
+trojan://5d1b3b0a-de2a-4731-938d-4c7e15f034c1@43.229.153.148:50418?sni=43.229.153.148&allowInsecure=0#HK6→v2cross.com
+trojan://ZDqCRlxB8uFj9pxNEeanya3DIpDlOYR7K0wOYX3eScA36gTAazCyZ5SC3FS428@musashino.freetrade.link:443?sni=musashino.freetrade.link&allowInsecure=0#JP2→v2cross.com
+trojan://dDbBcidENX@a.laolei.ml:50757?sni=a.laolei.ml&allowInsecure=0#US+4+→+v2cross.com
+trojan://ff37081f-9043-476a-a6ea-854297b06839@nice-ca01.tiktokcdn.buzz:443?sni=nice-ca01.tiktokcdn.buzz&allowInsecure=0#加拿大(TG频道:@kxswa)
+trojan://ff37081f-9043-476a-a6ea-854297b06839@nice-ca01.tiktokcdn.buzz:443?sni=nice-ca01.tiktokcdn.buzz&allowInsecure=0#加拿大(TG频道:@kxswa)
+trojan://3oquVrpxPg@152.67.102.195:41477?sni=152.67.102.195&allowInsecure=0#澳大利亚(TG频道:@kxswa)
+trojan://b291d129-ee55-4801-a9b8-b5316e5c37b7@138.2.113.84:443?sni=138.2.113.84&allowInsecure=0#US53→v2cross.com
+trojan://0Y9gOHSdRt@150.230.249.42:443?sni=150.230.249.42&allowInsecure=0#美国(TG频道:@kxswa)
+trojan://0Y9gOHSdRt@150.230.249.42:443?sni=150.230.249.42&allowInsecure=0#US+21+→+v2cross.com
+trojan://02e653c9-7c93-46a9-999d-11834bd0c577@132.145.51.172:443?sni=132.145.51.172&allowInsecure=0#GB+2+→+v2cross.com
+trojan://da777aae-defb-41d0-a183-2c27da2b4677@150.230.96.103:443?sni=150.230.96.103&allowInsecure=0#美国(TG频道:@kxswa)
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@165.154.235.194:24567?sni=165.154.235.194&allowInsecure=0#CA+3+→+v2cross.com
+trojan://82bd7228-81e2-421f-ac42-a205917b467c@913tw.tfzhc.top:44318?sni=913tw.tfzhc.top&allowInsecure=0#CA9→v2cross.com
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@103.173.254.205:443?sni=103.173.254.205&allowInsecure=0#(TG频道:@kxswa)
+trojan://yBq0efi1j7@youtube-bai-piao-wang-zhe-usa.98848.xyz:17449?sni=youtube-bai-piao-wang-zhe-usa.98848.xyz&allowInsecure=0#US11→v2cross.com
+trojan://M8ac84c9@54.223.72.133:14018?sni=54.223.72.133&allowInsecure=0#🇭🇰HK002
+trojan://82bd7228-81e2-421f-ac42-a205917b467c@921tw.tfzhc.top:443?sni=921tw.tfzhc.top&allowInsecure=0#github.com/freefq+-+加拿大++28
+trojan://0Y9gOHSdRt@150.230.249.42:443?sni=150.230.249.42&allowInsecure=0#US+14+→+v2cross.com
+trojan://82bd7228-81e2-421f-ac42-a205917b467c@921tw.tfzhc.top:443?sni=921tw.tfzhc.top&allowInsecure=0#CA+8+→+v2cross.com
+trojan://26e219f2-5c2a-356c-9767-9fd681cc0134@scus1.ddns-pop.cyou:24567?sni=scus1.ddns-pop.cyou&allowInsecure=0#CA+2+→+v2cross.com
+trojan://82bd7228-81e2-421f-ac42-a205917b467c@913tw.tfzhc.top:44318?sni=913tw.tfzhc.top&allowInsecure=0#github.com/freefq+-+加拿大++35
+trojan://75f9d187-a9c5-4944-8a09-d1f08ceac302@1002jp.tfzhc.top:443?sni=1002jp.tfzhc.top&allowInsecure=0#阿联酋(TG频道:@kxswa)
+trojan://54080134-2cba-4535-8599-95650bd9aa54@152.67.160.174:443?sni=152.67.160.174&allowInsecure=0#US2→v2cross.com
+trojan://79745894-044c-3298-a893-bbfcb6b24a2c@pull-cache-lu01.xyx-xylo.com:19701?sni=pull-cache-lu01.xyx-xylo.com&allowInsecure=0#CN3→v2cross.com
+trojan://e0945df1-4081-4fe6-9f48-adf249beda73@sssvip05.goumaituijian.xyz:29550?sni=sssvip05.goumaituijian.xyz&allowInsecure=0#github.com/Pawdroid+-+美国纽约DigitalOcean数据中心+25
+trojan://f8886f00-cebf-44ca-baf2-ffc058433348@jp1.turingnet.top:50001?sni=jp1.turingnet.top&allowInsecure=0#US12→v2cross.com
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s1.hass.win:12340?sni=s1.hass.win&allowInsecure=0#美国(TG频道:@kxswa)
+trojan://006baa3f-4bc3-4915-b60d-c8c5dae11a11@152.67.190.183:443?sni=152.67.190.183&allowInsecure=0#US5→v2cross.com
+trojan://opentunnel.net-wd3dzt4j9yoy@cat-1.opensvr.net:443?sni=cat-1.opensvr.net&allowInsecure=0#github.com/Pawdroid+-+加拿大魁北克省博阿努瓦OVH数据中心+64
+trojan://e0945df1-4081-4fe6-9f48-adf249beda73@sssvip02.goumaituijian.xyz:19587?sni=sssvip02.goumaituijian.xyz&allowInsecure=0#github.com/Pawdroid+-+美国纽约DigitalOcean数据中心+28
+trojan://e0945df1-4081-4fe6-9f48-adf249beda73@sssvip03.goumaituijian.xyz:19588?sni=sssvip03.goumaituijian.xyz&allowInsecure=0#github.com/Pawdroid+-+美国纽约DigitalOcean数据中心+21
+trojan://xxoo@146.19.230.241:443?sni=146.19.230.241&allowInsecure=0#FR1→v2cross.com
+trojan://c19d1432-8b3e-4818-8837-3d160cf65908@138.2.45.243:443?sni=138.2.45.243&allowInsecure=0#US11→v2cross.com
+trojan://f8886f00-cebf-44ca-baf2-ffc058433348@hk4.turingnet.top:50001?sni=hk4.turingnet.top&allowInsecure=0#github.com/Pawdroid+-+美国惠普HP+9
+trojan://e0945df1-4081-4fe6-9f48-adf249beda73@sssvip02.goumaituijian.xyz:19587?sni=sssvip02.goumaituijian.xyz&allowInsecure=0#US15→v2cross.com
+trojan://bb5b1337-fa9e-4e00-b8c6-1110e626171d@159.223.89.239:443?sni=159.223.89.239&allowInsecure=0#US+22+→+v2cross.com
+trojan://f8886f00-cebf-44ca-baf2-ffc058433348@jp3.fastconnect.ml:443?sni=jp3.fastconnect.ml&allowInsecure=0#JP2→v2cross.com
+trojan://9b039851-270c-4837-b500-f1ab5e2350f7@165.154.246.145:49006?sni=165.154.246.145&allowInsecure=0#香港(TG频道:@kxswa)
+trojan://75f9d187-a9c5-4944-8a09-d1f08ceac302@1002tw01.tfzhc.top:443?sni=1002tw01.tfzhc.top&allowInsecure=0#github.com/Pawdroid+-+加拿大++46
+trojan://ZD4dLSBXiMrmzdLd@185.253.47.79:443?sni=185.253.47.79&allowInsecure=0#UA1→v2cross.com
+trojan://9f50f15c-7ce5-4ff9-80b7-81f2e503c873@la.rycbar.top:443?sni=la.rycbar.top&allowInsecure=0#US14→v2cross.com
+trojan://f8886f00-cebf-44ca-baf2-ffc058433348@hk4.turingnet.top:50001?sni=hk4.turingnet.top&allowInsecure=0#US13→v2cross.com
+trojan://75f9d187-a9c5-4944-8a09-d1f08ceac302@1002tw01.tfzhc.top:443?sni=1002tw01.tfzhc.top&allowInsecure=0#🔈更新于10/02/00:20
+trojan://e0945df1-4081-4fe6-9f48-adf249beda73@sssvip03.goumaituijian.xyz:19588?sni=sssvip03.goumaituijian.xyz&allowInsecure=0#US17→v2cross.com
+trojan://f39bd244-f5fe-415c-8b98-a1e5250bf178@fhcarm2.gaox.ml:443?sni=fhcarm2.gaox.ml&allowInsecure=0#github.com/Pawdroid+-+美国++71
+trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@cat1.sshocean.net:443?sni=cat1.sshocean.net&allowInsecure=0#CA9→v2cross.com
+trojan://75f9d187-a9c5-4944-8a09-d1f08ceac302@1002sg.tfzhc.top:443?sni=1002sg.tfzhc.top&allowInsecure=0#github.com/Pawdroid+-+日本++12
+trojan://05742120-ce23-4cc8-88f5-6d221ce45bf4@129.146.242.130:443?sni=129.146.242.130&allowInsecure=0#US21→v2cross.com
+trojan://9f50f15c-7ce5-4ff9-80b7-81f2e503c873@la.rycbar.top:443?sni=la.rycbar.top&allowInsecure=0#github.com/Pawdroid+-+美国++53
+trojan://75f9d187-a9c5-4944-8a09-d1f08ceac302@1002sg.tfzhc.top:443?sni=1002sg.tfzhc.top&allowInsecure=0#JP+1+→+v2cross.com
+trojan://bb5b1337-fa9e-4e00-b8c6-1110e626171d@sg-01.tiktokcdn.top:443?sni=sg-01.tiktokcdn.top&allowInsecure=0#v2cross.com+-+美国++32
+trojan://8b6daf15-8342-482d-b894-1239fd98ce7f@149.56.141.11:443?sni=149.56.141.11&allowInsecure=0#CA7→v2cross.com
+trojan://e8c1ab3c-89b3-4933-92df-682e6dce7819@152.67.98.30:443?sni=152.67.98.30&allowInsecure=0#US19→v2cross.com
+trojan://e0945df1-4081-4fe6-9f48-adf249beda73@sssvip05.goumaituijian.xyz:29550?sni=sssvip05.goumaituijian.xyz&allowInsecure=0#US16→v2cross.com
+trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?sni=152.67.162.166&allowInsecure=0#US4→v2cross.com
+trojan://75f9d187-a9c5-4944-8a09-d1f08ceac302@1002jp.tfzhc.top:443?sni=1002jp.tfzhc.top&allowInsecure=0#github.com/Pawdroid+-+加拿大++10
+trojan://f8886f00-cebf-44ca-baf2-ffc058433348@sg2.turingnet.top:50001?sni=sg2.turingnet.top&allowInsecure=0#github.com/Pawdroid+-+新加坡亚马逊(Amazon)公司数据中心+7
+trojan://f8886f00-cebf-44ca-baf2-ffc058433348@jp3.fastconnect.ml:443?sni=jp3.fastconnect.ml&allowInsecure=0#github.com/Pawdroid+-+日本东京Choopa数据中心+8
+trojan://9b039851-270c-4837-b500-f1ab5e2350f7@165.154.246.145:49011?sni=165.154.246.145&allowInsecure=0#香港(TG频道:@kxswa)
+trojan://f8886f00-cebf-44ca-baf2-ffc058433348@jp1.turingnet.top:50001?sni=jp1.turingnet.top&allowInsecure=0#github.com/Pawdroid+-+日本东京都Amazon数据中心+30
+trojan://bb5b1337-fa9e-4e00-b8c6-1110e626171d@sg-01.tiktokcdn.top:443?sni=sg-01.tiktokcdn.top&allowInsecure=0#github.com/Pawdroid+-+美国++61
+trojan://ea48cdda-6db7-4f34-9d42-7bd9d41b4740@1002hk1326.tfzhc.top:443?sni=1002hk1326.tfzhc.top&allowInsecure=0#v2cross.com - 加拿大  23
+trojan://ea48cdda-6db7-4f34-9d42-7bd9d41b4740@1002tw01.tfzhc.top:443?sni=1002tw01.tfzhc.top&allowInsecure=0#v2cross.com - 加拿大  38
+trojan://e02b9927-7971-4429-8cd9-47b845960108@updates.sub-nthu.com:35005?sni=updates.sub-nthu.com&allowInsecure=0#🔈更新于10/04/10:00
+trojan://e02b9927-7971-4429-8cd9-47b845960108@updates.sub-nthu.com:35001?sni=updates.sub-nthu.com&allowInsecure=0#中国(TG频道:@kxswa)
+trojan://e02b9927-7971-4429-8cd9-47b845960108@updates.sub-nthu.com:35007?sni=updates.sub-nthu.com&allowInsecure=0#中国(TG频道:@kxswa)
+trojan://Mabd3d72@139.227.182.124:28158?sni=139.227.182.124&allowInsecure=0#韩国-tg频道:@bpjzx2-29
+trojan://dfbf0d67-f03d-4184-a224-c2d64a571f99@s2.hass.win:12340?sni=s2.hass.win&allowInsecure=0#美国(TG频道:@kxswa)
+trojan://e02b9927-7971-4429-8cd9-47b845960108@updates.sub-nthu.com:35000?sni=updates.sub-nthu.com&allowInsecure=0#中国(TG频道:@kxswa)
+trojan://fffe09c3-32c3-44ac-9201-27e12dc2bd7c@trask1.bitznet.one:32005?sni=trask1.bitznet.one&allowInsecure=0#澳大利亚-tg频道:@bpjzx2-26
+trojan://M32a0d95@14.29.230.228:13324?sni=if3d.ft3.us&allowInsecure=1#日本 M5 | 0x
+trojan://M7fe5bed@14.215.107.23:28157?sni=i23.t4v.fun&allowInsecure=1#韩国 B158 | IEPL中转、游戏 | 0x
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@hke-zf.jiashumao.net:35401?sni=hke.jiashumao.net&allowInsecure=1#CN25→v2cross.com
+trojan://fffe09c3-32c3-44ac-9201-27e12dc2bd7c@traua1.bitznet.one:32019?sni=traua1.bitznet.one&allowInsecure=0#澳大利亚(TG频道:@kxswa)
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@mlxy-zf.jiashumao.net:27171?sni=mlxy.jiashumao.net&allowInsecure=1#CN16→v2cross.com
+trojan://M0ef2eef@14.29.230.228:13330?sni=if3d.ft3.us&allowInsecure=1#法国 B102 | IEPL中转 | 0x
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@yn-zf.jiashumao.net:40375?sni=yn.jiashumao.net&allowInsecure=1#CN20→v2cross.com
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@xjpc-zf.jiashumao.net:34785?sni=xjc.jiashumao.net&allowInsecure=1#CN27→v2cross.com
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@jpd-zf.jiashumao.net:16144?sni=jpd.jiashumao.net&allowInsecure=1#CN15→v2cross.com
+trojan://M861a23a@14.29.230.228:13331?sni=if3d.ft3.us&allowInsecure=1#土耳其 B88 | IEPL中转 | 0x
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@usc-zf.jiashumao.net:26972?sni=ahbn.jiashumao.net&allowInsecure=1#US5→v2cross.com
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@tg-zf.jiashumao.net:28879?sni=tg.jiashumao.net&allowInsecure=1#CN18→v2cross.com
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@xby-zf.jiashumao.net:48501?sni=xby.jiashumao.net&allowInsecure=1#CN19→v2cross.com
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@usa-zf.jiashumao.net:42001?sni=usa.jiashumao.net&allowInsecure=1#CN14→v2cross.com
+trojan://e05c749b-7c6b-41b8-9c71-9dcf685edf4a@152.67.162.166:443?sni=152.67.162.166&allowInsecure=0#印度(TG频道:@kxswa)
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@yd.jiashumao.net:29957?sni=yd.jiashumao.net&allowInsecure=0#US7→v2cross.com
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@trqb-zf.jiashumao.net:31606?sni=trqb.jiashumao.net&allowInsecure=1#CN22→v2cross.com
+trojan://ea48cdda-6db7-4f34-9d42-7bd9d41b4740@924hk02.tfzhc.top:44388?sni=924hk02.tfzhc.top&allowInsecure=0#JP 1 → v2cross.com
+trojan://535e3e8c-2954-38a5-a278-0fa2d0397d40@trqa-zf.jiashumao.net:30606?sni=trqa.jiashumao.net&allowInsecure=1#CN21→v2cross.com
+trojan://ea48cdda-6db7-4f34-9d42-7bd9d41b4740@924hk.tfzhc.top:44393?sni=924hk.tfzhc.top&allowInsecure=0#github.com/Pawdroid - 日本  1
+trojan://728dc354-4704-4d08-805f-d14c5839da27@jp4.666676.xyz:2053?sni=jp4.666676.xyz&allowInsecure=0#github.com/Pawdroid - 日本东京Linode数据中心 4
+trojan://ea48cdda-6db7-4f34-9d42-7bd9d41b4740@1002hk1326.tfzhc.top:443?sni=1002hk1326.tfzhc.top&allowInsecure=0#github.com/Pawdroid - 加拿大  10
+trojan://ea48cdda-6db7-4f34-9d42-7bd9d41b4740@1002tw01.tfzhc.top:443?sni=1002tw01.tfzhc.top&allowInsecure=0#github.com/Pawdroid - 加拿大  29
+trojan://728dc354-4704-4d08-805f-d14c5839da27@sg3.666676.xyz:2053?sni=sg3.666676.xyz&allowInsecure=0#github.com/Pawdroid - 新加坡DigitalOcean数据中心 42
+trojan://opentunnel.net-oqtxymz6gjl3@nlt-1.opensvr.net:443?sni=nlt-1.opensvr.net&allowInsecure=0#github.com/Pawdroid - 荷兰  43
+trojan://645fc4e7-e3a3-4e82-8abd-2d71324894c4@ssrsub.t1.asuka.buzz:852?sni=ssrsub.t1.asuka.buzz&allowInsecure=0#🇺🇸 @SSRSUB-美国T01-付费推荐:dlj.tf/ssrsub
+trojan://645fc4e7-e3a3-4e82-8abd-2d71324894c4@ssrsub.t2.asuka.buzz:852?sni=ssrsub.t2.asuka.buzz&allowInsecure=0#🇺🇸 @SSRSUB-美国T02-付费推荐:dlj.tf/ssrsub
