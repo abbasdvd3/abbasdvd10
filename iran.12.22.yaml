@@ -744,7 +744,6 @@ proxy-groups:
       - iram22_5
       - iram22_6
       - iram22_7
-      - iram22_8
       - iram22_11
       - iram22_12
       - iram22_13
