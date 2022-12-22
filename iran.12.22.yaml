@@ -12,7 +12,6 @@ proxies:
   - {"type":"trojan","name":"iram22_5","server":"eu-east-ruo.openssl3.com","port":443,"password":"9KogHwaY7hVD","udp":true,"skip-cert-verify":true}
   - {"type":"ss","name":"iram22_6","server":"130.0.233.20","port":31675,"cipher":"aes-256-cfb","password":"m7pZhBG"}
   - {"type":"vmess","name":"iram22_7","ws-opts":{"path":"/"},"server":"185.242.161.206","port":25212,"uuid":"43a988d1-8c8c-4303-9e03-8d651de6f376","alterId":"0","cipher":"auto","network":"ws"}
-  - {"type":"ss","name":"iram22_10","server":"sg.securevpn.cc","port":1020,"cipher":"aes-128-gcm","password":"202212000000000000000020","plugin":"obfs","plugin-opts":{"host":"bulianglin.com"}}
   - {"type":"vmess","name":"iram22_11","ws-opts":{"path":"/pkhhvws"},"server":"amshare.jingledev.me","port":443,"uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"none","network":"ws","tls":true}
   - {"type":"vmess","name":"iram22_12","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.189.189","port":443,"uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
   - {"type":"vmess","name":"iram22_13","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"190.93.246.195","port":443,"uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
@@ -379,7 +378,6 @@ proxy-groups:
       - iram22_5
       - iram22_6
       - iram22_7
-      - iram22_10
       - iram22_11
       - iram22_12
       - iram22_13
@@ -747,7 +745,6 @@ proxy-groups:
       - iram22_6
       - iram22_7
       - iram22_8
-      - iram22_10
       - iram22_11
       - iram22_12
       - iram22_13
