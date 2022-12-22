@@ -5,6 +5,56 @@ mode: Rule
 log-level: info
 external-controller: 0.0.0.0:9090
 proxies:
+  - {"type":"trojan","name":"iram22_1","server":"zxcvbn@os-tr-3.cats22.net","port":443,"password":"18844","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"iram22_2","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"34.145.145.76","port":443,"uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_3","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"198.41.212.123","port":443,"uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"iram22_4","server":"43.206.221.164","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"trojan","name":"iram22_5","server":"eu-east-ruo.openssl3.com","port":443,"password":"9KogHwaY7hVD","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"iram22_6","server":"130.0.233.20","port":31675,"cipher":"aes-256-cfb","password":"m7pZhBG"}
+  - {"type":"vmess","name":"iram22_7","ws-opts":{"path":"/"},"server":"185.242.161.206","port":25212,"uuid":"43a988d1-8c8c-4303-9e03-8d651de6f376","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"trojan","name":"iram22_8","server":"zxcvbn@os1.cats22.net","port":443,"password":"18844","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"iram22_9","server":"SS-17.t8737.shop","port":7447,"cipher":"chacha20-ietf-poly1305","password":"8fe02cb9-8d30-432c-818d-2ebfa2387691"}
+  - {"type":"ss","name":"iram22_10","server":"sg.securevpn.cc","port":1020,"cipher":"aes-128-gcm","password":"202212000000000000000020","plugin":"obfs","plugin-opts":{"host":"bulianglin.com"}}
+  - {"type":"vmess","name":"iram22_11","ws-opts":{"path":"/pkhhvws"},"server":"amshare.jingledev.me","port":443,"uuid":"532a5f12-cadb-46e4-963f-ee7c075e40f0","alterId":"0","cipher":"none","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_12","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"203.30.189.189","port":443,"uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_13","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"190.93.246.195","port":443,"uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"iram22_14","server":"43.200.245.35","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vmess","name":"iram22_15","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.188.189","port":443,"uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"iram22_16","server":"43.201.52.252","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vmess","name":"iram22_17","ws-opts":{"path":"/"},"server":"51.77.158.169","port":2096,"uuid":"c92fd902-b5d3-4208-bb48-630b1c7babea","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"iram22_18","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore-2.sharecentre.online"}},"server":"198.41.208.172","port":443,"uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"iram22_19","server":"13.215.174.243","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"trojan","name":"iram22_20","server":"hn.xiaohouzi.club","port":18460,"password":"6a5cb4b7-8dad-3077-b21c-6f47e8dfb9af","udp":true,"skip-cert-verify":true,"sni":"aru05.xiaohouzi.club"}
+  - {"type":"vmess","name":"iram22_21","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"188.114.99.10","port":443,"uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_22","ws-opts":{"path":"/shirker","headers":{"host":"sg-gcore-2.sharecentre.online"}},"server":"cf-lt.sharecentre.online","port":443,"uuid":"20e92881-5fb4-4b05-bc77-57929476dc69","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_23","ws-opts":{"path":"/huhu"},"server":"hucloud.tk","port":443,"uuid":"2df3ed4a-4313-45f9-b742-2f02ce593a6e","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"trojan","name":"iram22_24","server":"zxcvbn@os-tr-1.cats22.net","port":443,"password":"18844","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"iram22_25","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.190.191","port":443,"uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_26","ws-opts":{"path":"/ECTCJ0DF","headers":{"host":"lg1.trump2023.us"}},"server":"190.93.245.2","port":443,"uuid":"40d496a6-ceeb-4096-baeb-4cc52b205621","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"iram22_27","server":"13.213.2.160","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"iram22_28","server":"43.201.57.66","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"iram22_29","server":"43.207.67.219","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vmess","name":"iram22_30","ws-opts":{"path":"/"},"server":"198.244.232.39","port":2096,"uuid":"df46384b-1ad5-40a6-812e-48d60fb80283","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"iram22_31","ws-opts":{"path":"/IYKLD53M","headers":{"host":"opfr1.v2rayfree1.xyz"}},"server":"141.193.213.20","port":443,"uuid":"4612618c-24cd-4379-9924-cfdf3d61fa5a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_32","ws-opts":{"path":"/Falling42gcoresgnode","headers":{"host":"gcoresg.sylu.cyou"}},"server":"162.159.135.42","port":443,"uuid":"12e08256-da5d-4b1c-aeca-8c973ccceef8","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"iram22_33","server":"43.201.108.141","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vmess","name":"iram22_34","ws-opts":{"path":"/A2DJOPFT","headers":{"host":"lg10.cfcdn1.xyz"}},"server":"141.101.114.32","port":443,"uuid":"17b2a313-37a0-4945-a8e4-e63375506b4a","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"ss","name":"iram22_35","server":"52.13.16.81","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"vmess","name":"iram22_36","ws-opts":{"path":"/pineapple","headers":{"host":"PineApple.CLOUDFLARE.QUEST"}},"server":"172.64.157.132","port":2082,"uuid":"36fa45db-2d4a-4295-a1fe-223836989878","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"iram22_37","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.191.192","port":443,"uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_38","http-opts":{"path":["/"]},"server":"47.242.85.127","port":47460,"uuid":"8655a473-6c7f-41b2-b102-5edc30970e3a","alterId":"0","cipher":"auto","network":"http"}
+  - {"type":"ss","name":"iram22_39","server":"13.250.54.18","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"iram22_40","server":"43.201.59.8","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"trojan","name":"iram22_41","server":"zxcvbn@os14.cats22.net","port":443,"password":"18844","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"iram22_42","ws-opts":{"path":"/jhndsmlanj11223","headers":{"host":"129.150.44.64"}},"server":"129.150.44.64","port":46075,"uuid":"da257e73-f02b-45ab-9916-7baf154c47a3","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"iram22_43","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"203.30.189.190","port":443,"uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_44","ws-opts":{"path":"/dongtaiwang.com","headers":{"host":"clash6.ssr-free.xyz"}},"server":"219.76.13.180","port":443,"uuid":"5f64fa65-7b14-49c5-954d-aa15c6bfcacd","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_45","ws-opts":{"path":"/5QNROSRV","headers":{"host":"oplg1.zhujicn2.com"}},"server":"23.227.38.39","port":443,"uuid":"56a2188b-2ab7-402c-b9b8-34847fdf0958","alterId":"0","cipher":"auto","network":"ws","tls":true}
+  - {"type":"vmess","name":"iram22_46","ws-opts":{"path":"/pineapple","headers":{"host":"PineApple.CLOUDFLARE.QUEST"}},"server":"104.18.100.193","port":2082,"uuid":"36fa45db-2d4a-4295-a1fe-223836989878","alterId":"0","cipher":"auto","network":"ws"}
+  - {"type":"vmess","name":"iram22_47","server":"94.177.8.87","port":39064,"uuid":"2F094845-E2BD-EBF7-DEB7-995992436FAF","alterId":"0","cipher":"auto","network":"tcp","tls":true}
+  - {"type":"trojan","name":"iram22_48","server":"zxcvbn@os2a.cats22.net","port":443,"password":"18844","udp":true,"skip-cert-verify":true}
+  - {"type":"ss","name":"iram22_49","server":"13.229.105.31","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
+  - {"type":"ss","name":"iram22_50","server":"162.251.61.47","port":805,"cipher":"chacha20-ietf-poly1305","password":"G!yBwPWH3Vao"}
   - {"type":"ss","name":"@abbasdvd10_1","server":"213.183.53.177","port":9093,"cipher":"aes-256-cfb","password":"wfLC2y7rzZyCmuyt"}
   - {"type":"ss","name":"@abbasdvd10_2","server":"213.183.53.177","port":9003,"cipher":"aes-256-cfb","password":"JdmRK9gMEqFgs8nP"}
   - {"type":"ss","name":"@abbasdvd10_3","server":"213.183.53.177","port":9041,"cipher":"aes-256-cfb","password":"U6qnYRhfyDmn8sgn"}
@@ -324,6 +374,56 @@ proxy-groups:
     type: select
     proxies:
       - 🥷 test
+      - iram22_1
+      - iram22_2
+      - iram22_3
+      - iram22_4
+      - iram22_5
+      - iram22_6
+      - iram22_7
+      - iram22_8
+      - iram22_9
+      - iram22_10
+      - iram22_11
+      - iram22_12
+      - iram22_13
+      - iram22_14
+      - iram22_15
+      - iram22_16
+      - iram22_17
+      - iram22_18
+      - iram22_19
+      - iram22_20
+      - iram22_21
+      - iram22_22
+      - iram22_23
+      - iram22_24
+      - iram22_25
+      - iram22_26
+      - iram22_27
+      - iram22_28
+      - iram22_29
+      - iram22_30
+      - iram22_31
+      - iram22_32
+      - iram22_33
+      - iram22_34
+      - iram22_35
+      - iram22_36
+      - iram22_37
+      - iram22_38
+      - iram22_39
+      - iram22_40
+      - iram22_41
+      - iram22_42
+      - iram22_43
+      - iram22_44
+      - iram22_45
+      - iram22_46
+      - iram22_47
+      - iram22_48
+      - iram22_49
+      - iram22_50
       - '@abbasdvd10_1'
       - '@abbasdvd10_2'
       - '@abbasdvd10_3'
@@ -644,6 +744,56 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - iram22_1
+      - iram22_2
+      - iram22_3
+      - iram22_4
+      - iram22_5
+      - iram22_6
+      - iram22_7
+      - iram22_8
+      - iram22_9
+      - iram22_10
+      - iram22_11
+      - iram22_12
+      - iram22_13
+      - iram22_14
+      - iram22_15
+      - iram22_16
+      - iram22_17
+      - iram22_18
+      - iram22_19
+      - iram22_20
+      - iram22_21
+      - iram22_22
+      - iram22_23
+      - iram22_24
+      - iram22_25
+      - iram22_26
+      - iram22_27
+      - iram22_28
+      - iram22_29
+      - iram22_30
+      - iram22_31
+      - iram22_32
+      - iram22_33
+      - iram22_34
+      - iram22_35
+      - iram22_36
+      - iram22_37
+      - iram22_38
+      - iram22_39
+      - iram22_40
+      - iram22_41
+      - iram22_42
+      - iram22_43
+      - iram22_44
+      - iram22_45
+      - iram22_46
+      - iram22_47
+      - iram22_48
+      - iram22_49
+      - iram22_50
       - '@abbasdvd10_1'
       - '@abbasdvd10_2'
       - '@abbasdvd10_3'
