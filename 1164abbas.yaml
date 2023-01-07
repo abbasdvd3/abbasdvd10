@@ -1178,8 +1178,8 @@ proxy-groups:
   - name: ♻️ url-test
     type: url-test
     url: http://www.gstatic.com/generate_204
-    interval: 300
-    tolerance: 50
+    interval: 500
+    tolerance: 150
     proxies:
       - '@abbasdvd10✌🤘_1'
       - '@abbasdvd10✌🤘_2'
@@ -6254,4 +6254,4 @@ rules:
   - IP-CIDR,101.198.192.0/19,🚀 test,no-resolve
   - IP-CIDR,101.199.196.0/22,🚀 test,no-resolve
   - GEOIP,IR,🚀 test
-  - MATCH,🚀 test
+  - MATCH,♻️ url-test
