@@ -2347,6 +2347,7 @@ proxy-groups:
       - '@abbasdvd10✌🤘_1164'
   - name: 🌍 load_balance
     type: url-test
+    url: http://www.gstatic.com/generate_204
     interval: 300   
     proxies:
       - '@abbasdvd10✌🤘_1'
