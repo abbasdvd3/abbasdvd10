@@ -190,7 +190,7 @@ proxy-groups:
     interval: 300
     use:
       - others
-  - name: ♻️ 
+  - name: ♻️ url-test 
     type: url-test
     use:
       - Global
