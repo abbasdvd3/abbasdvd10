@@ -77,7 +77,7 @@ proxy-groups:
       - 🇨🇳 
       - 🇹🇼 
       - 🇭🇰 
-      - 🇨🇳 
+      - Asia 
       - 🚒 Pool
       - 🚓 Speed
       - 🚑 
@@ -148,7 +148,7 @@ proxy-groups:
     interval: 300
     use:
       - Taiwan      
-  - name: 🇨🇳 
+  - name: Asia
     type: url-test
     url: http://www.google.com
     interval: 300
