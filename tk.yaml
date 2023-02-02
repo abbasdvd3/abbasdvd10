@@ -60,155 +60,155 @@ tun:
 proxies:  
   
 proxy-groups:
-  - name: 🎯 全局选择
+  - name: 🎯 select
     type: select
     proxies:
-      - ♻️ 自动选择
-      - ♠️ SS节点
-      - ♣️ SSR节点
-      - 🏴‍☠️ 其他国家
-      - 🇿🇦 非洲节点
-      - 🔃 失败切换
-      - 🔀 负载均衡
-      - 🇬🇧 欧洲节点
-      - 🇦🇺 澳洲节点
-      - 🇵🇾 南美节点
-      - 🇺🇸 北美节点
-      - 🇨🇳 亚洲节点
-      - 🇹🇼 台湾节点
-      - 🇭🇰 香港节点
-      - 🇨🇳 中国节点
-      - 🚒 Pool节点
-      - 🚓 Speed节点
-      - 🚑 中转节点
-      - ♦️ Trojan节点
-      - ♥️ V2ray节点
-      - 🌐 全球直连
-  - name: 👉 选择节点
+      - ♻️ url-test
+      - ♠️ SS
+      - ♣️ SSR
+      - 🏴‍☠️ url-test
+      - 🇿🇦 
+      - 🔃 fallback
+      - 🔀 load-balance
+      - 🇬🇧 
+      - 🇦🇺 
+      - 🇵🇾 
+      - 🇺🇸 
+      - 🇨🇳 
+      - 🇹🇼 
+      - 🇭🇰 
+      - 🇨🇳 
+      - 🚒 Pool
+      - 🚓 Speed
+      - 🚑 
+      - ♦️ Trojan
+      - ♥️ V2ray
+      - 🌐 Global
+  - name: 👉 selec
     type: select
     use:
       - Global      
-  - name: ♠️ SS节点
+  - name: ♠️ SS
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     use:
       - ss
-  - name: ♣️ SSR节点
+  - name: ♣️ SSR
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     use:
       - ssr
-  - name: ♥️ V2ray节点
+  - name: ♥️ V2ray
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - v2ray
-  - name: ♦️ Trojan节点
+  - name: ♦️ Trojan
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - trojan 
-  - name: 🚓 Speed节点
+  - name: 🚓 Speed
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - Speed      
-  - name: 🚑 中转节点
+  - name: 🚑 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - Relay 
-  - name: 🚒 Pool节点
+  - name: 🚒 Pool
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - Pool      
-  - name: 🇨🇳 中国节点
+  - name: 🇨🇳 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - China
-  - name: 🇭🇰 香港节点
+  - name: 🇭🇰 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - HongKong
-  - name: 🇹🇼 台湾节点
+  - name: 🇹🇼 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - Taiwan      
-  - name: 🇨🇳 亚洲节点
+  - name: 🇨🇳 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - Asia
-  - name: 🇺🇸 北美节点
+  - name: 🇺🇸 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - North America
-  - name: 🇵🇾 南美节点
+  - name: 🇵🇾 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - South America   
-  - name: 🇦🇺 澳洲节点
+  - name: 🇦🇺 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - Oceania
-  - name: 🇬🇧 欧洲节点
+  - name: 🇬🇧 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - Europe
-  - name: 🇿🇦 非洲节点
+  - name: 🇿🇦 
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - Africa
-  - name: 🏴‍☠️ 其他国家
+  - name: 🏴‍☠️ url-test
     type: url-test
     url: http://www.google.com
     interval: 300
     use:
       - others
-  - name: ♻️ 自动选择
+  - name: ♻️ 
     type: url-test
     use:
       - Global
     url: http://www.google.com
     interval: 300
-  - name: 🔀 负载均衡
+  - name: 🔀 load-balance
     type: load-balance
     use:
       - Global
     url: http://www.google.com
     interval: 100
-  - name: 🔃 失败切换
+  - name: 🔃 fallback
     type: fallback
     use:
       - Global
     url: http://www.google.com
     interval: 300
-  - name: 🌐 全球直连
+  - name: 🌐 Global
     type: select
     proxies:
       - DIRECT
@@ -378,4 +378,4 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204
       
 rules:
-  - MATCH,🎯 全局选择    
+  - MATCH,🎯 select   
