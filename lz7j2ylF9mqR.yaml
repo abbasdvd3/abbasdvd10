@@ -95,7 +95,7 @@ dns:
     - '144.144.144.144'
     - 'tls://1.12.12.12:853'
     - 'tls://223.5.5.5:853'
-    - 'system'
+    #- 'system'
   listen: 0.0.0.0:1053
   use-hosts: true
   # redir-host / fake-ip
@@ -1156,4 +1156,4 @@ rules:
   ## rules inner, recommended untuk non kuota reguler
   # - AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
   # - IN-TYPE,inner,PROXY
-  - MATCH,Proxy
+  - MATCH,PROXY
