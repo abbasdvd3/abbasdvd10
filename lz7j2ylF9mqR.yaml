@@ -1,0 +1,1159 @@
+# port: 9494
+# socks-port: 9595
+# mixed-port: 9696
+redir-port: 9797
+tproxy-port: 0
+mode: rule
+allow-lan: true
+unified-delay: true
+auto-redir: true
+enable-process: true
+bind-address: '*'
+# info / warning / error / debug / silent
+log-level: warning
+ipv6: false
+geodata-mode: false
+geodata-loader: memconservative
+external-controller: 0.0.0.0:9090 
+# external-controller-tls: 0.0.0.0:9091 # RESTful API HTTPS
+# secret: "123456"
+external-ui: ./dashboard/dist
+tcp-concurrent: false
+inbound-tfo: false
+interface-name: ""
+# routing-mark: 233
+geox-url:
+  mmdb: "https://raw.githubusercontent.com/abbasdvd3/clash/main/Country.mmdb"
+  geoip: "https://raw.githubusercontent.com/abbasdvd3/clash/main/GeoIP.dat"
+  geosite: "https://raw.githubusercontent.com/abbasdvd3/clash/main/GeoSite.dat"
+
+find-process-mode: always # always, strict, off
+tls:
+  certificate: string 
+  private-key: string 
+  custom-certifactes:
+    - |
+      -----BEGIN CERTIFICATE-----
+      format/pem...
+      -----END CERTIFICATE-----
+experimental:
+  ignore-resolve-fail: true
+  sniff-tls-sni: true
+  udp-fallback-match: true
+profile:
+  store-fake-ip: true
+  store-selected: true
+  tracing: true
+
+sniffer:
+  enable: true
+  force-dns-mapping: false
+  parse-pure-ip: false
+  override-destination: false
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+  force-domain:
+    - '+.v2ex.com'
+  skip-domain:
+    - '+.google.com'
+  sniffing:
+    - tls
+    - http
+  port-whitelist:
+    - "80"
+    - "443"
+tun:
+  enable: true
+  device: utun
+  mtu: 9000
+  stack: system
+  dns-hijack:
+    - any:53
+    - tcp://any:53
+  auto-route: true
+  auto-detect-interface: true
+  inet4-address: 172.19.0.1/30
+  inet6-address: [fdfe:dcba:9876::1/126]
+  # include_android_user:
+    # - 0
+    # - 10
+  # include_package:
+  # - com.android.chrome
+  # exclude_package:
+    # - com.whatsapp
+dns:
+  enable: true
+  ipv6: false
+  prefer-h3: false
+  default-nameserver:
+    - '1.1.1.1'
+    - '8.8.8.8'
+    - '144.144.144.144'
+    - 'tls://1.12.12.12:853'
+    - 'tls://223.5.5.5:853'
+    - 'system'
+  listen: 0.0.0.0:1053
+  use-hosts: true
+  # redir-host / fake-ip
+  enhanced-mode: fake-ip
+  fake-ip-range: 28.0.0.1/8 # 198.18.0.1/16 
+  fake-ip-filter:
+    - '+.lan'
+    - '+.stun.*.*'
+    - '+.stun.*.*.*'
+    - '+.stun.*.*.*.*'
+    - '+.stun.*.*.*.*.*'
+  nameserver:
+    - '1.1.1.1'
+    - 'tls://1.0.0.1:853'
+    - '8.8.8.8'
+    - 'tls://8.8.4.4:853'
+    - '144.144.144.144'
+    # - '127.0.0.1'
+    # - tls://223.5.5.5:853 
+    # - https://doh.pub/dns-query 
+    # - https://dns.alidns.com/dns-query#h3=true # 
+    # - https://mozilla.cloudflare-dns.com/dns-query#DNS&h3=true 
+    # - dhcp://en0 
+    # - quic://dns.adguard.com:784     
+    # - 'tls://1.1.1.1:853' # DNS over TLS
+    # - 'tls://1dot1dot1dot1.cloudflare-dns.com:853'
+    # - dhcp://rmnet_data+ # dns from dhcp
+    # - https://doh.pub/dns-query # DNS over HTTPS
+    # - https://dns.alidns.com/dns-query#h3=true
+    # - https://mozilla.cloudflare-dns.com/dns-query#clash&h3=true
+    # - '8.8.8.8#en0' 
+  # proxy-server-nameserver:
+   #  - '1.1.1.1'
+   # - https://dns.google/dns-query
+   # - tls://one.one.one.one
+  # nameserver-policy:
+    # '+.googlesyndication.com': 1.1.1.1
+    # 'geosite:category-ads-all': 127.0.0.1
+    # "rule-set:global,dns": 8.8.8.8
+  # fallback:
+    # - 'https://8.8.8.8/dns-query'
+    # - 'tcp://8.8.4.4'
+    # - 'quic://dns.adguard.com:784' # DNS over QUIC
+    # - tcp://1.1.1.1
+    # - 'tcp://1.1.1.1#ProxyGroupName'
+  # fallback-filter:
+    # geoip: false
+    # geoip-code: 'IR'
+    # geosite:
+      # # - gfw
+    # ipcidr:
+      # # - '240.0.0.0/4'
+      # # - '0.0.0.0/8'
+      # # - '10.0.0.0/8'
+      # # - '100.64.0.0/10'
+      # # - '127.0.0.0/8'
+      # # - '169.254.0.0/16'
+      # # - '172.16.0.0/12'
+      # # - '192.0.0.0/24'
+      # # - '192.0.2.0/24'
+      # # - '192.88.99.0/24'
+      # # - '192.168.0.0/16'
+      # # - '198.18.0.0/15'
+      # # - '198.51.100.0/24'
+      # # - '203.0.113.0/24'
+      # # - '224.0.0.0/3'
+      # # - '240.0.0.0/4'
+      # # - '::1/128'
+      # # - '64:ff9b:1::/48'
+      # # - 'fc00::/7'
+      # # - 'fe80::/10'
+    # domain:
+      # - '+.google.com'
+      # - '+.facebook.com'
+      # - '+.youtube.com'
+      # - '+.github.com'
+      # - '+.gvt1.com'
+      # - '+.twitter.com'
+      # - '+.bing.com'
+proxies:
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    disable-udp: true
+    proxies:
+      - "FALLBACK"
+      - "URL-TEST"
+      - "Relay"
+  - name: "FALLBACK"
+    type: fallback
+    use:
+      - "provider1"
+      - "provider2"
+      - "provider3"
+      - "provider4"
+      - "provider5"
+      - "provider6"
+      - "provider7"
+      - "provider8"
+      - "provider9"
+      - "provider10"
+      - "provider11"
+      - "provider12"
+      - "provider13"
+      - "provider14"
+      - "provider15"
+      - "provider16"
+      - "provider17"
+      - "provider18"
+      - "provider19"
+      - "provider20"
+      - "provider21"
+      - "provider22"
+      - "provider23"
+      - "provider24"
+      - "provider26"
+      - "provider27"
+      - "provider28"
+      - "provider29"
+      - "provider30"
+      - "provider31"
+      - "provider32"
+      - "provider33"
+      - "provider34"
+      - "provider35"
+      - "provider36"
+      - "provider37"
+      - "provider38"
+      - "provider39"
+      - "provider40"
+      - "provider41"
+      - "provider42"
+      - "provider43"
+      - "provider44"
+      - "provider45"
+      - "provider46"
+      - "provider47"
+      - "provider48"
+      - "provider49"
+      - "provider50"
+      - "provider51"
+      - "provider52"
+      - "provider53"
+      - "provider54"
+    # tolerance: 50
+    lazy: true
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 300
+
+  - name: "URL-TEST"
+    type: url-test
+    use:
+      - "provider1"
+      - "provider2"
+      - "provider3"
+      - "provider4"
+      - "provider5"
+      - "provider6"
+      - "provider7"
+      - "provider8"
+      - "provider9"
+      - "provider10"
+      - "provider11"
+      - "provider12"
+      - "provider13"
+      - "provider14"
+      - "provider15"
+      - "provider16"
+      - "provider17"
+      - "provider18"
+      - "provider19"
+      - "provider20"
+      - "provider21"
+      - "provider22"
+      - "provider23"
+      - "provider24"
+      - "provider26"
+      - "provider27"
+      - "provider28"
+      - "provider29"
+      - "provider30"
+      - "provider31"
+      - "provider32"
+      - "provider33"
+      - "provider34"
+      - "provider35"
+      - "provider36"
+      - "provider37"
+      - "provider38"
+      - "provider39"
+      - "provider40"
+      - "provider41"
+      - "provider42"
+      - "provider43"
+      - "provider44"
+      - "provider45"
+      - "provider46"
+      - "provider47"
+      - "provider48"
+      - "provider49"
+      - "provider50"
+      - "provider51"
+      - "provider52"
+      - "provider53"
+      - "provider54"
+    # tolerance: 50
+    lazy: true
+    url: "https://cp.cloudflare.com/generate_204"
+    interval: 300
+
+  - name: "Relay"
+    type: relay
+    use:
+      - "provider1"
+      - "provider2"
+      - "provider3"
+      - "provider4"
+      - "provider5"
+      - "provider6"
+      - "provider7"
+      - "provider8"
+      - "provider9"
+      - "provider10"
+      - "provider11"
+      - "provider12"
+      - "provider13"
+      - "provider14"
+      - "provider15"
+      - "provider16"
+      - "provider17"
+      - "provider18"
+      - "provider19"
+      - "provider20"
+      - "provider21"
+      - "provider22"
+      - "provider23"
+      - "provider24"
+      - "provider26"
+      - "provider27"
+      - "provider28"
+      - "provider29"
+      - "provider30"
+      - "provider31"
+      - "provider32"
+      - "provider33"
+      - "provider34"
+      - "provider35"
+      - "provider36"
+      - "provider37"
+      - "provider38"
+      - "provider39"
+      - "provider40"
+      - "provider41"
+      - "provider42"
+      - "provider43"
+      - "provider44"
+      - "provider45"
+      - "provider46"
+      - "provider47"
+      - "provider48"
+      - "provider49"
+      - "provider50"
+      - "provider51"
+      - "provider52"
+      - "provider53"
+      - "provider54"
+  - name: "block"
+    type: select
+    proxies:
+      - "FALLBACK"
+      - "REJECT"
+proxy-providers:
+  provider1:
+    type: "http"
+    url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider1.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider2:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/clash/main/3april3.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider2.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider3:
+    type: "http"
+    url: "https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider3.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider4:
+    type: "http"
+    url: "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider4.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider5:
+    type: "http"
+    url: "https://raw.githubusercontent.com/colatiger/clash-config/master/clash.yml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider5.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider6:
+    type: "http"
+    url: "https://raw.fastgit.org/freefq/free/master/v2"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider6.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider7:
+    type: "file"
+    url: "https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider7.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider8:
+    type: "http"
+    url: "https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider8.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider9:
+    type: "http"
+    url: "https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider9.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider10:
+    type: "http"
+    url: "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider10.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider11:
+    type: "http"
+    url: "https://sub.nicevpn.top/Clash.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider11.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider12:
+    type: "http"
+    url: "https://clashnode.com/wp-content/uploads/2023/05/20230525.yaml"
+    path: ./assets/proxy_providers/config/provider12.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider13:
+    type: "http"
+    url: "https://raw.iqiq.io/anaer/Sub/main/clash.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider13.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider14:
+    type: "http"
+    url: "https://nodefree.org/dy/2023/05/20230525.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider14.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider15:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhkaa0%2Fpermalink%2Fmain%2Fproxy%2FV2ray&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider15.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider16:
+    type: "http"
+    url: "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider16.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider17:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwuzhuohua168%2Fclash5%2Fmain%2F5&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider17.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider18:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fyzcjd%2Fjiedian%2Fmain%2F%2540yzcjd&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider18.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider19:
+    type: "http"
+    url: "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider19.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider20:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Ffreefq.neocities.org%2Ffree.txt&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider20.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider21:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fadobe.zhuzhu12.com%2Flink%2FrbPHm87z7HiuVw68%3Fsub%3D3%26extend%3D1&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider21.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider22:
+    type: "http"
+    url: "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider22.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider23:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmfuu%2Fv2ray%2Fmaster%2Fv2ray&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider23.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider24:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.fastgit.org%2FPawdroid%2FFree-servers%2Fmain%2Fsub&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider24.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider25:
+    type: "http"
+    url: "https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider25.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204" 
+  provider26:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FJsnzkpg%2FJsnzkpg%2FJsnzkpg%2FJsnzkpg&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider26.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204" 
+  provider27:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fbulink.me%2Fsub%2Fge4wfp%2Fvm&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider27.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204" 
+  provider28:
+    type: "http"
+    url: "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider28.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204" 
+  provider29:
+    type: "http"
+    url: "https://nodefree.org/dy/2023/06/20230614.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider29.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204" 
+  provider30:
+    type: "http"
+    url: "https://raw.githubusercontent.com/zhlx2835/freefq/main/clash.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider30.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204" 
+  provider31:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2Fe6f02cfba1a94a029c5ec2c5d17b71ba%2Ffiles%2F47e51fcbb1c84163b37c596dcd6fb754%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider31.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204" 
+  provider32:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/clash/main/Ios.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider32.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider33:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fchfchf0306%2Fjeidian4.18%2Fmain%2F4.18&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider33.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider34:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpastebin.com%2Fraw%2FGxR5pELe&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider34.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider35:
+    type: "http"
+    url: "https://raw.githubusercontent.com/cxr9912/cxr2022/main/ss.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider35.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider36:
+    type: "http"
+    url: "https://raw.githubusercontent.com/freefq/free/master/v2"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider36.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider37:
+    type: "http"
+    url: "https://wefound.cc/freenode/2023/06/20230614.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider37.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider38:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F07a7d580494d45969bd46a14cdb01ba8%2Ffiles%2F683e79d508c7449baa7078e234e24e74%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider38.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider39:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F07a7d580494d45969bd46a14cdb01ba8%2Ffiles%2F683e79d508c7449baa7078e234e24e74%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider39.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider40:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F26c9d923f5084ea48011ec464388c072%2Ffiles%2F26def9f134174d678c2a40fa6f105df2%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider40.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider41:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2Fd44cc182226f47a38cd85c83e55a0602%2Ffiles%2Fa301999ada85423383c59ac3c1f5c902%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider41.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider42:
+    type: "http"
+    url: "https://openit-fq.ml/Clash.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider42.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider43:
+    type: "http"
+    url: "https://sub.pmsub.me/clash.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider43.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider44:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fbulink.me%2Fsub%2Fmqxkn%2Fvm&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider44.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider45:
+    type: "http"
+    url: "https://jetflow.site/api/v1/public/services/127720/0e90044aa40a35307494342da3ade301?client=clash"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider45.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider46:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fjiang.netlify.app%2F&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider46.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider47:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Ff.kxyz.eu.org%2Ff.php%3Fr%3DaHR0cHM6Ly9yc3Mub2tnZ3Jzcy5idXp6L2xpbmsvMHEzTGJGbU9uM0NTQWZYeT9tdT0y&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider47.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider48:
+    type: "http"
+    url: "https://clashnode.com/wp-content/uploads/2023/06/20230614.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider48.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider49:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.wmlabs.net%2Fraw%2F866a5fee4436&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider49.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider50:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/clash/main/Ios.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider50.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider51:
+    type: "http"
+    url: "https://proxy.yiun.xyz/clash/proxies"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider51.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider52:
+    type: "http"
+    url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2Ff19e2944302a470686689b8d6d32177f%2Ffiles%2F3bfa58d0eb954043aeb2d3eb07b47db8%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider52.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider53:
+    type: "http"
+    url: "http://proxies.haisto.cn/clash/proxies"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider53.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider54:
+    type: "file"
+    path: ./assets/proxy_providers/config/provider54.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider55:
+    type: "http"
+    url: "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/update/provider/provider.yml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider55.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider56:
+    type: "http"
+    url: "https://free.iam7.tk/clash/config"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider56.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider57:
+    type: "http"
+    url: "https://proxy.yugogo.xyz/clash/config"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider57.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider58:
+    type: "http"
+    url: "https://klausvpn.posyao.com/clash/config"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider58.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider59:
+    type: "http"
+    url: "https://clash.myvm.cc/clash/config"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider59.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"             
+rule-providers:
+
+  block:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./assets/rule-providers/block.yaml
+    interval: 86400
+
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./assets/rule-providers/reject.yaml
+    interval: 86400
+    
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./assets/rule-providers/icloud.yaml
+    interval: 86400
+    
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./assets/rule-providers/apple.yaml
+    interval: 86400
+    
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./assets/rule-providers/google.yaml
+    interval: 86400
+    
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./assets/rule-providers/proxy.yaml
+    interval: 86400
+    
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./assets/rule-providers/direct.yaml
+    interval: 86400
+    
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./assets/rule-providers/private.yaml
+    interval: 86400
+    
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./assets/rule-providers/gfw.yaml
+    interval: 86400
+    
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
+    path: ./assets/rule-providers/greatfire.yaml
+    interval: 86400
+    
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./assets/rule-providers/tld-not-cn.yaml
+    interval: 86400
+    
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./assets/rule-providers/telegramcidr.yaml
+    interval: 86400
+    
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./assets/rule-providers/lancidr.yaml
+    interval: 86400
+    
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./assets/rule-providers/applications.yaml
+    interval: 86400
+    
+  porn:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/category-porn.yaml
+    path: ./assets/rule-providers/porn.yaml
+    interval: 86400
+    
+  iran:
+    type: http
+    behavior: classical
+    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./assets/rule-providers/iran.yaml
+    interval: 432000
+    
+rules:
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,github.io,DIRECT
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,github,DIRECT
+  - DOMAIN-KEYWORD,appteka.store,DIRECT
+  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,github.io,DIRECT
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,github,DIRECT
+  - DOMAIN-KEYWORD,appteka.store,DIRECT
+  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+  - RULE-SET,iran,DIRECT
+  
+  
+  
+  
+  - DOMAIN-SUFFIX,t.me,PROXY
+  - DOMAIN-SUFFIX,t.me,PROXY
+  - DOMAIN-SUFFIX,tdesktop.com,PROXY
+  - DOMAIN-SUFFIX,telegra.ph,PROXY
+  - DOMAIN-SUFFIX,telegram.me,PROXY
+  - DOMAIN-SUFFIX,telegram.org,PROXY
+  - IP-CIDR,91.108.4.0/22,PROXY,no-resolve 
+  - IP-CIDR,91.108.8.0/22,PROXY,no-resolve 
+  - IP-CIDR,91.108.12.0/22,PROXY,no-resolve 
+  - IP-CIDR,91.108.16.0/22,PROXY,no-resolve 
+  - IP-CIDR,91.108.56.0/22,PROXY,no-resolve
+  - IP-CIDR,149.154.160.0/20,PROXY,no-resolve 
+  - DOMAIN-KEYWORD,instagram,PROXY
+  - DOMAIN-KEYWORD,whatsapp,PROXY
+  - DOMAIN-KEYWORD,facebook,PROXY
+  - DOMAIN-SUFFIX,cdninstagram.com,PROXY
+  - DOMAIN-SUFFIX,instagram.com,PROXY
+  - DOMAIN-SUFFIX,instanthq.com,PROXY
+  - DOMAIN-SUFFIX,instanthq.com,PROXY
+  - DOMAIN-SUFFIX,whatsapp.com,PROXY
+  - DOMAIN-SUFFIX,whatsapp.net,PROXY
+  - DST-PORT,5222,PROXY
+  - DST-PORT,5223,PROXY
+  - DST-PORT,5228,PROXY
+  - DST-PORT,5242,PROXY
+  - DST-PORT,3478,PROXY
+  - DST-PORT,1400,PROXY
+  - DST-PORT,443,PROXY,UDP
+  - IP-CIDR,1.1.1.1/32,PROXY
+  - IP-CIDR,144.144.144.144/32,PROXY
+  - RULE-SET,google,PROXY
+  - RULE-SET,telegramcidr,PROXY
+  - RULE-SET,proxy,PROXY
+  - GEOIP,telegram,PROXY
+  - GEOSITE,telegram,PROXY
+  
+  
+  
+  ## block ads
+  # - DOMAIN-SUFFIX,googlesyndication.com,PROXY
+  - AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
+  - GEOSITE,category-ads-all,REJECT
+  - RULE-SET,block,REJECT
+  ## direct FCM
+  # - AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
+  # - AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
+  ## block udp/quic YouTube
+  # - AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
+  # - AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
+  # fix dnsleak
+  - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+  - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
+  - IP-CIDR6,::1/128,REJECT,no-resolve
+  ## rules telegram
+
+  ## direct ntp
+  # - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+  # - DST-PORT,123/136/137-139,DIRECT,udp
+  ## rules inner, recommended untuk non kuota reguler
+  # - AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
+  # - IN-TYPE,inner,PROXY
+  - MATCH,Proxy
