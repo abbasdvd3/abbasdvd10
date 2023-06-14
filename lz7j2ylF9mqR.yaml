@@ -1126,7 +1126,7 @@ rules:
   - IP-CIDR,144.144.144.144/32,PROXY
   - RULE-SET,google,PROXY
   - RULE-SET,telegramcidr,PROXY
-  - RULE-SET,proxy,PROXY
+  # - RULE-SET,proxy,PROXY
   - GEOIP,telegram,PROXY
   - GEOSITE,telegram,PROXY
   
