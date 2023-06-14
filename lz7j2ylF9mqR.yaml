@@ -1,8 +1,8 @@
-# port: 9494
-# socks-port: 9595
-# mixed-port: 9696
-redir-port: 9797
-tproxy-port: 0
+# port: 7890
+# socks-port: 7891
+mixed-port: 7890
+# redir-port: 9797
+# tproxy-port: 9898
 mode: rule
 allow-lan: true
 unified-delay: true
