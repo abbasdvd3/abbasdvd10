@@ -237,6 +237,11 @@ proxy-groups:
       - "provider52"
       - "provider53"
       - "provider54"
+      - "provider55"
+      - "provider56"
+      - "provider57"
+      - "provider58"
+      - "provider59" 
   - name: "FALLBACK"
     type: fallback
     use:
@@ -293,7 +298,12 @@ proxy-groups:
       - "provider52"
       - "provider53"
       - "provider54"
-
+      - "provider55"
+      - "provider56"
+      - "provider57"
+      - "provider58"
+      - "provider59" 
+      
   - name: "URL-TEST"
     type: url-test
     use:
@@ -350,7 +360,12 @@ proxy-groups:
       - "provider52"
       - "provider53"
       - "provider54"
-
+      - "provider55"
+      - "provider56"
+      - "provider57"
+      - "provider58"
+      - "provider59" 
+      
   - name: "block"
     type: select
     proxies:
