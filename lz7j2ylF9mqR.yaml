@@ -183,7 +183,7 @@ proxy-groups:
     proxies:
       - "FALLBACK"
       - "URL-TEST"
-      use:
+    use:
       - "provider1"
       - "provider2"
       - "provider3"
