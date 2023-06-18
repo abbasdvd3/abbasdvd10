@@ -149,7 +149,72 @@ proxy-groups:
       - DE_307 |23.45Mb
       - US(AzadNet.t.me)_048
       - _917
+rule-providers:
+  iran_other:
+    type: http
+    behavior: domain
+    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_other.yaml"
+    path: ./ruleset/iran_other.yaml
+    interval: 432000
+  iran_ads:
+    type: http
+    behavior: domain
+    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml"
+    path: ./ruleset/iran_ads.yaml
+    interval: 432000
 rules:
+  ## block ads
+  - DOMAIN-SUFFIX,googlesyndication.com,PROXY
+  - AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
+  - GEOSITE,category-ads-all,REJECT
+#  - RULE-SET,block,REJECT
+  # - SCRIPT,quic,REJECT
+  # - SCRIPT,youshit,REJECT
+  ## direct FCM
+  - AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
+  - AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
+  - DOMAIN-SUFFIX,atom.io,DIRECT
+  - DOMAIN-SUFFIX,dependabot.com,DIRECT
+  - DOMAIN-SUFFIX,ghcr.io,DIRECT
+  - DOMAIN-SUFFIX,git.io,DIRECT
+  - DOMAIN-SUFFIX,github.blog,DIRECT
+  - DOMAIN-SUFFIX,github.community,DIRECT
+  - DOMAIN-SUFFIX,github.dev,DIRECT
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT
+  - DOMAIN-SUFFIX,githubhackathon.com,DIRECT
+  - DOMAIN-SUFFIX,githubpreview.dev,DIRECT
+  - DOMAIN-SUFFIX,githubstatus.com,DIRECT
+  - DOMAIN-SUFFIX,githubuniverse.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+  - DOMAIN-SUFFIX,myoctocat.com,DIRECT
+  - DOMAIN-SUFFIX,opensource.guide,DIRECT
+  - DOMAIN-SUFFIX,repo.new,DIRECT
+  - DOMAIN-SUFFIX,thegithubshop.com,DIRECT
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,github.io,DIRECT
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,github,DIRECT
+  - DOMAIN-KEYWORD,appteka.store,DIRECT
+  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+  - DOMAIN-KEYWORD,drive.google.com,DIRECT
+  ## block udp/quic YouTube
+  - AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
+  - AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
+  # fix dnsleak
+  - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+  - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
+  - IP-CIDR6,::1/128,REJECT,no-resolve
+  ## rules telegram
+  - GEOIP,telegram,PROXY
+  - GEOSITE,telegram,PROXY
+  - PROCESS-NAME,com.facebook.katana,PROXY
+  - PROCESS-NAME,com.google.android.gms.persistent,PROXY
+  - DOMAIN-SUFFIX,android.apis.google.com,PROXY
+  - DOMAIN-SUFFIX,play.googleapis.com,PROXY
   - IP-CIDR,10.10.0.0/16,PROXY
   - GEOIP,IR,DIRECT
   - GEOIP,CN,DIRECT
