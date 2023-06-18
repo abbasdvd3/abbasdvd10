@@ -3,6 +3,7 @@ bind-address: "*"
 mode: rule
 allow-lan: true
 log-level: info
+enable-process: true
 external-controller: 0.0.0.0:9090
 external-ui: https://yacd.metacubex.one/#/configs
 unified-delay: false
@@ -48,6 +49,9 @@ proxy-groups:
   - name: PROXY
     type: select
     proxies:
+      - BEST-PING
+      - LOAD-BALANCE
+      - FALLBACK
       - KR-52.79.146.140-1940
       - mn.amshavvarm-abbasdvd
       - _IL_以色列_10
@@ -68,9 +72,6 @@ proxy-groups:
       - DE_307 |23.45Mb
       - US(AzadNet.t.me)_048
       - _917
-      - LOAD-BALANCE
-      - BEST-PING
-      - FALLBACK
       - DIRECT
   - name: LOAD-BALANCE
     type: load-balance
@@ -101,8 +102,8 @@ proxy-groups:
   - name: BEST-PING
     type: url-test
     url: http://hi.bonds.id/ping
-    interval: 300
-    tolerance: 50
+    #interval: 300
+    tolerance: 5
     proxies:
       - KR-52.79.146.140-1940
       - mn.amshavvarm-abbasdvd
