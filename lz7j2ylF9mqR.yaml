@@ -1,8 +1,8 @@
-# port: 7890
-# socks-port: 7891
+port: 7890
+socks-port: 7891
 mixed-port: 7890
-# redir-port: 9797
-# tproxy-port: 9898
+redir-port: 9797
+tproxy-port: 9898
 mode: rule
 allow-lan: true
 unified-delay: true
@@ -12,30 +12,14 @@ bind-address: '*'
 # info / warning / error / debug / silent
 log-level: warning
 ipv6: false
-geodata-mode: false
-geodata-loader: memconservative
 external-controller: 0.0.0.0:9090 
-# external-controller-tls: 0.0.0.0:9091 # RESTful API HTTPS
 # secret: "123456"
-external-ui: ./dashboard/dist
+external-ui: 
 tcp-concurrent: false
 inbound-tfo: false
-interface-name: ""
-# routing-mark: 233
-geox-url:
-  mmdb: "https://raw.githubusercontent.com/abbasdvd3/clash/main/Country.mmdb"
-  geoip: "https://raw.githubusercontent.com/abbasdvd3/clash/main/GeoIP.dat"
-  geosite: "https://raw.githubusercontent.com/abbasdvd3/clash/main/GeoSite.dat"
+
 
 find-process-mode: always # always, strict, off
-tls:
-  certificate: string 
-  private-key: string 
-  custom-certifactes:
-    - |
-      -----BEGIN CERTIFICATE-----
-      format/pem...
-      -----END CERTIFICATE-----
 experimental:
   ignore-resolve-fail: true
   sniff-tls-sni: true
@@ -47,9 +31,9 @@ profile:
 
 sniffer:
   enable: true
-  force-dns-mapping: false
+  force-dns-mapping: true
   parse-pure-ip: false
-  override-destination: false
+  override-destination: true
   sniff:
     TLS:
       ports: [443, 8443]
@@ -100,7 +84,7 @@ dns:
   use-hosts: true
   # redir-host / fake-ip
   enhanced-mode: fake-ip
-  fake-ip-range: 28.0.0.1/8 # 198.18.0.1/16 
+  fake-ip-range: 198.18.0.1/16 # 198.18.0.1/16 
   fake-ip-filter:
     - '+.lan'
     - '+.stun.*.*'
@@ -374,9 +358,9 @@ proxy-groups:
 proxy-providers:
   provider1:
     type: "http"
-    url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yaml"
+    url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider1.yaml
+    path: ./assets/proxy_providers/config/AzadNet_META_IRAN-Direct.yaml
     health-check:
       enable: true
       interval: "300"
@@ -386,7 +370,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/clash/main/3april3.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider2.yaml
+    path: ./assets/proxy_providers/config/3april3.yaml
     health-check:
       enable: true
       interval: "300"
@@ -493,7 +477,7 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   provider13:
     type: "http"
-    url: "https://raw.iqiq.io/anaer/Sub/main/clash.yaml"
+    url: "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml"
     interval: "3600"
     path: ./assets/proxy_providers/config/provider13.yaml
     health-check:
@@ -523,7 +507,7 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   provider16:
     type: "http"
-    url: "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/Eternity.yml"
+    url: "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml"
     interval: "3600"
     path: ./assets/proxy_providers/config/provider16.yaml
     health-check:
@@ -1093,10 +1077,6 @@ rules:
   - DOMAIN-KEYWORD,appteka.store,DIRECT
   - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
   - RULE-SET,iran,DIRECT
-  
-  
-  
-  
   - DOMAIN-SUFFIX,t.me,PROXY
   - DOMAIN-SUFFIX,t.me,PROXY
   - DOMAIN-SUFFIX,tdesktop.com,PROXY
@@ -1118,19 +1098,9 @@ rules:
   - DOMAIN-SUFFIX,instanthq.com,PROXY
   - DOMAIN-SUFFIX,whatsapp.com,PROXY
   - DOMAIN-SUFFIX,whatsapp.net,PROXY
-  - DST-PORT,5222,PROXY
-  - DST-PORT,5223,PROXY
-  - DST-PORT,5228,PROXY
-  - DST-PORT,5242,PROXY
-  - DST-PORT,3478,PROXY
-  - DST-PORT,1400,PROXY
-  - DST-PORT,443,PROXY,UDP
-  - IP-CIDR,1.1.1.1/32,PROXY
-  - IP-CIDR,144.144.144.144/32,PROXY
   - RULE-SET,google,PROXY
   - RULE-SET,telegramcidr,PROXY
   # - RULE-SET,proxy,PROXY
-  - GEOIP,telegram,PROXY
   - GEOSITE,telegram,PROXY
   
   
@@ -1154,9 +1124,7 @@ rules:
   ## rules telegram
   - IP-CIDR,10.10.0.0/16,PROXY
   - GEOIP,IR,DIRECT
-  - GEOIP,CN,DIRECT
   - DOMAIN-SUFFIX,.ir,DIRECT
-  - DOMAIN-SUFFIX,.cn,DIRECT
   ## direct ntp
   # - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
   # - DST-PORT,123/136/137-139,DIRECT,udp
