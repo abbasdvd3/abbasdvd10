@@ -226,6 +226,20 @@ proxy-groups:
       - "provider57"
       - "provider58"
       - "provider59" 
+      - "provider60"
+      - "provider61"
+      - "provider62"
+      - "provider63"
+      - "provider64"
+      - "provider65"
+      - "provider66"
+      - "provider67"
+      - "provider68"
+      - "provider69"
+      - "provider70"
+      - "provider71"
+      - "provider72"
+      - "provider73"  
   - name: "FALLBACK"
     type: fallback
     use:
@@ -287,6 +301,20 @@ proxy-groups:
       - "provider57"
       - "provider58"
       - "provider59" 
+      - "provider60"
+      - "provider61"
+      - "provider62"
+      - "provider63"
+      - "provider64"
+      - "provider65"
+      - "provider66"
+      - "provider67"
+      - "provider68"
+      - "provider69"
+      - "provider70"
+      - "provider71"
+      - "provider72"
+      - "provider73" 
       
   - name: "URL-TEST"
     type: url-test
@@ -349,7 +377,20 @@ proxy-groups:
       - "provider57"
       - "provider58"
       - "provider59" 
-      
+      - "provider60"
+      - "provider61"
+      - "provider62"
+      - "provider63"
+      - "provider64"
+      - "provider65"
+      - "provider66"
+      - "provider67"
+      - "provider68"
+      - "provider69"
+      - "provider70"
+      - "provider71"
+      - "provider72"
+      - "provider73"     
   - name: "block"
     type: select
     proxies:
@@ -886,7 +927,9 @@ proxy-providers:
       # lazy: true
       url: "https://cp.cloudflare.com/generate_204"
   provider54:
-    type: "file"
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/tro.562.Profiles-20221211014547.txt"
+    interval: "3600"
     path: ./assets/proxy_providers/config/provider54.yaml
     health-check:
       enable: true
@@ -942,7 +985,147 @@ proxy-providers:
       enable: true
       interval: "300"
       # lazy: true
-      url: "https://cp.cloudflare.com/generate_204"             
+      url: "https://cp.cloudflare.com/generate_204" 
+  provider60:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/11380.txt"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider60.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider61:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/7025.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider61.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider62:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/4444.txt"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider62.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider63:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/1164abbas.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider63.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider64:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider64.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider65:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/990.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider65.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider66:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/abbbasdvd10.txt"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider66.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider67:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/easy.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider67.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider68:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/iran.12.22.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider68.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider69:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider69.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"    
+  provider70:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/tro_abbbasdvd.txt"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider70.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider71:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/txt.ss.txt"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider71.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider72:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/v2r.txt"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider72.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  provider73:
+    type: "http"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/zan-zendegi-azadi.yaml"
+    interval: "3600"
+    path: ./assets/proxy_providers/config/provider73.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"                       
 rule-providers:
 
   block:
