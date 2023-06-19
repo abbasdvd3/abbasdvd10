@@ -1159,35 +1159,6 @@ rules:
   - DOMAIN-KEYWORD,github,DIRECT
   - DOMAIN-KEYWORD,appteka.store,DIRECT
   - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
-  - RULE-SET,iran,DIRECT
-  - DOMAIN-SUFFIX,t.me,PROXY
-  - DOMAIN-SUFFIX,t.me,PROXY
-  - DOMAIN-SUFFIX,tdesktop.com,PROXY
-  - DOMAIN-SUFFIX,telegra.ph,PROXY
-  - DOMAIN-SUFFIX,telegram.me,PROXY
-  - DOMAIN-SUFFIX,telegram.org,PROXY
-  - IP-CIDR,91.108.4.0/22,PROXY,no-resolve 
-  - IP-CIDR,91.108.8.0/22,PROXY,no-resolve 
-  - IP-CIDR,91.108.12.0/22,PROXY,no-resolve 
-  - IP-CIDR,91.108.16.0/22,PROXY,no-resolve 
-  - IP-CIDR,91.108.56.0/22,PROXY,no-resolve
-  - IP-CIDR,149.154.160.0/20,PROXY,no-resolve 
-  - DOMAIN-KEYWORD,instagram,PROXY
-  - DOMAIN-KEYWORD,whatsapp,PROXY
-  - DOMAIN-KEYWORD,facebook,PROXY
-  - DOMAIN-SUFFIX,cdninstagram.com,PROXY
-  - DOMAIN-SUFFIX,instagram.com,PROXY
-  - DOMAIN-SUFFIX,instanthq.com,PROXY
-  - DOMAIN-SUFFIX,instanthq.com,PROXY
-  - DOMAIN-SUFFIX,whatsapp.com,PROXY
-  - DOMAIN-SUFFIX,whatsapp.net,PROXY
-  - RULE-SET,google,PROXY
-  - RULE-SET,telegramcidr,PROXY
-  # - RULE-SET,proxy,PROXY
-  - GEOSITE,telegram,PROXY
-  
-  
-  
   ## block ads
   # - DOMAIN-SUFFIX,googlesyndication.com,PROXY
   - AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
@@ -1204,9 +1175,6 @@ rules:
   - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
   - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
   - IP-CIDR6,::1/128,REJECT,no-resolve
-  ## rules telegram
-  - GEOIP,IR,DIRECT
-  - DOMAIN-SUFFIX,.ir,DIRECT
   ## direct ntp
   # - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
   # - DST-PORT,123/136/137-139,DIRECT,udp
