@@ -15,19 +15,8 @@ ipv6: false
 external-controller: 0.0.0.0:9090 
 # secret: "123456"
 external-ui: 
-tcp-concurrent: false
-inbound-tfo: false
-
 
 find-process-mode: always # always, strict, off
-experimental:
-  ignore-resolve-fail: true
-  sniff-tls-sni: true
-  udp-fallback-match: true
-profile:
-  store-fake-ip: true
-  store-selected: true
-  tracing: true
 
 sniffer:
   enable: true
@@ -1216,7 +1205,6 @@ rules:
   - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
   - IP-CIDR6,::1/128,REJECT,no-resolve
   ## rules telegram
-  - IP-CIDR,10.10.0.0/16,PROXY
   - GEOIP,IR,DIRECT
   - DOMAIN-SUFFIX,.ir,DIRECT
   ## direct ntp
