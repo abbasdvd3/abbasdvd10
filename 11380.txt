@@ -1,3 +1,4 @@
+proxies:
 trojan://750a29bf-0a40-437f-b120-38de74ae7eaf@89.163.220.99:28443?sni=glc.hruqoaw.cn&allowInsecure=1&security=tls&type=tcp#1_68791
 trojan://72d8e820-7926-4ce3-a87c-b6969f425c79@www.baidu.com:443?sni=www.baidu.com&allowInsecure=1&security=tls&type=tcp#1_76957
 ss://YWVzLTI1Ni1nY206a0RXdlhZWm9UQmNHa0M0@134.195.196.149:8881#1_1
