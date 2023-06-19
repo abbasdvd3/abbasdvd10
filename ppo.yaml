@@ -165,15 +165,12 @@ rule-providers:
     interval: 432000
 rules:
   ## block ads
-  - DOMAIN-SUFFIX,googlesyndication.com,PROXY
   - AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
   - GEOSITE,category-ads-all,REJECT
 #  - RULE-SET,block,REJECT
   # - SCRIPT,quic,REJECT
   # - SCRIPT,youshit,REJECT
   ## direct FCM
-  - AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
-  - AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
   - DOMAIN-SUFFIX,atom.io,DIRECT
   - DOMAIN-SUFFIX,dependabot.com,DIRECT
   - DOMAIN-SUFFIX,ghcr.io,DIRECT
@@ -210,15 +207,10 @@ rules:
   - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
   - IP-CIDR6,::1/128,REJECT,no-resolve
   ## rules telegram
-  - GEOIP,telegram,PROXY
   - GEOSITE,telegram,PROXY
   - PROCESS-NAME,com.facebook.katana,PROXY
   - PROCESS-NAME,com.google.android.gms.persistent,PROXY
   - DOMAIN-SUFFIX,android.apis.google.com,PROXY
   - DOMAIN-SUFFIX,play.googleapis.com,PROXY
   - IP-CIDR,10.10.0.0/16,PROXY
-  - GEOIP,IR,DIRECT
-  - GEOIP,CN,DIRECT
-  - DOMAIN-SUFFIX,.ir,DIRECT
-  - DOMAIN-SUFFIX,.cn,DIRECT
   - MATCH,PROXY
