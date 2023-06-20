@@ -1,0 +1,454 @@
+port: 7890 # http(s) 代理端口
+socks-port: 7891 # socks4/4a/5 代理端口
+redir-port: 7892 # 透明代理端口，仅能代理 TCP 流量
+mixed-port: 7893 # 混合代理端口 http(s)+socks # 高优先级
+unified-delay: true # 统一延迟 # 更换延迟计算方式,去除握手等额外延迟
+tcp-concurrent: true # TCP并发
+allow-lan: false # 允许局域网
+mode: rule # 运行模式
+log-level: info # 日志级别
+ipv6: false # 是否允许内核接受 IPv6 流量
+external-controller: 0.0.0.0:9090
+#external-ui: ui
+secret: ""
+geodata-mode: true # GEO数据模式
+geodata-loader: standard # GEO文件加载模式
+# 自定 GEO 下载地址
+geox-url:
+  geoip: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geoip.dat"
+  geosite: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/geosite.dat"
+  mmdb: "https://testingcf.jsdelivr.net/gh/MetaCubeX/meta-rules-dat@release/country.mmdb"
+find-process-mode: strict
+clash-for-android:
+  append-system-dns: false
+global-client-fingerprint: chrome # 全局客户端指纹
+profile:
+  tracing: true
+  store-selected: true
+  store-fake-ip: true
+experimental:
+  sniff-tls-sni: true
+sniffer:
+  enable: true
+  sniff:
+    TLS:
+      ports: [443, 8443]
+    HTTP:
+      ports: [80, 8080-8880]
+      override-destination: true
+tun:
+  enable: false
+  stack: gvisor
+  dns-hijack:
+    - 'any:53'
+  auto-route: true
+  auto-detect-interface: true
+
+dns:
+  enable: true
+  listen: 127.0.0.1:8853
+  default-nameserver:
+    - 223.5.5.5
+    - 8.8.4.4
+  ipv6: false
+  enhanced-mode: fake-ip
+  nameserver:
+    - 114.114.114.114
+    - tls://223.5.5.5:853
+    - tls://223.6.6.6:853
+    - tls://120.53.53.53
+    - tls://1.12.12.12
+  fallback:
+    - https://1.0.0.1/dns-query
+    - https://public.dns.iij.jp/dns-query
+    - tls://8.8.4.4:853
+  fallback-filter:
+    geoip: false
+    ipcidr:
+      - 240.0.0.0/4
+      - 0.0.0.0/32
+      - 127.0.0.1/32
+    domain:
+      - +.facebook.com
+      - +.twitter.com
+      - +.google.com
+      - +.googleapis.com
+      - +.google.cn
+      - +.googleapis.cn
+      - +.xn--ngstr-lra8j.com
+      - +.googlevideo.com
+      - +.gvt1.com
+      - +.gmail.com
+      - +.youtube.com
+      - +.youtu.be
+      - +.gvt0.com
+      - +.gvt2.com
+      - +.gvt3.com
+      - +.gstatic.com
+      - +.265.com
+      - +.2mdn.net
+      - +.app-measurement.com
+      - +.c.admob.com
+      - +.clickserve.dartsearch.net
+      - +.crl.pki.goog
+      - +.doubleclick.net
+      - +.firebase-settings.crashlytics.com
+      - +.google-analytics.com
+      - +.googleadservices.com
+      - +.googleanalytics.com
+      - +.googleoptimize.com
+      - +.googlesyndication.com
+      - +.googletagmanager.com
+      - +.googletagservices.com
+  fake-ip-filter:
+    - "*.lan"
+    - "*.localdomain"
+    - "*.example"
+    - "*.invalid"
+    - "*.localhost"
+    - "*.test"
+    - "*.local"
+    - "*.home.arpa"
+    - time.*.com
+    - time.*.gov
+    - time.*.edu.cn
+    - time.*.apple.com
+    - time1.*.com
+    - time2.*.com
+    - time3.*.com
+    - time4.*.com
+    - time5.*.com
+    - time6.*.com
+    - time7.*.com
+    - ntp.*.com
+    - ntp1.*.com
+    - ntp2.*.com
+    - ntp3.*.com
+    - ntp4.*.com
+    - ntp5.*.com
+    - ntp6.*.com
+    - ntp7.*.com
+    - "*.time.edu.cn"
+    - "*.ntp.org.cn"
+    - +.pool.ntp.org
+    - time1.cloud.tencent.com
+    - music.163.com
+    - "*.music.163.com"
+    - "*.126.net"
+    - musicapi.taihe.com
+    - music.taihe.com
+    - songsearch.kugou.com
+    - trackercdn.kugou.com
+    - "*.kuwo.cn"
+    - api-jooxtt.sanook.com
+    - api.joox.com
+    - joox.com
+    - y.qq.com
+    - "*.y.qq.com"
+    - streamoc.music.tc.qq.com
+    - mobileoc.music.tc.qq.com
+    - isure.stream.qqmusic.qq.com
+    - dl.stream.qqmusic.qq.com
+    - aqqmusic.tc.qq.com
+    - amobile.music.tc.qq.com
+    - "*.xiami.com"
+    - "*.music.migu.cn"
+    - music.migu.cn
+    - +.msftconnecttest.com
+    - +.msftncsi.com
+    - msftconnecttest.com
+    - msftncsi.com
+    - localhost.ptlogin2.qq.com
+    - localhost.sec.qq.com
+    - +.srv.nintendo.net
+    - +.stun.playstation.net
+    - xbox.*.microsoft.com
+    - xnotify.xboxlive.com
+    - +.ipv6.microsoft.com
+    - +.battlenet.com.cn
+    - +.wotgame.cn
+    - +.wggames.cn
+    - +.wowsgame.cn
+    - +.wargaming.net
+    - proxy.golang.org
+    - stun.*.*
+    - stun.*.*.*
+    - +.stun.*.*
+    - +.stun.*.*.*
+    - +.stun.*.*.*.*
+    - heartbeat.belkin.com
+    - "*.linksys.com"
+    - "*.linksyssmartwifi.com"
+    - "*.router.asus.com"
+    - mesu.apple.com
+    - swscan.apple.com
+    - swquery.apple.com
+    - swdownload.apple.com
+    - swcdn.apple.com
+    - swdist.apple.com
+    - lens.l.google.com
+    - stun.l.google.com
+    - "*.square-enix.com"
+    - "*.finalfantasyxiv.com"
+    - "*.ffxiv.com"
+    - "*.ff14.sdo.com"
+    - ff.dorado.sdo.com
+    - "*.mcdn.bilivideo.cn"
+    - +.media.dssott.com
+    - +.pvp.net
+proxies:
+
+proxy-groups:
+  - name: "PROXY"
+    type: select
+    proxies:
+      - "FALLBACK"
+      - "URL-TEST"
+    use:
+      - "irancell1"
+      - "irancell2"
+      - "irancell3"
+      - "irancell4"
+      
+  - name: "FALLBACK"
+    type: fallback
+    use:
+      - "irancell1"
+      - "irancell2"
+      - "irancell3"
+      - "irancell4" 
+       
+  - name: "URL-TEST"
+    type: url-test
+    use:
+      - "irancell1"
+      - "irancell2"
+      - "irancell3"
+      - "irancell4"
+  - name: "block"
+    type: select
+    proxies:
+      - "FALLBACK"
+      - "REJECT"
+                       
+proxy-providers:
+  irancell1:
+    type: "http"
+    url: ""
+    interval: "3600"
+    path: ./assets/proxy_providers/config0/irancell1.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  irancell2:
+    type: "http"
+    url: ""
+    interval: "3600"
+    path: ./assets/proxy_providers/config0/irancell2.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  irancell3:
+    type: "http"
+    url: ""
+    interval: "3600"
+    path: ./assets/proxy_providers/config0/irancell3.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"
+  irancell4:
+    type: "file"
+    path: ./assets/proxy_providers/config0/irancell4.yaml
+    health-check:
+      enable: true
+      interval: "300"
+      # lazy: true
+      url: "https://cp.cloudflare.com/generate_204"  
+rule-providers:
+
+  block:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./assets/rule-providers/block.yaml
+    interval: 86400
+
+  reject:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
+    path: ./assets/rule-providers/reject.yaml
+    interval: 86400
+    
+  icloud:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
+    path: ./assets/rule-providers/icloud.yaml
+    interval: 86400
+    
+  apple:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
+    path: ./assets/rule-providers/apple.yaml
+    interval: 86400
+    
+  google:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
+    path: ./assets/rule-providers/google.yaml
+    interval: 86400
+    
+  proxy:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
+    path: ./assets/rule-providers/proxy.yaml
+    interval: 86400
+    
+  direct:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
+    path: ./assets/rule-providers/direct.yaml
+    interval: 86400
+    
+  private:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
+    path: ./assets/rule-providers/private.yaml
+    interval: 86400
+    
+  gfw:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
+    path: ./assets/rule-providers/gfw.yaml
+    interval: 86400
+    
+  greatfire:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
+    path: ./assets/rule-providers/greatfire.yaml
+    interval: 86400
+    
+  tld-not-cn:
+    type: http
+    behavior: domain
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
+    path: ./assets/rule-providers/tld-not-cn.yaml
+    interval: 86400
+    
+  telegramcidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
+    path: ./assets/rule-providers/telegramcidr.yaml
+    interval: 86400
+    
+  lancidr:
+    type: http
+    behavior: ipcidr
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
+    path: ./assets/rule-providers/lancidr.yaml
+    interval: 86400
+    
+  applications:
+    type: http
+    behavior: classical
+    url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
+    path: ./assets/rule-providers/applications.yaml
+    interval: 86400
+    
+  porn:
+    type: http
+    behavior: domain
+    url: https://rules.kr328.app/category-porn.yaml
+    path: ./assets/rule-providers/porn.yaml
+    interval: 86400
+    
+  iran:
+    type: http
+    behavior: classical
+    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
+    path: ./assets/rule-providers/iran.yaml
+    interval: 432000      
+rules:
+ - DOMAIN-SUFFIX,local,DIRECT
+ - IP-CIDR,192.168.0.0/16,DIRECT,no-resolve
+ - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,172.16.0.0/12,DIRECT,no-resolve
+ - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
+ - IP-CIDR,100.64.0.0/10,DIRECT,no-resolve
+ - IP-CIDR6,::1/128,DIRECT,no-resolve
+ - IP-CIDR6,fc00::/7,DIRECT,no-resolve
+ - IP-CIDR6,fe80::/10,DIRECT,no-resolve
+ - IP-CIDR6,fd00::/8,DIRECT,no-resolve
+
+ - GEOSITE,google,PROXY
+ - GEOSITE,youtube,PROXY
+ - GEOSITE,netflix,PROXY
+ - GEOSITE,disney,PROXY
+ - GEOSITE,bahamut,PROXY
+ - GEOSITE,bilibili,DIRECT
+ - GEOSITE,telegram,PROXY
+ - GEOSITE,steam,PROXY
+ - GEOSITE,paypal,PROXY
+ - GEOSITE,openai,PROXY
+ - GEOSITE,apple,PROXY
+ - GEOSITE,spotify,PROXY
+ - GEOSITE,github,PROXY
+ - GEOSITE,twitter,PROXY
+ - GEOSITE,facebook,PROXY
+ - GEOSITE,geolocation-!cn,PROXY
+ - GEOSITE,CN,DIRECT
+ - DOMAIN,clash.razord.top,DIRECT
+ - DOMAIN,yacd.haishan.me,DIRECT
+ - DOMAIN-SUFFIX,github.com,DIRECT
+ - DOMAIN-SUFFIX,github.io,DIRECT
+ - DOMAIN-SUFFIX,githubapp.com,DIRECT
+ - DOMAIN-SUFFIX,githubassets.com,DIRECT
+ - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+ - DOMAIN-KEYWORD,github,DIRECT
+ - DOMAIN-KEYWORD,appteka.store,DIRECT
+ - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+ - DOMAIN-SUFFIX,github.com,DIRECT
+ - DOMAIN-SUFFIX,github.io,DIRECT
+ - DOMAIN-SUFFIX,githubapp.com,DIRECT
+ - DOMAIN-SUFFIX,githubassets.com,DIRECT
+ - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+ - DOMAIN-KEYWORD,github,DIRECT
+ - DOMAIN-KEYWORD,appteka.store,DIRECT
+ - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+ - DOMAIN-SUFFIX,googlesyndication.com,PROXY
+ - AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
+ - GEOSITE,category-ads-all,REJECT
+ - RULE-SET,block,REJECT
+ - AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
+ - AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
+ - AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
+ - AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
+ - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+ - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+ - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
+ - IP-CIDR6,::1/128,REJECT,no-resolve
+ - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
+ - DST-PORT,123/136/137-139,DIRECT,udp
+ - AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
+ - IN-TYPE,inner,PROXY
+ - GEOIP,google,PROXY
+ - GEOIP,netflix,PROXY
+ - GEOIP,telegram,PROXY
+ - GEOIP,twitter,PROXY
+ - GEOIP,CN,DIRECT,no-resolve
+ - MATCH,PROXY
