@@ -236,7 +236,7 @@ proxy-providers:
     type: "http"
     url: ""
     interval: "3600"
-    path: ./assets/proxy_providers/config0/irancell1.yaml
+    path: assets/proxy_providers/config0/irancell1.yaml
     health-check:
       enable: true
       interval: "300"
@@ -246,7 +246,7 @@ proxy-providers:
     type: "http"
     url: ""
     interval: "3600"
-    path: ./assets/proxy_providers/config0/irancell2.yaml
+    path: assets/proxy_providers/config0/irancell2.yaml
     health-check:
       enable: true
       interval: "300"
@@ -256,7 +256,7 @@ proxy-providers:
     type: "http"
     url: ""
     interval: "3600"
-    path: ./assets/proxy_providers/config0/irancell3.yaml
+    path: assets/proxy_providers/config0/irancell3.yaml
     health-check:
       enable: true
       interval: "300"
@@ -264,7 +264,7 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   irancell4:
     type: "file"
-    path: ./assets/proxy_providers/config0/irancell4.yaml
+    path: assets/proxy_providers/config0/irancell4.yaml
     health-check:
       enable: true
       interval: "300"
