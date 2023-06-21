@@ -29,9 +29,9 @@ proxy-groups:
 proxy-providers:
   only_iran:
     type: http
-    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/sub.yaml"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/only_iran1.yml"
     interval: 1200
-    path: proxyproviderip/only_iran.yaml
+    path: proxyproviderip/only_iran1.yaml
     health-check:
       enable: true
       interval: 500
