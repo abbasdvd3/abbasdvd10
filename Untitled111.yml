@@ -1,16 +1,16 @@
 # port: 7890
 # socks-port: 7891
-# redir-port: 7892
+redir-port: 7892
 mixed-port: 7890
 allow-lan: true
 bind-address: '*'
 mode: rule
-log-level: silent
+log-level: info
 
  # 日志等级 silent/error/warning/info/debug
 
 ipv6: true
-external-ui: dashboard\yacd
+external-ui: https://yacd.metacubex.one/
 
 tls:
   certificate: ./server.crt # 证书 PEM 格式，或者 证书的路径
@@ -22,8 +22,8 @@ tls:
 #      format/pem...
 #      -----END CERTIFICATE-----
 
-external-controller: 127.0.0.1:9090 # RESTful API 监听地址
-external-controller-tls: 127.0.0.1:9443 # RESTful API HTTPS 监听地址，需要配置 tls 部分配置文件
+external-controller: 0.0.0.0:9090 # RESTful API 监听地址
+external-controller-tls: 0.0.0.0:9443 # RESTful API HTTPS 监听地址，需要配置 tls 部分配置文件
 secret: ''
 
 geodata-mode: false
@@ -57,7 +57,7 @@ global-client-fingerprint: chrome
 
 
 sniffer:
-  enable: false
+  enable: true
   sniffing:
     - tls
     - http
@@ -594,11 +594,11 @@ dns:
  
   fallback-filter:
     geoip: true
-    geoip-code: CN
+    geoip-code: IR
     geosite:                         
     #【Meta专属】设定geosite某分类使用fallback返回结果
 #      - gfw
-      - geolocation-!cn
+     # - geolocation-!cn
     ipcidr:
      - 0.0.0.0/8
      - 10.0.0.0/8
@@ -627,44 +627,40 @@ dns:
      - 116.89.243.8/32
      - 119.28.87.227/32
     domain:
-
      - '+.xincache.com'
-
-    #google
-#      - 'www.gstatic.com'
-
+     - 'www.gstatic.com'
 #     - '+.ampproject.org'
 #     - '+.appspot.com'
 #     - '+.blogger.com'
-#     - '+.google.com'
-#     - '+.google.cn'
-#     - '+.googleusercontent.com'
-#     - '+.ggpht.com'
-#     - '+.gmail.com'
-#     - '+.gvt0.com'
-#     - '+.gvt1.com'
-#     - '+.gvt2.com'
-#     - '+.gvt3.com'
-#     - '+.youtu.be'
+     - '+.google.com'
+     - '+.google.cn'
+     - '+.googleusercontent.com'
+     - '+.ggpht.com'
+     - '+.gmail.com'
+     - '+.gvt0.com'
+     - '+.gvt1.com'
+     - '+.gvt2.com'
+     - '+.gvt3.com'
+     - '+.youtu.be'
 #     - '+.yt.be'
 #     - '+.ytimg.com'
-#     - '+.googlevideo.com'
-#     - '+.youtube.com'
+     - '+.googlevideo.com'
+     - '+.youtube.com'
 #     - '+.xn--ngstr-lra8j.com'
 #     - '+.xn--flw351e.com'
-#     - '+.xn--9kr7l.com'
-#     - '+.xn--ggle-55da.com'
-#     - '+.xn--gogl-0nd52e.com'
-#     - '+.xn--gogl-1nd42e.com'
+     - '+.xn--9kr7l.com'
+     - '+.xn--ggle-55da.com'
+     - '+.xn--gogl-0nd52e.com'
+     - '+.xn--gogl-1nd42e.com'
 #Google 定位
      - '+.googleapis.com'
      - '+.googleapis.cn'
      - '+.gstatic.com'
      - '+.gstatic.cn'
-#     - '+.services.googleapis.cn'
-#     - '+.services.googleapis.com'
-#     - '+.connectivitycheck.gstatic.cn'
-#     - '+.connectivitycheck.gstatic.com'
+     - '+.services.googleapis.cn'
+     - '+.services.googleapis.com'
+     - '+.connectivitycheck.gstatic.cn'
+     - '+.connectivitycheck.gstatic.com'
 
     
 tun:
@@ -713,45 +709,84 @@ proxy-providers:
   IPLC-1:
     type: http
     url: https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell4.yaml
+    interval: "300"
     path: /Proxy-Providers/IPLC-1.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
 
   FreeV2:
     type: http
-    url: 
+    url: https://pre.paimon.gq/clash.yaml
+    interval: "3600"
     path: /Proxy-Providers/FreeV2.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
 
   OneCNY:
     type: http
-    url: 
+    url: https://sub.pmsub.me/clash.yaml
+    interval: "3600"
     path: /Proxy-Providers/OneCNY.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
 
   IEPL-4:
     type: http
     url: 
-    path: /Proxy-Providers/IEPL-4.yaml    
+    interval: "3600"
+    path: /Proxy-Providers/IEPL-4.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204     
 
   IEPL-3:
     type: http
     url: 
+    interval: "3600"
     path: /Proxy-Providers/IEPL-3.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
 
   IEPL-1:
     type: http
     url: 
+    interval: "3600"
     path: /Proxy-Providers/IEPL-1.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
 
   IPLC-2:
     type: http
     url: 
+    interval: "3600"
     path: /Proxy-Providers/IPLC-2.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
 
   CloudFlare-Warp:
-    type: http
-    url: https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell4.yaml
+    type: http://fool.azurewebsites.net/get?limit=3&format=clash&cc=SG,ID&cdn=104.18.3.198&network=ws&arg=tfo,xudp,key:value&mode=cdn&pass=oh7lpia2
+    interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp.yaml 
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
     
 proxy-groups:
-  - name: 国外代理
+  - name: Foreign agents
     type: select
     use:
       - CloudFlare-Warp
@@ -760,19 +795,15 @@ proxy-groups:
       - IEPL-1
       - IEPL-3
       - IEPL-4
-      - OneCNY
+      #- OneCNY
       - FreeV2
     proxies:
+      - CF-Warp
       - FallBack
-      - 负载均衡-香港
-      - 负载均衡-台湾
-      - 负载均衡-新加坡
-      - 负载均衡-日本
-      - 负载均衡-韩国
-      - 负载均衡-美国
+      - Load Balancer
       - DIRECT
 
-  - name: ir
+  - name: Remote desktop
     type: select
     use:
       - CloudFlare-Warp
@@ -781,39 +812,13 @@ proxy-groups:
       - IEPL-1
       - IEPL-3
       - IEPL-4
-      - OneCNY
-      - FreeV2
-    proxies:
-      - FallBack
-      - 负载均衡-香港
-      - 负载均衡-台湾
-      - 负载均衡-新加坡
-      - 负载均衡-日本
-      - 负载均衡-韩国
-      - 负载均衡-美国
-      - DIRECT
-  - name: 远程桌面
-    type: select
-    use:
-      - CloudFlare-Warp
-#      - Heroku
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      - OneCNY
+      #- OneCNY
       - FreeV2
     proxies:
       - FallBack
       - DIRECT
-      - 国外代理
-      - 负载均衡-香港
-      - 负载均衡-台湾
-      - 负载均衡-新加坡
-      - 负载均衡-日本
-      - 负载均衡-韩国
-      - 负载均衡-美国
+      - Foreign agents
+      - CF-Warp
 
   - name: FallBack
     type: fallback
@@ -823,172 +828,62 @@ proxy-groups:
       - IEPL-1
       - IEPL-3
       - IEPL-4
-      - OneCNY
+      #- OneCNY
       - FreeV2
     url: http://clients3.google.com/generate_204
-    interval: 300
+    'interval': "300"
 
 
-  - name: CF-Warp中继
-    type: select
+  - name: CF-Warp
+    type: url-test
     use:
-#      - CloudFlare-Warp
-#      - Heroku
       - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      - OneCNY
-      - FreeV2
-    proxies:
-      - FallBack
-      - 国外代理
-      - 负载均衡-香港
-      - 负载均衡-台湾
-      - 负载均衡-新加坡
-      - 负载均衡-日本
-      - 负载均衡-韩国
-      - 负载均衡-美国
+    url: http://clients3.google.com/generate_204
+    'interval': "300"
 
 
-  - name: 网易云音乐
+  - name: NetEase Cloud Music
     type: select
     use:
     proxies:
       - DIRECT
-      - 国外代理
+      - Foreign agents
       - FallBack
-  - name: 国内直连
+      
+  - name: Domestic direct connection
     type: select
     use:
       - CloudFlare-Warp
-#      - Heroku
       - IPLC-1
       - IPLC-2
       - IEPL-1
       - IEPL-3
       - IEPL-4
-      - OneCNY
+      #- OneCNY
       - FreeV2
     proxies:
       - DIRECT
-      - 国外代理
+      - Foreign agents
       - FallBack
-      - 负载均衡-香港
-      - 负载均衡-台湾
-      - 负载均衡-新加坡
-      - 负载均衡-日本
-      - 负载均衡-韩国
-      - 负载均衡-美国
-  - name: 负载均衡-香港
+      - Load Balancer
+      
+  - name: Load Balancer
     type: load-balance
-    filter: "HK|Hong|Kong|HKT|HKBN|HGC|WTT|CMI|港" # 正则表达式，过滤 provider1 中节点名包含 HK 或 TW
     use:
       - IPLC-1
       - IPLC-2
       - IEPL-1
       - IEPL-3
       - IEPL-4
-      - OneCNY
-#      - FreeV2
+      #- OneCNY
+      - FreeV2
     url: http://clients3.google.com/generate_204
-    interval: 300
+    'interval': "180"
     # disable-udp: true
 #    strategy: consistent-hashing
     # consistent-hashing 同域名同连接
     # round-robin 随机连接
 
-  - name: 负载均衡-台湾
-    type: load-balance
-    filter: "TW|Taiwan|新北|彰化|CHT|台湾|台|HINET" # 正则表达式，过滤 provider1 中节点名包含 HK 或 TW
-    use:
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      - OneCNY
-#      - FreeV2
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    # disable-udp: true
-    strategy: consistent-hashing
-    # consistent-hashing 同域名同连接
-    # round-robin 随机连接
-
-  - name: 负载均衡-新加坡
-    type: load-balance
-    filter: "SG|Singapore|新加坡|狮城|新" # 正则表达式，过滤 provider1 中节点名包含 HK 或 TW
-    use:
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      - OneCNY
-#      - FreeV2
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    # disable-udp: true
-    strategy: consistent-hashing
-    # consistent-hashing 同域名同连接
-    # round-robin 随机连接
-
-
-  - name: 负载均衡-日本
-    type: load-balance
-    filter: "JP|Japan|Tokyo|Osaka|Saitama|日本|东京|大阪|埼玉|日" # 正则表达式，过滤 provider1 中节点名包含 HK 或 TW
-    use:
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      - OneCNY
-#      - FreeV2
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    # disable-udp: true
-    strategy: consistent-hashing
-    # consistent-hashing 同域名同连接
-    # round-robin 随机连接
-
-  - name: 负载均衡-韩国
-    type: load-balance
-    filter: "KR|Korea|KOR|首尔|韩|韓" # 正则表达式，过滤 provider1 中节点名包含 HK 或 TW
-    use:
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      - OneCNY
-#      - FreeV2
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    # disable-udp: true
-    strategy: consistent-hashing
-    # consistent-hashing 同域名同连接
-    # round-robin 随机连接
-
-  - name: 负载均衡-美国
-    type: load-balance
-    filter: "US|America|UnitedStates|美国|美|波特兰|达拉斯|俄勒冈|凤凰城|费利蒙|硅谷|拉斯维加斯|洛杉矶|圣何塞|圣克拉拉|西雅图|芝加哥" # 正则表达式，过滤 provider1 中节点名包含 HK 或 TW
-    use:
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      - OneCNY
-#      - FreeV2
-    url: http://clients3.google.com/generate_204
-    interval: 300
-    # disable-udp: true
-    strategy: consistent-hashing
-    # consistent-hashing 同域名同连接
-    # round-robin 随机连接
 
 rule-providers:
   Local:
@@ -996,124 +891,85 @@ rule-providers:
     behavior: classical
     path: ./Rule-Providers/Local.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Local.list
-    interval: 3600
+    'interval': "3600"
 
   Proxy:
     type: http
     behavior: classical
     path: ./Rule-Providers/Proxy.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Proxy.list
-    interval: 3600
+    'interval': "3600"
 
   Talk:
     type: http
     behavior: classical
     path: ./Rule-Providers/Talk.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Talk.list
-    interval: 3600
+    'interval': "3600"
 
   Remote-DeskTop:
     type: http
     behavior: classical
     path: ./Rule-Providers/Remote-DeskTop.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Remote-DeskTop.list
-    interval: 3600
+    'interval': "3600"
 
   UnBlock:
     type: http
     behavior: classical
     path: ./Rule-Providers/UnBlock.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/UnBlock.list
-    interval: 3600
+    'interval': "3600"
 
   NeteaseMusic:
     type: http
     behavior: classical
     path: ./Rule-Providers/NeteaseMusic.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/NeteaseMusic.list
-    interval: 3600
+    'interval': "3600"
 
   NeteaseMusicClient:
     type: http
     behavior: classical
     path: ./Rule-Providers/NeteaseMusicClient.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/NeteaseMusicClient.list
-    interval: 3600
+    'interval': "3600"
 
   Direct:
     type: http
     behavior: classical
     path: ./Rule-Providers/Direct.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Direct.list
-    interval: 3600
+    'interval': "3600"
 
   YouTube:
     type: http
     behavior: classical
     path: ./Rule-Providers/YouTube.list
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
-    interval: 3600
-
-  BiliBili:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/BiliBili.list
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBili/BiliBili.yaml
-    interval: 3600
-
-  BiliBiliIntl:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/BiliBiliIntl.list
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/BiliBiliIntl/BiliBiliIntl.yaml
-    interval: 3600
+    'interval': "3600"
 
   TikTok:
     type: http
     behavior: classical
     path: ./Rule-Providers/TikTok.list
     url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok.yaml
-    interval: 3600
-
-  DouYin:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/DouYin.list
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/DouYin/DouYin.yaml
-    interval: 3600
-
-
-  KuaiShou:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/KuaiShou.list
-    url: https://github.com/blackmatrix7/ios_rule_script/raw/master/rule/Clash/KuaiShou/KuaiShou.yaml
-    interval: 3600
-
-
-
-
-
-
+    'interval': "3600"
 
 rules:
  - RULE-SET,Local,DIRECT
  - RULE-SET,Direct,DIRECT
- - RULE-SET,Remote-DeskTop,远程桌面
- - RULE-SET,Proxy,国外代理
- - AND,((RULE-SET,UnBlock),(GEOIP,IR)),国内直连
- - RULE-SET,UnBlock,国外代理
- - AND,((RULE-SET,NeteaseMusicClient),(RULE-SET,NeteaseMusic)),网易云音乐
- - RULE-SET,NeteaseMusicClient,国内直连
- - RULE-SET,Talk,国内直连
- - RULE-SET,DouYin,REJECT
- - RULE-SET,KuaiShou,REJECT
+ - RULE-SET,Remote-DeskTop,Remote desktop
+ - RULE-SET,Proxy,Foreign agents
+ - AND,((RULE-SET,UnBlock),(GEOIP,IR)),Domestic direct connection
+ - RULE-SET,UnBlock,Foreign agents
+ - AND,((RULE-SET,NeteaseMusicClient),(RULE-SET,NeteaseMusic)),NetEase Cloud Music
+ - RULE-SET,NeteaseMusicClient,NetEase Cloud Music
+ - RULE-SET,Talk,Domestic direct connection
  - RULE-SET,TikTok,REJECT
- - RULE-SET,BiliBili,REJECT
- - RULE-SET,BiliBiliIntl,REJECT
  - RULE-SET,YouTube,REJECT
 # - GEOSITE,cn,国内直连
  #- GEOSITE,geolocation,ir,国内直连
 # - GEOSITE,category-companies@cn,国内直连
- - GEOIP,IR,国内直连
- - MATCH,国外代理
+ - GEOIP,IR,Domestic direct connection
+ - MATCH,Foreign agents
