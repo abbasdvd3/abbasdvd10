@@ -1,8 +1,14 @@
+port: 9494
+socks-port: 9595
+redir-port: 9797
 mixed-port: 7890
-allow-lan: false
+allow-lan: true
+unified-delay: true
+enable-process: true
 log-level: info
 secret: ""
-external-controller: 127.0.0.1:9090
+external-controller: 0.0.0.0:9090
+external-ui: https://yacd.metacubex.one/#/proxies
 ipv6: false
 mode: rule
 proxies:
@@ -11,7 +17,7 @@ proxy-groups:
    - name: Autom
      use:
        - only_iran
-       - only_iran2
+       #- only_iran2
      type: url-test
      url: 'http://tik.ir'
      interval: 300
@@ -21,7 +27,7 @@ proxy-groups:
        - DIRECT
      use:
        - only_iran
-       - only_iran2
+       #- only_iran2
      type: fallback
      url: 'http://tik.ir'
      interval: 300
