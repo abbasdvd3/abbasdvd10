@@ -234,7 +234,7 @@ proxy-groups:
 proxy-providers:
   irancell1:
     type: "http"
-    url: ""
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/ppo.yaml"
     interval: "3600"
     path: assets/proxy_providers/config0/irancell1.yaml
     health-check:
