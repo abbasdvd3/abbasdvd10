@@ -18,10 +18,10 @@ proxy-groups:
 
    - name: P
      proxies:
+       - DIRECT
      use:
        - meta
        - normal
-       - DIRECT
      type: fallback
      url: 'http://tik.ir'
      interval: 300
