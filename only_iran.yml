@@ -10,8 +10,8 @@ proxies:
 proxy-groups:
    - name: Autom
      use:
-       - meta
-       - normal
+       - only_iran
+       - only_iran2
      type: url-test
      url: 'http://tik.ir'
      interval: 300
@@ -20,28 +20,28 @@ proxy-groups:
      proxies:
        - DIRECT
      use:
-       - meta
-       - normal
+       - only_iran
+       - only_iran2
      type: fallback
      url: 'http://tik.ir'
      interval: 300
      
 proxy-providers:
-  meta:
+  only_iran:
     type: http
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/sub.yaml"
     interval: 1200
-    path: proxyproviderip/sub.yaml
+    path: proxyproviderip/only_iran.yaml
     health-check:
       enable: true
       interval: 500
       url: http://www.gstatic.com/generate_204   
 
-  normal:
+  only_iran2:
     type: http
     url: "https://proxyproviderip/BASE_PATH/usersecret/clash/proxies.yml"
     interval: 1200
-    path: proxyproviderip/usersecret-proxies1.yaml
+    path: proxyproviderip/only_iran.yaml
     health-check:
       enable: true
       interval: 500
