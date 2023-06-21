@@ -87,7 +87,7 @@ proxy-providers:
 
   normal:
     type: http
-    url: "https://openit-fq.ml/Clash.yaml"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/ppo.yaml"
     interval: 1200
     path: proxyproviderip/usersecret-proxies1.yaml
     health-check:
