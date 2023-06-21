@@ -17,7 +17,7 @@ proxy-groups:
    - name: Autom
      use:
        - only_iran
-       #- only_iran2
+       - only_iran2
      type: url-test
      url: 'http://tik.ir'
      interval: 300
@@ -27,7 +27,7 @@ proxy-groups:
        - DIRECT
      use:
        - only_iran
-       #- only_iran2
+       - only_iran2
      type: fallback
      url: 'http://tik.ir'
      interval: 300
@@ -45,9 +45,9 @@ proxy-providers:
 
   only_iran2:
     type: http
-    url: "https://proxyproviderip/BASE_PATH/usersecret/clash/proxies.yml"
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell4.yaml"
     interval: 1200
-    path: proxyproviderip/only_iran.yaml
+    path: proxyproviderip/only_irans.yaml
     health-check:
       enable: true
       interval: 500
