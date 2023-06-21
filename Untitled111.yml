@@ -10,7 +10,7 @@ log-level: info
  # 日志等级 silent/error/warning/info/debug
 
 ipv6: true
-external-ui: https://yacd.metacubex.one/
+external-ui: https://yacd.metacubex.one/#/proxies
 
 tls:
   certificate: ./server.crt # 证书 PEM 格式，或者 证书的路径
