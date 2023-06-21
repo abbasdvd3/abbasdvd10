@@ -1,0 +1,114 @@
+mixed-port: 7890
+allow-lan: false
+log-level: info
+secret: ""
+external-controller: 127.0.0.1:9090
+ipv6: false
+mode: rule
+proxies:
+
+proxy-groups:
+   - name: Autom
+     use:
+       - meta
+       - normal
+     type: url-test
+     url: 'http://tik.ir'
+     interval: 300
+
+   - name: P
+     proxies:
+     use:
+       - meta
+       - normal
+       - DIRECT
+     type: fallback
+     url: 'http://tik.ir'
+     interval: 300
+     
+proxy-providers:
+  meta:
+    type: http
+    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/sub.yaml"
+    interval: 1200
+    path: proxyproviderip/sub.yaml
+    health-check:
+      enable: true
+      interval: 500
+      url: http://www.gstatic.com/generate_204   
+
+  normal:
+    type: http
+    url: "https://proxyproviderip/BASE_PATH/usersecret/clash/proxies.yml"
+    interval: 1200
+    path: proxyproviderip/usersecret-proxies1.yaml
+    health-check:
+      enable: true
+      interval: 500
+      url: http://www.gstatic.com/generate_204 
+      
+rule-providers:
+  iran:
+    type: http
+    behavior: classical
+    url: "https://proxyproviderip/usersecret/clash/rules/iran-sites.yml"
+    path: ./ruleset/iran.yaml
+    interval: 432000
+     
+  ads:
+    type: http
+    behavior: classical
+    url: "https://proxyproviderip/usersecret/clash/rules/ads-sites.yml"
+    path: ./ruleset/ads.yaml
+    interval: 432000   
+rules:
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,github.io,DIRECT
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,github,DIRECT
+  - DOMAIN-KEYWORD,appteka.store,DIRECT
+  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,github.io,DIRECT
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,github,DIRECT
+  - DOMAIN-KEYWORD,appteka.store,DIRECT
+  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+  - DOMAIN,clash.razord.top,DIRECT
+  - DOMAIN,yacd.haishan.me,DIRECT
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,github.io,DIRECT
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,github,DIRECT
+  - DOMAIN-KEYWORD,appteka.store,DIRECT
+  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,github.com,DIRECT
+  - DOMAIN-SUFFIX,github.io,DIRECT
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
+  - DOMAIN-KEYWORD,github,DIRECT
+  - DOMAIN-KEYWORD,appteka.store,DIRECT
+  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
+  - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+  - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
+  - IP-CIDR6,::1/128,REJECT,no-resolve
+  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT,TCP
+  - DOMAIN-KEYWORD,github,DIRECT,TCP
+  - DOMAIN-SUFFIX,github.com,DIRECT,TCP
+  - DOMAIN-SUFFIX,github.io,DIRECT,TCP
+  - DOMAIN-SUFFIX,githubapp.com,DIRECT,TCP
+  - DOMAIN-SUFFIX,githubassets.com,DIRECT,TCP
+  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT,TCP
+  - RULE-SET,ads,REJECT
+  - RULE-SET,iran,P
+  - MATCH,DIRECT
