@@ -32,7 +32,7 @@ dns:
     - 1.1.1.1
     - 112.215.203.254
 proxies:
-  - name: 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS
+  - name: "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS"
     server: 104.18.3.198
     port: 2053
     type: vmess
@@ -48,7 +48,7 @@ proxies:
       headers:
         Host: x1.ylks01.eu.org
     udp: true
-  - name: 1162 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+  - name: "[VMess] 1162 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
     server: 104.18.3.198
     port: 8880
     type: vmess
@@ -64,7 +64,7 @@ proxies:
       headers:
         Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
     udp: true
-  - name: 829 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS
+  - name: "[VMess] 829 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS"
     server: 104.18.3.198
     port: 2083
     type: vmess
@@ -80,7 +80,7 @@ proxies:
       headers:
         Host: x1.ylks01.eu.org
     udp: true
-  - name: 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS
+  - name: "[VMess] 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS"
     server: 104.18.3.198
     port: 80
     type: vmess
@@ -96,7 +96,7 @@ proxies:
       headers:
         Host: sgf1.hijinetwork.cloud
     udp: true
-  - name: 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS
+  - name: "[VMess] 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS"
     server: 104.18.3.198
     port: 443
     type: vmess
@@ -112,7 +112,7 @@ proxies:
       headers:
         Host: linkedin.disnet.gq
     udp: true
-  - name: 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 2
+  - name: "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 2"
     server: 104.18.3.198
     port: 2053
     type: vmess
@@ -128,7 +128,7 @@ proxies:
       headers:
         Host: x1.ylks01.eu.org
     udp: true
-  - name: 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS 2
+  - name: "[VMess] 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS 2"
     server: 104.18.3.198
     port: 80
     type: vmess
@@ -144,7 +144,7 @@ proxies:
       headers:
         Host: sgf1.hijinetwork.cloud
     udp: true
-  - name: 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS
+  - name: "[VMess] 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
     server: 104.18.3.198
     port: 80
     type: vmess
@@ -160,7 +160,7 @@ proxies:
       headers:
         Host: sg1vm.cdn-03.live
     udp: true
-  - name: 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 3
+  - name: "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 3"
     server: 104.18.3.198
     port: 2053
     type: vmess
@@ -176,7 +176,7 @@ proxies:
       headers:
         Host: x1.ylks01.eu.org
     udp: true
-  - name: 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+  - name: "[VMess] 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
     server: 104.18.3.198
     port: 80
     type: vmess
@@ -192,7 +192,7 @@ proxies:
       headers:
         Host: sigma.jandapirang.my.id
     udp: true
-  - name: 1144 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+  - name: "[VMess] 1144 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
     server: 104.18.3.198
     port: 2095
     type: vmess
@@ -208,7 +208,7 @@ proxies:
       headers:
         Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
     udp: true
-  - name: 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS 2
+  - name: "[VMess] 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS 2"
     server: 104.18.3.198
     port: 443
     type: vmess
@@ -224,7 +224,7 @@ proxies:
       headers:
         Host: linkedin.disnet.gq
     udp: true
-  - name: 965 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS
+  - name: "[VMess] 965 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
     server: 104.18.3.198
     port: 80
     type: vmess
@@ -240,7 +240,7 @@ proxies:
       headers:
         Host: us-1.acyun.cf
     udp: true
-  - name: 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS 2
+  - name: "[VMess] 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS 2"
     server: 104.18.3.198
     port: 80
     type: vmess
@@ -256,7 +256,7 @@ proxies:
       headers:
         Host: sg1vm.cdn-03.live
     udp: true
-  - name: 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS 2
+  - name: "[VMess] 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS 2"
     server: 104.18.3.198
     port: 80
     type: vmess
@@ -276,21 +276,51 @@ proxy-groups:
   - name: FASTSSH-SSHKIT-HOWDY
     type: select
     proxies:
-      - 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS
-      - 1162 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
-      - 829 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS
-      - 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS
-      - 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS
-      - 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 2
-      - 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS 2
-      - 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS
-      - 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 3
-      - 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
-      - 1144 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
-      - 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS 2
-      - 965 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS
-      - 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS 2
-      - 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS 2
+      - "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS"
+      - "[VMess] 1162 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+      - "[VMess] 829 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS"
+      - "[VMess] 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS"
+      - "[VMess] 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS"
+      - "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 2"
+      - "[VMess] 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS 2"
+      - "[VMess] 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
+      - "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 3"
+      - "[VMess] 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+      - "[VMess] 1144 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+      - "[VMess] 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS 2"
+      - "[VMess] 965 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
+      - "[VMess] 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS 2"
+      - "[VMess] 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS 2"
+      - BEST-PING
       - DIRECT
+  - name: BEST-PING
+    type: url-test
+    url: http://hi.bonds.id/ping
+    interval: 300
+    tolerance: 50
+    proxies:
+      - "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS"
+      - "[VMess] 1162 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+      - "[VMess] 829 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS"
+      - "[VMess] 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS"
+      - "[VMess] 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS"
+      - "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 2"
+      - "[VMess] 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS 2"
+      - "[VMess] 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
+      - "[VMess] 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 3"
+      - "[VMess] 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+      - "[VMess] 1144 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS"
+      - "[VMess] 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS 2"
+      - "[VMess] 965 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS"
+      - "[VMess] 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS 2"
+      - "[VMess] 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS 2"
+rule-providers:
+  clash:
+    type: http
+    behavior: domain
+    url: https://howdy.id/download/rules/clash.txt
+    path: ./providers/rule-provider_clash.yaml
+    interval: 86400
 rules:
+  - RULE-SET,clash,REJECT
   - MATCH,FASTSSH-SSHKIT-HOWDY
