@@ -1,0 +1,296 @@
+port: 7890
+socks-port: 7891
+redir-port: 7892
+mixed-port: 7893
+tproxy-port: 7895
+ipv6: false
+mode: rule
+log-level: silent
+allow-lan: true
+external-controller: 0.0.0.0:9090
+secret: ""
+bind-address: "*"
+unified-delay: true
+profile:
+  store-selected: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: redir-host
+  listen: 0.0.0.0:7874
+  nameserver:
+    - 8.8.8.8
+    - 1.0.0.1
+    - https://dns.google/dns-query
+  fallback:
+    - 1.1.1.1
+    - 8.8.4.4
+    - https://cloudflare-dns.com/dns-query
+    - 112.215.203.254
+  default-nameserver:
+    - 8.8.8.8
+    - 1.1.1.1
+    - 112.215.203.254
+proxies:
+  - name: 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS
+    server: 104.18.3.198
+    port: 2053
+    type: vmess
+    uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: x1.ylks01.eu.org
+    network: ws
+    ws-opts:
+      path: /blue01
+      headers:
+        Host: x1.ylks01.eu.org
+    udp: true
+  - name: 1162 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+    server: 104.18.3.198
+    port: 8880
+    type: vmess
+    uuid: 6fe85b60-cda0-448e-b86c-4584d4e8945a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
+    udp: true
+  - name: 829 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS
+    server: 104.18.3.198
+    port: 2083
+    type: vmess
+    uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: x1.ylks01.eu.org
+    network: ws
+    ws-opts:
+      path: /blue
+      headers:
+        Host: x1.ylks01.eu.org
+    udp: true
+  - name: 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS
+    server: 104.18.3.198
+    port: 80
+    type: vmess
+    uuid: 641a1a24-7d4c-447d-9005-cc43bfc4da8d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sgf1.hijinetwork.cloud
+    network: ws
+    ws-opts:
+      path: /tunnelvmess
+      headers:
+        Host: sgf1.hijinetwork.cloud
+    udp: true
+  - name: 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS
+    server: 104.18.3.198
+    port: 443
+    type: vmess
+    uuid: a869c557-5c7d-426f-9039-0279c16352bc
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: linkedin.disnet.gq
+    network: ws
+    ws-opts:
+      path: /vmessws
+      headers:
+        Host: linkedin.disnet.gq
+    udp: true
+  - name: 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 2
+    server: 104.18.3.198
+    port: 2053
+    type: vmess
+    uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: x1.ylks01.eu.org
+    network: ws
+    ws-opts:
+      path: /blue01
+      headers:
+        Host: x1.ylks01.eu.org
+    udp: true
+  - name: 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS 2
+    server: 104.18.3.198
+    port: 80
+    type: vmess
+    uuid: 641a1a24-7d4c-447d-9005-cc43bfc4da8d
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sgf1.hijinetwork.cloud
+    network: ws
+    ws-opts:
+      path: /tunnelvmess
+      headers:
+        Host: sgf1.hijinetwork.cloud
+    udp: true
+  - name: 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS
+    server: 104.18.3.198
+    port: 80
+    type: vmess
+    uuid: fc2f8cf0-b37a-42f6-9955-366117861cd1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1vm.cdn-03.live
+    udp: true
+  - name: 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 3
+    server: 104.18.3.198
+    port: 2053
+    type: vmess
+    uuid: 0404bc28-9cfc-4fbb-9e4c-c3f3ba87f384
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: x1.ylks01.eu.org
+    network: ws
+    ws-opts:
+      path: /blue01
+      headers:
+        Host: x1.ylks01.eu.org
+    udp: true
+  - name: 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+    server: 104.18.3.198
+    port: 80
+    type: vmess
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sigma.jandapirang.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sigma.jandapirang.my.id
+    udp: true
+  - name: 1144 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+    server: 104.18.3.198
+    port: 2095
+    type: vmess
+    uuid: 6fe85b60-cda0-448e-b86c-4584d4e8945a
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: ccaws.cashdawiodxkawjaiocjdawdawdadwrawgfsegsededwadawfgrdrcvsssl.top
+    udp: true
+  - name: 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS 2
+    server: 104.18.3.198
+    port: 443
+    type: vmess
+    uuid: a869c557-5c7d-426f-9039-0279c16352bc
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: linkedin.disnet.gq
+    network: ws
+    ws-opts:
+      path: /vmessws
+      headers:
+        Host: linkedin.disnet.gq
+    udp: true
+  - name: 965 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS
+    server: 104.18.3.198
+    port: 80
+    type: vmess
+    uuid: 01925169-e2ff-483c-89f2-6e778dcdd450
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: us-1.acyun.cf
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: us-1.acyun.cf
+    udp: true
+  - name: 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS 2
+    server: 104.18.3.198
+    port: 80
+    type: vmess
+    uuid: fc2f8cf0-b37a-42f6-9955-366117861cd1
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg1vm.cdn-03.live
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sg1vm.cdn-03.live
+    udp: true
+  - name: 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS 2
+    server: 104.18.3.198
+    port: 80
+    type: vmess
+    uuid: 1d1c1d94-6987-4658-a4dc-8821a30fe7e0
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sigma.jandapirang.my.id
+    network: ws
+    ws-opts:
+      path: /vmess
+      headers:
+        Host: sigma.jandapirang.my.id
+    udp: true
+proxy-groups:
+  - name: FASTSSH-SSHKIT-HOWDY
+    type: select
+    proxies:
+      - 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS
+      - 1162 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+      - 829 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS
+      - 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS
+      - 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS
+      - 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 2
+      - 1102 🇸🇬 AS204957 GREEN FLOID LLC WS CDN NTLS 2
+      - 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS
+      - 1017 🇸🇬 AS212238 DATACAMP LIMITED WS CDN TLS 3
+      - 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+      - 1144 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS
+      - 590 🇸🇬 AS31898 ORACLE CORPORATION WS CDN TLS 2
+      - 965 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS
+      - 823 🇸🇬 AS63949 AKAMAI CONNECTED CLOUD WS CDN NTLS 2
+      - 1104 🇸🇬 AS14061 DIGITALOCEAN, LLC WS CDN NTLS 2
+      - DIRECT
+rules:
+  - MATCH,FASTSSH-SSHKIT-HOWDY
