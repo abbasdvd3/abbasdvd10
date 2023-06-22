@@ -271,7 +271,12 @@ proxy-providers:
       # lazy: true
       url: "https://cp.cloudflare.com/generate_204"  
 rule-providers:
-
+  MSServices:
+    behavior: "domain"
+    type: http
+    url: "https://raw.githubusercontent.com/abbasdvd3/clash/main/rule_provider/MSServices.yaml"
+    interval: 86400 # rule-set
+    path: ./assets/rule-providers/MSServices.yaml
   block:
     type: http
     behavior: domain
@@ -394,7 +399,7 @@ rules:
  - IP-CIDR6,fc00::/7,DIRECT,no-resolve
  - IP-CIDR6,fe80::/10,DIRECT,no-resolve
  - IP-CIDR6,fd00::/8,DIRECT,no-resolve
-
+ - RULE-SET,MSServices,PROXY
  - GEOSITE,google,PROXY
  - GEOSITE,youtube,PROXY
  - GEOSITE,netflix,PROXY
@@ -450,5 +455,5 @@ rules:
  - GEOIP,netflix,PROXY
  - GEOIP,telegram,PROXY
  - GEOIP,twitter,PROXY
- - GEOIP,CN,DIRECT,no-resolve
+ - GEOIP,IR,DIRECT,no-resolve
  - MATCH,PROXY
