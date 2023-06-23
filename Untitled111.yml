@@ -777,7 +777,8 @@ proxy-providers:
       url: http://www.gstatic.com/generate_204 
 
   CloudFlare-Warp:
-    type: http://fool.azurewebsites.net/get?limit=3&format=clash&cc=SG,ID&cdn=104.18.3.198&network=ws&arg=tfo,xudp,key:value&mode=cdn&pass=oh7lpia2
+    type: http
+    url: http://fool.azurewebsites.net/get?limit=3&format=clash&cc=SG,ID&cdn=104.18.3.198&network=ws&arg=tfo,xudp,key:value&mode=cdn&pass=oh7lpia2
     interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp.yaml 
     health-check:
