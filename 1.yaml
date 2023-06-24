@@ -1,4 +1,4 @@
-unified-delay: false
+# unified-delay: false
 # redir-port: 7892
 allow-lan: true
 mode: Rule
@@ -20,7 +20,7 @@ dns:
   listen: :53
   use-hosts: true
   enhanced-mode: fake-ip #redir-host # 模式：redir-host或fake-ip
-  fake-ip-range: 198.18.0.1/16 #16.0.0.1/8
+  fake-ip-range: 16.0.0.1/8 #198.18.0.1/16 #16.0.0.1/8
   fake-ip-filter: 
      - '*.lan'
      - localhost.ptlogin2.qq.com
@@ -342,10 +342,36 @@ proxy-groups:
     type: url-test
     #url: http://www.gstatic.com/generate_204
     #interval: 300
-    tolerance: 150
+    # tolerance: 150
     proxies:
-    use:
+      - 1
+      - 2
+      - 3
+      - 4
       - 5
+      - 6
+      - 7
+      - 8
+      - 9
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 17
+      - 18
+      - 19
+      - abbasdvd♈
+    use:
+      - 0
+      - 1
+      - 2
+      - 3
+      - 4
+      # - 5
+      - 6
   - name: 🔯 故障转移
     type: fallback
     # url: http://www.gstatic.com/generate_204
@@ -378,7 +404,7 @@ proxy-groups:
       - 2
       - 3
       - 4
-      - 5
+      # - 5
       - 6
   - name: 🔮 负载均衡
     type: load-balance
@@ -413,7 +439,7 @@ proxy-groups:
       - 2
       - 3
       - 4
-      - 5
+      # - 5
       - 6
   - name: 📲 电报消息
     type: url-test
@@ -558,7 +584,7 @@ proxy-groups:
       - 3
       - 4
 #      - 5
-#      - 6
+      - 6
   - name: 🇺🇲 美国节点
     type: url-test
     #url: http://www.gstatic.com/generate_204
@@ -640,15 +666,15 @@ proxy-providers:
       interval: 300
       url: "http://www.gstatic.com/generate_204"
 
-  5:
-    type: http
-    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/ssr.yaml"
-    interval: 2000
-    path: subscription/5.yaml
-    health-check:
-      enable: true
-      interval: 500
-      url: "http://www.gstatic.com/generate_204"
+  #5:
+    #type: http
+   # url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/ssr.yaml"
+   # interval: 2000
+   # path: subscription/5.yaml
+   # health-check:
+      #enable: true
+      #interval: 500
+      # url: "http://www.gstatic.com/generate_204"
   6:
     type: http
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell4.yaml"
@@ -697,5 +723,7 @@ rules:
  - DOMAIN-SUFFIX,githubassets.com,🎯 全球直连
  - DOMAIN-SUFFIX,githubusercontent.com,🎯 全球直连
  - DOMAIN-SUFFIX,rawgithub.com,🎯 全球直连
+ - PROCESS-NAME,org.telegram.messenger,📲 电报消息
+ - PROCESS-NAME,org.telegram.messenger,🚀 节点选择
  - GEOIP,IR,🎯 全球直连
  - MATCH,🐟 漏网之鱼
