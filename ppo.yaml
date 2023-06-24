@@ -1,216 +1,241 @@
-tproxy-port: 7893
-bind-address: "*"
-mode: rule
-allow-lan: true
-log-level: info
-enable-process: true
-external-controller: 0.0.0.0:9090
-external-ui: https://yacd.metacubex.one/#/configs
-unified-delay: false
-ipv6: false
-dns:
-  enable: true
-  use-hosts: true
-  ipv6: false
-  enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  listen: 127.0.0.1:6868
-  default-nameserver:
-    - 1.1.1.1
-    - 8.8.8.8
-    - 1.0.0.1
-  nameserver:
-    - https://cloudflare-dns.com/dns#PROXY
-    - https://1.1.1.1/dns-query#PROXY
-    - https://8.8.8.8/dns-query#PROXY
-    - https://1.0.0.1/dns-query#PROXY
 proxies:
-  - {name: KR-52.79.146.140-1940, server: kr-s-1.fuckjdieng.uk, port: 50186, type: trojan, password: cab121ab-da8a-435f-bc51-959a79c956da, skip-cert-verify: true, sni: "", udp: true}
-  - {name: mn.amshavvarm-abbasdvd, server: mn.amshavvarm.homes, port: 443, type: vless, uuid: cd528f37-5d77-4d55-e06d-5797d102d9b9, cipher: auto, tls: false, skip-cert-verify: true, servername: "", udp: true}
-  - {name: _IL_以色列_10, server: uk1.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, sni: "", udp: true}
-  - {name: _IL_以色列_9, server: nl3.barbecuepie.com, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, sni: "", udp: true}
-  - {name: _US_美国_13, server: 104.25.36.69, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: x1.ylks01.eu.org, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: _US_美国_7, server: 104.25.103.110, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: x1.ylks01.eu.org, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: _NL_荷兰_6, server: 188.114.96.130, port: 2083, type: vmess, uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: x1.ylks01.eu.org, network: ws, ws-opts: {path: /blue, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: _US_美国_3, server: 162.159.23.15, port: 2096, type: vmess, uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: x1.ylks01.eu.org, network: ws, ws-opts: {path: /blue01, headers: {Host: x1.ylks01.eu.org}}, udp: true}
-  - {name: _IL_以色列_8, server: 149.50.66.99, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, sni: "", udp: true}
-  - {name: 电报群：t.me/vvkj11, server: 149.50.69.109, port: 4003, type: trojan, password: TJCfE7Mx2YcA8kX8zg, skip-cert-verify: true, sni: "", udp: true}
-  - {name: _US_美国_4, server: 137.175.3.225, port: 53042, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: "", udp: true}
-  - {name: _US_美国_5, server: 156.225.67.223, port: 49823, type: vmess, uuid: ebec2adf-e940-446f-bed4-d8c91143b54a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: "", udp: true}
-  - {name: _GB_英国_11, server: 51.132.13.37, port: 36238, type: ss, cipher: chacha20-ietf-poly1305, password: 3Diipf4YghZG06rzdRO6SH, udp: true}
-  - {name: _SE_瑞典_12, server: 37.120.209.125, port: 49982, type: vmess, uuid: dc0cf22d-e35c-4b77-8924-977f6844909b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, servername: "", udp: true}
-  - {name: _US_美国_14, server: cdnjs.com, port: 443, type: vmess, uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: Kansas.kotick.site, network: ws, ws-opts: {path: /speedtest, headers: {Host: Kansas.kotick.site}}, udp: true}
-  - {name: _US_美国_16, server: www.noice.id, port: 443, type: vmess, uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: dynamic-sg2b.obfs.xyz, network: ws, ws-opts: {path: /worryfree, headers: {Host: dynamic-sg2b.obfs.xyz}}, udp: true}
-  - {name: v2cross.com, server: 38.150.13.140, port: 57063, type: trojan, password: Hu4CFM0wJ3, skip-cert-verify: true, sni: "", udp: true}
-  - {name: DE_307 |23.45Mb, server: 168.119.58.112, port: 80, type: vmess, uuid: e42d68db-4297-4c17-b5cf-44d421aef400, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: "", network: ws, ws-opts: {path: /, headers: {Host: ""}}, udp: true}
-  - {name: US(AzadNet.t.me)_048, server: 158.101.7.8, port: 80, type: vmess, uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: "", network: ws, ws-opts: {path: /, headers: {Host: ""}}, udp: true}
-  - {name: _917, server: 152.69.211.235, port: 80, type: vmess, uuid: d345916f-1673-4a98-f37d-49357c84ce03, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, servername: "", network: http, http-opts: {method: GET, path: [/]}, udp: true}
-proxy-groups:
-  - name: PROXY
-    type: select
-    proxies:
-      - BEST-PING
-      - LOAD-BALANCE
-      - FALLBACK
-      - KR-52.79.146.140-1940
-      - mn.amshavvarm-abbasdvd
-      - _IL_以色列_10
-      - _IL_以色列_9
-      - _US_美国_13
-      - _US_美国_7
-      - _NL_荷兰_6
-      - _US_美国_3
-      - _IL_以色列_8
-      - 电报群：t.me/vvkj11
-      - _US_美国_4
-      - _US_美国_5
-      - _GB_英国_11
-      - _SE_瑞典_12
-      - _US_美国_14
-      - _US_美国_16
-      - v2cross.com
-      - DE_307 |23.45Mb
-      - US(AzadNet.t.me)_048
-      - _917
-      - DIRECT
-  - name: LOAD-BALANCE
-    type: load-balance
-    strategy: consistent-hashing
-    url: http://hi.bonds.id/ping
-    interval: 300
-    proxies:
-      - KR-52.79.146.140-1940
-      - mn.amshavvarm-abbasdvd
-      - _IL_以色列_10
-      - _IL_以色列_9
-      - _US_美国_13
-      - _US_美国_7
-      - _NL_荷兰_6
-      - _US_美国_3
-      - _IL_以色列_8
-      - 电报群：t.me/vvkj11
-      - _US_美国_4
-      - _US_美国_5
-      - _GB_英国_11
-      - _SE_瑞典_12
-      - _US_美国_14
-      - _US_美国_16
-      - v2cross.com
-      - DE_307 |23.45Mb
-      - US(AzadNet.t.me)_048
-      - _917
-  - name: BEST-PING
-    type: url-test
-    url: http://hi.bonds.id/ping
-    #interval: 300
-    tolerance: 5
-    proxies:
-      - KR-52.79.146.140-1940
-      - mn.amshavvarm-abbasdvd
-      - _IL_以色列_10
-      - _IL_以色列_9
-      - _US_美国_13
-      - _US_美国_7
-      - _NL_荷兰_6
-      - _US_美国_3
-      - _IL_以色列_8
-      - 电报群：t.me/vvkj11
-      - _US_美国_4
-      - _US_美国_5
-      - _GB_英国_11
-      - _SE_瑞典_12
-      - _US_美国_14
-      - _US_美国_16
-      - v2cross.com
-      - DE_307 |23.45Mb
-      - US(AzadNet.t.me)_048
-      - _917
-  - name: FALLBACK
-    type: fallback
-    url: http://hi.bonds.id/ping
-    interval: 300
-    proxies:
-      - KR-52.79.146.140-1940
-      - mn.amshavvarm-abbasdvd
-      - _IL_以色列_10
-      - _IL_以色列_9
-      - _US_美国_13
-      - _US_美国_7
-      - _NL_荷兰_6
-      - _US_美国_3
-      - _IL_以色列_8
-      - 电报群：t.me/vvkj11
-      - _US_美国_4
-      - _US_美国_5
-      - _GB_英国_11
-      - _SE_瑞典_12
-      - _US_美国_14
-      - _US_美国_16
-      - v2cross.com
-      - DE_307 |23.45Mb
-      - US(AzadNet.t.me)_048
-      - _917
-rule-providers:
-  iran_other:
-    type: http
-    behavior: domain
-    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_other.yaml"
-    path: ./ruleset/iran_other.yaml
-    interval: 432000
-  iran_ads:
-    type: http
-    behavior: domain
-    url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules_ads.yaml"
-    path: ./ruleset/iran_ads.yaml
-    interval: 432000
-rules:
-  ## block ads
-  - AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
-  - GEOSITE,category-ads-all,REJECT
-#  - RULE-SET,block,REJECT
-  # - SCRIPT,quic,REJECT
-  # - SCRIPT,youshit,REJECT
-  ## direct FCM
-  - DOMAIN-SUFFIX,atom.io,DIRECT
-  - DOMAIN-SUFFIX,dependabot.com,DIRECT
-  - DOMAIN-SUFFIX,ghcr.io,DIRECT
-  - DOMAIN-SUFFIX,git.io,DIRECT
-  - DOMAIN-SUFFIX,github.blog,DIRECT
-  - DOMAIN-SUFFIX,github.community,DIRECT
-  - DOMAIN-SUFFIX,github.dev,DIRECT
-  - DOMAIN-SUFFIX,githubapp.com,DIRECT
-  - DOMAIN-SUFFIX,githubassets.com,DIRECT
-  - DOMAIN-SUFFIX,githubhackathon.com,DIRECT
-  - DOMAIN-SUFFIX,githubpreview.dev,DIRECT
-  - DOMAIN-SUFFIX,githubstatus.com,DIRECT
-  - DOMAIN-SUFFIX,githubuniverse.com,DIRECT
-  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
-  - DOMAIN-SUFFIX,myoctocat.com,DIRECT
-  - DOMAIN-SUFFIX,opensource.guide,DIRECT
-  - DOMAIN-SUFFIX,repo.new,DIRECT
-  - DOMAIN-SUFFIX,thegithubshop.com,DIRECT
-  - DOMAIN-SUFFIX,github.com,DIRECT
-  - DOMAIN-SUFFIX,github.io,DIRECT
-  - DOMAIN-SUFFIX,githubapp.com,DIRECT
-  - DOMAIN-SUFFIX,githubassets.com,DIRECT
-  - DOMAIN-SUFFIX,githubusercontent.com,DIRECT
-  - DOMAIN-KEYWORD,github,DIRECT
-  - DOMAIN-KEYWORD,appteka.store,DIRECT
-  - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
-  - DOMAIN-KEYWORD,drive.google.com,DIRECT
-  ## block udp/quic YouTube
-  - AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
-  - AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
-  # fix dnsleak
-  - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
-  - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
-  - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
-  - IP-CIDR6,::1/128,REJECT,no-resolve
-  ## rules telegram
-  - GEOSITE,telegram,PROXY
-  - PROCESS-NAME,com.facebook.katana,PROXY
-  - PROCESS-NAME,com.google.android.gms.persistent,PROXY
-  - DOMAIN-SUFFIX,android.apis.google.com,PROXY
-  - DOMAIN-SUFFIX,play.googleapis.com,PROXY
-  - IP-CIDR,10.10.0.0/16,PROXY
-  - MATCH,PROXY
+  - name: "[VMess] 1"
+    server: ""
+    port: 80
+    type: vmess
+    uuid: 95b45c49-f5c0-4959-bb64-2b8fbc4a869c
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 158.101.7.8
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 158.101.7.8
+    udp: true
+  - name: "[VMess] 10"
+    server: 152.69.211.235
+    port: 80
+    type: vmess
+    uuid: d345916f-1673-4a98-f37d-49357c84ce03
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    network: http
+    http-opts:
+      method: GET
+      path:
+        - /
+    udp: true
+  - name: "[SS] 11"
+    server: 51.132.13.37
+    port: 36238
+    type: ss
+    cipher: chacha20-ietf-poly1305
+    password: 3Diipf4YghZG06rzdRO6SH
+    udp: true
+  - name: "[VMess] 12"
+    server: 37.120.209.125
+    port: 49982
+    type: vmess
+    uuid: dc0cf22d-e35c-4b77-8924-977f6844909b
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: "[VMess] 13"
+    server: dynamic-sg2b.obfs.xyz
+    port: 443
+    type: vmess
+    uuid: 5ebfaf72-8902-4d55-a3c2-7ae8fbe2f8ee
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: www.noice.id
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: www.noice.id
+    udp: true
+  - name: "[VMess] 14"
+    server: Kansas.kotick.site
+    port: 443
+    type: vmess
+    uuid: 2F094845-E2BD-EBF7-DEB7-995992436FAF
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: cdnjs.com
+    network: ws
+    ws-opts:
+      path: /speedtest
+      headers:
+        Host: cdnjs.com
+    udp: true
+  - name: "[Trojan] 15"
+    server: 38.150.13.140
+    port: 57063
+    type: trojan
+    password: Hu4CFM0wJ3
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "[Trojan] 16"
+    server: nl1.chuqiangtou.net
+    port: 4003
+    type: trojan
+    password: TJCfE7Mx2YcA8kX8zg
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "[VMess] 17"
+    server: x1.ylks01.eu.org
+    port: 2096
+    type: vmess
+    uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 104.25.103.110
+    network: ws
+    ws-opts:
+      path: /blue01
+      headers:
+        Host: 104.25.103.110
+    udp: true
+  - name: "[VMess] 18"
+    server: x1.ylks01.eu.org
+    port: 2096
+    type: vmess
+    uuid: f387a0af-4b70-4a40-e2c3-2f22472df0cb
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 162.159.23.15
+    network: ws
+    ws-opts:
+      path: /blue01
+      headers:
+        Host: 162.159.23.15
+    udp: true
+  - name: "[Trojan] 19"
+    server: 149.50.66.99
+    port: 4003
+    type: trojan
+    password: TJCfE7Mx2YcA8kX8zg
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "[VMess] 2"
+    server: ""
+    port: 80
+    type: vmess
+    uuid: e42d68db-4297-4c17-b5cf-44d421aef400
+    alterId: 0
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: 168.119.58.112
+    network: ws
+    ws-opts:
+      path: /
+      headers:
+        Host: 168.119.58.112
+    udp: true
+  - name: "[VMess] 20"
+    server: ""
+    port: 7645
+    type: vmess
+    uuid: c5456ec9-4eee-4902-a4e2-73059f34d8b1
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 95.85.94.18
+    network: ws
+    ws-opts:
+      path: /hEd2589Rri
+      headers:
+        Host: 95.85.94.18
+    udp: true
+  - name: "[Trojan] 3"
+    server: 149.50.66.99
+    port: 4003
+    type: trojan
+    password: TJCfE7Mx2YcA8kX8zg
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "[Trojan] 4"
+    server: uk1.barbecuepie.com
+    port: 4003
+    type: trojan
+    password: TJCfE7Mx2YcA8kX8zg
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "[Trojan] 5"
+    server: 149.50.69.109
+    port: 4003
+    type: trojan
+    password: TJCfE7Mx2YcA8kX8zg
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "[VMess] 6"
+    server: x1.ylks01.eu.org
+    port: 2083
+    type: vmess
+    uuid: 3abe40d0-dbe1-481a-9427-9f4d8c646d34
+    alterId: 0
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: 188.114.96.130
+    network: ws
+    ws-opts:
+      path: /blue
+      headers:
+        Host: 188.114.96.130
+    udp: true
+  - name: "[Trojan] 7"
+    server: nl3.barbecuepie.com
+    port: 4003
+    type: trojan
+    password: TJCfE7Mx2YcA8kX8zg
+    skip-cert-verify: true
+    sni: ""
+    udp: true
+  - name: "[VMess] 8"
+    server: 137.175.3.225
+    port: 53042
+    type: vmess
+    uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
+  - name: "[VMess] 9"
+    server: 156.225.67.223
+    port: 49823
+    type: vmess
+    uuid: ebec2adf-e940-446f-bed4-d8c91143b54a
+    alterId: 64
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: ""
+    udp: true
