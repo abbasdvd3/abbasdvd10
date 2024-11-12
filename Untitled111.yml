@@ -935,7 +935,7 @@ proxy-groups:
     type: load-balance
     proxies:
       - FallBack
-      Load Balancer
+      - Load Balancer
       - CF-Warp
     url: http://clients3.google.com/generate_204
     interval: "180"
