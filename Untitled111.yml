@@ -1,61 +1,32 @@
-# port: 7890
-# socks-port: 7891
+port: 7890
+socks-port: 7891
 redir-port: 7892
 mixed-port: 7890
 allow-lan: true
+unified-delay: true
 bind-address: '*'
 mode: rule
 log-level: info
-
- # 日志等级 silent/error/warning/info/debug
-
 ipv6: true
 external-ui: https://yacd.metacubex.one/#/proxies
 
 tls:
-  certificate: ./server.crt # 证书 PEM 格式，或者 证书的路径
-  private-key: ./server.key # 证书对应的私钥 PEM 格式，或者私钥路径
-
-#  custom-certifactes:
-#    - |
-#      -----BEGIN CERTIFICATE-----
-#      format/pem...
-#      -----END CERTIFICATE-----
-
-external-controller: 0.0.0.0:9090 # RESTful API 监听地址
-external-controller-tls: 0.0.0.0:9443 # RESTful API HTTPS 监听地址，需要配置 tls 部分配置文件
+  certificate: ./server.crt 
+  private-key: ./server.key 
+external-controller: 0.0.0.0:9090 
+external-controller-tls: 0.0.0.0:9443 
 secret: ''
-
-geodata-mode: false
+geodata-mode: true
 tcp-concurrent: true
 enable-process: true
-
-#  find-process-mode has 3 values:always, strict, off
-#  - always, 开启，强制匹配所有进程
-#  - strict, 默认，由 clash 判断是否开启
-#  - off, 不匹配进程，推荐在路由器上使用此模式
 find-process-mode: always
-
-#自定义 geodata url
-geox-url:
-#full 
-  geoip: "https://cors.buildtest.site/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip.dat"
-  geosite: "https://cors.buildtest.site/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite.dat"
-  mmdb: "https://cors.buildtest.site/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country.mmdb"
-
-#lite
-#  geoip: "https://cors.buildtest.site/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geoip-lite.dat"
-#  geosite: "https://cors.buildtest.site/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/geosite-lite.dat"
-#  mmdb: "https://cors.buildtest.site/https://github.com/MetaCubeX/meta-rules-dat/releases/download/latest/country-lite.mmdb"
-#  mmdb: "https://cors.buildtest.site/https://github.com/Hackl0us/GeoIP2-CN/raw/release/Country.mmdb"
-
-
-# 全局 TLS 指纹，优先低于 proxy 内的 client-fingerprint
-# 可选： "chrome","firefox","safari","ios","random","none" options.
-# Utls is currently support TLS transport in TCP/grpc/WS/HTTP for VLESS/Vmess and trojan.
 global-client-fingerprint: chrome
 
-
+geox-url:
+  geoip: "https://raw.githubusercontent.com/Chocolate4U/Iran-v2ray-rules/release/geoip.dat"
+  geosite: "https://raw.githubusercontent.com/Chocolate4U/Iran-v2ray-rules/release/geosite.dat"
+  mmdb: "https://raw.githubusercontent.com/Chocolate4U/Iran-clash-rules/release/geoip.metadb"
+  asn: "https://raw.githubusercontent.com/Chocolate4U/Iran-v2ray-rules/geolite2/GeoLite2-ASN.mmdb"
 sniffer:
   enable: true
   sniffing:
@@ -69,8 +40,7 @@ sniffer:
     
   force-domain:
     - '+'
-  #  - '+.google.com'
-
+    - '+.google.com'
   port-whitelist:
     - 80
     - 443
@@ -78,23 +48,21 @@ sniffer:
 
 ########################################### redir-host ###########################################
 hosts:
-#   '*.clash.dev': 127.0.0.1
-#   '.dev': 127.0.0.1
-#   'alpha.clash.dev': '::1'
-#MyDomain
-#   '+.workers.dev': 162.159.36.1
-#   '+.buildtest.site': 162.159.36.1
+   '*.clash.dev': 127.0.0.1
+   '.dev': 127.0.0.1
+   'alpha.clash.dev': '::1'
+   '+.workers.dev': 162.159.36.1
+   '+.buildtest.site': 162.159.36.1
    'blog.buildtest.site': 162.159.36.1
    'googledrive.buildtest.site': 162.159.36.1
    'node.buildtest.site': 162.159.36.1
    'proxy.buildtest.site': 162.159.36.1
    'cproxy.buildtest.site': 162.159.36.1
-#   'google.ns.buildtest.site': 162.159.36.1
-#   'CloudFlare-Warp.ns.buildtest.site': 162.159.36.1
-#   'adguard.ns.buildtest.site': 162.159.36.1
-#DNS Stamps
-#   'dns.alidns.com': 223.5.5.5
-#   'dns.tuna.tsinghua.edu.cn': 101.6.6.6
+   'google.ns.buildtest.site': 162.159.36.1
+   'CloudFlare-Warp.ns.buildtest.site': 162.159.36.1
+   'adguard.ns.buildtest.site': 162.159.36.1
+   'dns.alidns.com': 223.5.5.5
+   'dns.tuna.tsinghua.edu.cn': 101.6.6.6
 
 
 ############################################## DNS ##############################################
