@@ -924,6 +924,7 @@ proxy-providers:
       interval: 36
 proxy-groups:
   - name: Foreign agents
+    include-all-providers: true
     type: select
     proxies:
       - CF-Warp
