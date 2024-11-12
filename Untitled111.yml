@@ -708,7 +708,7 @@ tun:
 proxy-providers:
   IPLC-1:
     type: http
-    url: https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell4.yaml
+    url: https://telegeam.github.io/clashnode/uploads/2024/11/0-20241112.yaml
     interval: "300"
     path: /Proxy-Providers/IPLC-1.yaml
     health-check:
@@ -718,7 +718,7 @@ proxy-providers:
 
   FreeV2:
     type: http
-    url: https://pre.paimon.gq/clash.yaml
+    url: https://raw.githubusercontent.com/VpnNetwork01/vpn-net/main/README.md
     interval: "3600"
     path: /Proxy-Providers/FreeV2.yaml
     health-check:
@@ -728,7 +728,7 @@ proxy-providers:
 
   OneCNY:
     type: http
-    url: https://sub.pmsub.me/clash.yaml
+    url: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt
     interval: "3600"
     path: /Proxy-Providers/OneCNY.yaml
     health-check:
@@ -738,7 +738,7 @@ proxy-providers:
 
   IEPL-4:
     type: http
-    url: 
+    url: https://raw.githubusercontent.com/w1770946466/Auto_proxy/main/Long_term_subscription_num
     interval: "3600"
     path: /Proxy-Providers/IEPL-4.yaml
     health-check:
@@ -748,7 +748,7 @@ proxy-providers:
 
   IEPL-3:
     type: http
-    url: 
+    url: https://raw.githubusercontent.com/QQnight/SubCrawler/main/sub/share/all
     interval: "3600"
     path: /Proxy-Providers/IEPL-3.yaml
     health-check:
@@ -758,7 +758,7 @@ proxy-providers:
 
   IEPL-1:
     type: http
-    url: 
+    url: https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all
     interval: "3600"
     path: /Proxy-Providers/IEPL-1.yaml
     health-check:
@@ -768,7 +768,7 @@ proxy-providers:
 
   IPLC-2:
     type: http
-    url: 
+    url: https://raw.githubusercontent.com/gtang8/SubCrawler/main/sub/share/all
     interval: "3600"
     path: /Proxy-Providers/IPLC-2.yaml
     health-check:
@@ -778,26 +778,185 @@ proxy-providers:
 
   CloudFlare-Warp:
     type: http
-    url: http://fool.azurewebsites.net/get?limit=3&format=clash&cc=SG,ID&cdn=104.18.3.198&network=ws&arg=tfo,xudp,key:value&mode=cdn&pass=oh7lpia2
+    url: https://raw.githubusercontent.com/zzz6839/SubCrawler/main/sub/share/all
     interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp.yaml 
     health-check:
       enable: true
       interval: 300
       url: http://www.gstatic.com/generate_204 
-    
+  IPLC-11:
+    type: http
+    url: https://raw.githubusercontent.com/freefq/free/master/README.md
+    interval: "300"
+    path: /Proxy-Providers/IPLC-11.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
+
+  FreeV21:
+    type: http
+    url: https:/4i2hMS.absslk.xyz/3fcd94e928ea57305bab5c8edde7224e
+    interval: "3600"
+    path: /Proxy-Providers/FreeV21.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
+
+  OneCNY1:
+    type: http
+    url: https://raw.githubusercontent.com/caijh/FreeProxiesScraper/master/Eternity.yaml
+    interval: "3600"
+    path: /Proxy-Providers/OneCNY1.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
+
+  IEPL-41:
+    type: http
+    url: https://raw.githubusercontent.com/youkai0100/youkai/master/README.md
+    interval: "3600"
+    path: /Proxy-Providers/IEPL-41.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204     
+
+  IEPL-31:
+    type: http
+    url: https://github.com/youkai0100/youkai/actions/workflows/get-proxies.yml
+    interval: "3600"
+    path: /Proxy-Providers/IEPL-31.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
+
+  IEPL-11:
+    type: http
+    url: https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md
+    interval: "3600"
+    path: /Proxy-Providers/IEPL-11.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
+
+  IPLC-21:
+    type: http
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
+    interval: "3600"
+    path: /Proxy-Providers/IPLC-21.yaml
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204 
+
+  CloudFlare-Warp1:
+    type: http
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
+    interval: "300"
+    path: /Proxy-Providers/CloudFlare-Warp1.yaml 
+    health-check:
+      enable: true
+      interval: 300
+      url: http://www.gstatic.com/generate_204    
+  "provide":
+    type: http
+    url: "https://raw.githubusercontent.com/anorika77/v2ray-subscribe/main/README.md"
+    interval: 360
+    path: provide.yaml
+  #  exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅' 
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
+  "provide1":
+    type: http
+    url: "https://raw.githubusercontent.com/mheidari98/.proxy/main/all" # https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/lt-sub-all.txt # https://raw.githubusercontent.com/cry0ice/genode@main/public/all.txt
+    interval: 360
+    path: provide1.yaml
+ #   exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
+  "provide2":
+    type: http
+    url: "https://raw.githubusercontent.com/luxl-1379/merge/77247d23def72b25226dfa741614e9b07a569c72/sub/sub_merge_base64.txt"
+    interval: 360
+    path: provide2.yaml
+#    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅' 
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
+  "provide3":
+    type: http
+    url: "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt"  # https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/speed.txt # https://raw.githubusercontent.com/itsyebekhe/vpnfail/refs/heads/main/subscription/base64
+    interval: 360
+    path: provide3.yaml
+ #   exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅' 
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
+  "provide4":
+    type: http
+    url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/ss.md"
+    interval: 360
+    path: provide4.yaml
+#    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
+  "provide5":
+    type: http
+    url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/vmess.md"
+    interval: 360
+    path: provide5.yaml
+#    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
+  "provide6":
+    type: http
+    url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/trojan.md"
+    interval: 360
+    path: provide6.yaml
+#    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
+  "provide7":
+    type: http
+    url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/proxy.md"
+    interval: 360
+    path: provide7.yaml
+#    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
+  "provide8":
+    type: http
+    url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/1/config.yaml"
+    interval: 360
+    path: provide8.yaml
+#    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
+    health-check:
+      enable: true
+      url: "https://lab.skk.moe/test-204"
+      interval: 36
 proxy-groups:
   - name: Foreign agents
     type: select
-    use:
-      - CloudFlare-Warp
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      #- OneCNY
-      - FreeV2
     proxies:
       - CF-Warp
       - FallBack
@@ -806,15 +965,6 @@ proxy-groups:
 
   - name: Remote desktop
     type: select
-    use:
-      - CloudFlare-Warp
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      #- OneCNY
-      - FreeV2
     proxies:
       - FallBack
       - DIRECT
@@ -823,22 +973,16 @@ proxy-groups:
 
   - name: FallBack
     type: fallback
+    include-all-providers: true
     use:
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      #- OneCNY
-      - FreeV2
     url: http://clients3.google.com/generate_204
     'interval': "300"
 
 
   - name: CF-Warp
     type: url-test
+    include-all-providers: true
     use:
-      - IPLC-1
     url: http://clients3.google.com/generate_204
     'interval': "300"
 
@@ -853,15 +997,7 @@ proxy-groups:
       
   - name: Domestic direct connection
     type: select
-    use:
-      - CloudFlare-Warp
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      #- OneCNY
-      - FreeV2
+    include-all-providers: true
     proxies:
       - DIRECT
       - Foreign agents
@@ -870,14 +1006,8 @@ proxy-groups:
       
   - name: Load Balancer
     type: load-balance
+    include-all-providers: true
     use:
-      - IPLC-1
-      - IPLC-2
-      - IEPL-1
-      - IEPL-3
-      - IEPL-4
-      #- OneCNY
-      - FreeV2
     url: http://clients3.google.com/generate_204
     'interval': "180"
     # disable-udp: true
