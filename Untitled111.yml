@@ -924,22 +924,25 @@ proxy-providers:
       interval: 36
 proxy-groups:
   - name: Foreign agents
-    include-all-providers: true
     type: select
     proxies:
       - CF-Warp
       - FallBack
       - Load Balancer
-      - DIRECT
+      - Remote
 
-  - name: Remote desktop
-    type: select
+  - name: Remote
+    type: load-balance
     proxies:
       - FallBack
-      - DIRECT
-      - Foreign agents
+      Load Balancer
       - CF-Warp
-
+    url: http://clients3.google.com/generate_204
+    interval: "180"
+    # disable-udp: true
+#    strategy: consistent-hashing
+    # consistent-hashing 同域名同连接
+    # round-robin 随机连接
   - name: FallBack
     type: fallback
     include-all-providers: true
@@ -955,16 +958,8 @@ proxy-groups:
     url: http://clients3.google.com/generate_204
     'interval': "300"
 
-
-  - name: NetEase Cloud Music
-    type: select
-    use:
-    proxies:
-      - DIRECT
-      - Foreign agents
-      - FallBack
       
-  - name: Domestic direct connection
+  - name: Domestic direct
     type: select
     include-all-providers: true
     proxies:
@@ -978,7 +973,7 @@ proxy-groups:
     include-all-providers: true
     use:
     url: http://clients3.google.com/generate_204
-    'interval': "180"
+    interval: "180"
     # disable-udp: true
 #    strategy: consistent-hashing
     # consistent-hashing 同域名同连接
@@ -1000,39 +995,11 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Proxy.list
     'interval': "3600"
 
-  Talk:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/Talk.list
-    url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Talk.list
-    'interval': "3600"
-
-  Remote-DeskTop:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/Remote-DeskTop.list
-    url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Remote-DeskTop.list
-    'interval': "3600"
-
   UnBlock:
     type: http
     behavior: classical
     path: ./Rule-Providers/UnBlock.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/UnBlock.list
-    'interval': "3600"
-
-  NeteaseMusic:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/NeteaseMusic.list
-    url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/NeteaseMusic.list
-    'interval': "3600"
-
-  NeteaseMusicClient:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/NeteaseMusicClient.list
-    url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/NeteaseMusicClient.list
     'interval': "3600"
 
   Direct:
@@ -1042,34 +1009,11 @@ rule-providers:
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Direct.list
     'interval': "3600"
 
-  YouTube:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/YouTube.list
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/YouTube/YouTube.yaml
-    'interval': "3600"
-
-  TikTok:
-    type: http
-    behavior: classical
-    path: ./Rule-Providers/TikTok.list
-    url: https://cdn.jsdelivr.net/gh/blackmatrix7/ios_rule_script@master/rule/Clash/TikTok/TikTok.yaml
-    'interval': "3600"
-
 rules:
- - RULE-SET,Local,DIRECT
- - RULE-SET,Direct,DIRECT
- - RULE-SET,Remote-DeskTop,Remote desktop
+ - RULE-SET,Local,Domestic direct
+ - RULE-SET,Direct,Domestic direct
  - RULE-SET,Proxy,Foreign agents
- - AND,((RULE-SET,UnBlock),(GEOIP,IR)),Domestic direct connection
+ - AND,((RULE-SET,UnBlock),(GEOIP,google)),Foreign agents
  - RULE-SET,UnBlock,Foreign agents
- - AND,((RULE-SET,NeteaseMusicClient),(RULE-SET,NeteaseMusic)),NetEase Cloud Music
- - RULE-SET,NeteaseMusicClient,NetEase Cloud Music
- - RULE-SET,Talk,Domestic direct connection
- - RULE-SET,TikTok,REJECT
- - RULE-SET,YouTube,REJECT
-# - GEOSITE,cn,国内直连
- #- GEOSITE,geolocation,ir,国内直连
-# - GEOSITE,category-companies@cn,国内直连
- - GEOIP,IR,Domestic direct connection
+ - GEOIP,IR,Domestic direct
  - MATCH,Foreign agents
