@@ -71,7 +71,7 @@ dns:
   perfer-h3: true
   ipv6: true
 #  ipv6-timeout: 300
-  listen: :5354
+  listen: 0.0.0.0:5354
   use-hosts: true
   enhanced-mode: fake-ip
   # fake-ip
@@ -117,25 +117,22 @@ dns:
 #    "+.qq.com": "https://doh.pub/dns-query"
 
   default-nameserver:
-    - tls://101.6.6.6:8853
-    - https://101.6.6.6:8443/dns-query
-    - tls://223.5.5.5:853
-    - https://223.5.5.5/dns-query
-    - quic://dns-unfiltered.adguard.com:784
-    - tls://dns-unfiltered.adguard.com:853
-    - https://dns-unfiltered.adguard.com/dns-query
-    - quic://94.140.14.140:784
-    - tls://94.140.14.140:853
-    - https://94.140.14.140/dns-query
-    - quic://94.140.14.141:784
-    - tls://94.140.14.141:853
-    - https://94.140.14.141/dns-query
-    - quic://[2a10:50c0::1:ff]:784
-    - tls://[2a10:50c0::1:ff]:853
-    - https://[2a10:50c0::1:ff]/dns-query
-    - quic://[2a10:50c0::2:ff]:784
-    - tls://[2a10:50c0::2:ff]:853
-    - https://[2a10:50c0::2:ff]/dns-query
+    - 101.6.6.6:8853
+    - 101.6.6.6:8443
+    - 223.5.5.5:853
+    - 223.5.5.5
+    - 94.140.14.140:784
+    - 94.140.14.140:853
+    - 94.140.14.140
+    - 94.140.14.141:784
+    - 94.140.14.141:853
+    - 94.140.14.141
+    - 2a10:50c0::1:ff:784
+    - 2a10:50c0::1:ff:853
+    - 2a10:50c0::1:ff
+    - 2a10:50c0::2:ff:784
+    - 2a10:50c0::2:ff:853
+    - 2a10:50c0::2:ff
   proxy-server-nameserver:          
     - quic://i.passcloud.xyz:784
     - quic://a.passcloud.xyz:784
@@ -351,41 +348,41 @@ dns:
     - https://199.58.83.33/dns-query
     - tls://199.58.83.33:443
     - tls://199.58.83.33:53053
-    - tls://edns.apad.pro:853#国外代理
-    - https://edns.apad.pro:3306/dns-query#国外代理
-    - tls://h2o.apad.pro:853#国外代理
-    - https://h2o.apad.pro/dns-query#国外代理
+    - tls://edns.apad.pro:853#Foreign agents
+    - https://edns.apad.pro:3306/dns-query#Foreign agents
+    - tls://h2o.apad.pro:853#Foreign agents
+    - https://h2o.apad.pro/dns-query#Foreign agents
     - https://doh.apad.pro/dns-query
     - https://doh.apad.pro/cn-query
     - tls://1dot1dot1dot1.cloudflare-dns.com:853
     - https://1dot1dot1dot1.cloudflare-dns.com/dns-query
     - tls://dns.cloudflare-gateway.com:853
     - https://dns.cloudflare-gateway.com/dns-query
-    - tls://1.1.1.1:853#国外代理
-    - https://1.1.1.1/dns-query#国外代理
-    - tls://1.0.0.1:853#国外代理
-    - https://1.0.0.1/dns-query#国外代理
-    - tls://[2606:4700:4700::1001]:853#国外代理
-    - https://[2606:4700:4700::1001]/dns-query#国外代理
-    - tls://[2606:4700:4700::1111]:853#国外代理
-    - https://[2606:4700:4700::1111]/dns-query#国外代理
+    - tls://1.1.1.1:853#Foreign agents
+    - https://1.1.1.1/dns-query#Foreign agents
+    - tls://1.0.0.1:853#Foreign agents
+    - https://1.0.0.1/dns-query#Foreign agents
+    - tls://[2606:4700:4700::1001]:853#Foreign agents
+    - https://[2606:4700:4700::1001]/dns-query#Foreign agents
+    - tls://[2606:4700:4700::1111]:853#Foreign agents
+    - https://[2606:4700:4700::1111]/dns-query#Foreign agents
     - https://162.159.36.1/dns-query
     - https://162.159.46.1/dns-query
-  #119.29.29.29
+    - 119.29.29.29
     - https://119dot29dot29dot29.cloudflare-dns.com/dns-query
     - https://rubyfish.cn.cloudflare-dns.com/dns-query
     - tls://dns.google:853
     - https://dns.google/dns-query
-    - tls://8.8.8.8:853#国外代理
-    - https://8.8.8.8/dns-query#国外代理
-    - tls://8.8.4.4:853#国外代理
-    - https://8.8.4.4/dns-query#国外代理
-    - tls://[2001:4860:4860::8844]:853#国外代理
-    - https://[2001:4860:4860::8844]/dns-query#国外代理
-    - tls://[2001:4860:4860::8888]:853#国外代理
-    - https://[2001:4860:4860::8888]/dns-query#国外代理
-    - https://dns-google.heinu.cf/dns-query#国外代理
-    - https://dns-google.heinu.ga/dns-query#国外代理
+    - tls://8.8.8.8:853#Foreign agents
+    - https://8.8.8.8/dns-query#Foreign agents
+    - tls://8.8.4.4:853#Foreign agents
+    - https://8.8.4.4/dns-query#Foreign agents
+    - tls://[2001:4860:4860::8844]:853#Foreign agents
+    - https://[2001:4860:4860::8844]/dns-query#Foreign agents
+    - tls://[2001:4860:4860::8888]:853#Foreign agents
+    - https://[2001:4860:4860::8888]/dns-query#Foreign agents
+    - https://dns-google.heinu.cf/dns-query#Foreign agents
+    - https://dns-google.heinu.ga/dns-query#Foreign agents
     - tls://dns-nosec.quad9.net:853
     - tls://dns10.quad9.net:853
     - https://dns10.quad9.net:5053/dns-query
@@ -393,30 +390,30 @@ dns:
     - tls://dns12.quad9.net:853
     - https://dns12.quad9.net:5053/dns-query
     - https://dns12.quad9.net/dns-query
-    - tls://9.9.9.10:853#国外代理
-    - tls://149.112.112.10:853#国外代理
-    - https://9.9.9.10:5053/dns-query#国外代理
-    - https://149.112.112.10:5053/dns-query#国外代理
-    - https://9.9.9.10/dns-query#国外代理
-    - https://149.112.112.10/dns-query#国外代理
-    - tls://[2620:fe::10]:853#国外代理
-    - tls://[2620:fe::fe:10]:853#国外代理
-    - https://[2620:fe::10]:5053/dns-query#国外代理
-    - https://[2620:fe::fe:10]:5053/dns-query#国外代理
-    - https://[2620:fe::10]/dns-query#国外代理
-    - https://[2620:fe::fe:10]/dns-query#国外代理
-    - tls://9.9.9.12:853#国外代理
-    - tls://149.112.112.12:853#国外代理
-    - https://9.9.9.12:5053/dns-query#国外代理
-    - https://149.112.112.12:5053/dns-query#国外代理
-    - https://9.9.9.12/dns-query#国外代理
-    - https://149.112.112.12/dns-query#国外代理
-    - tls://[2620:fe::12]:853#国外代理
-    - tls://[2620:fe::fe:12]:853#国外代理
-    - https://[2620:fe::12]:5053/dns-query#国外代理
-    - https://[2620:fe::fe:12]:5053/dns-query#国外代理
-    - https://[2620:fe::12]/dns-query#国外代理
-    - https://[2620:fe::fe:12]/dns-query#国外代理
+    - tls://9.9.9.10:853#Foreign agents
+    - tls://149.112.112.10:853#Foreign agents
+    - https://9.9.9.10:5053/dns-query#Foreign agents
+    - https://149.112.112.10:5053/dns-query#Foreign agents
+    - https://9.9.9.10/dns-query#Foreign agents
+    - https://149.112.112.10/dns-query#Foreign agents
+    - tls://[2620:fe::10]:853#Foreign agents
+    - tls://[2620:fe::fe:10]:853#Foreign agents
+    - https://[2620:fe::10]:5053/dns-query#Foreign agents
+    - https://[2620:fe::fe:10]:5053/dns-query#Foreign agents
+    - https://[2620:fe::10]/dns-query#Foreign agents
+    - https://[2620:fe::fe:10]/dns-query#Foreign agents
+    - tls://9.9.9.12:853#Foreign agents
+    - tls://149.112.112.12:853#Foreign agents
+    - https://9.9.9.12:5053/dns-query#Foreign agents
+    - https://149.112.112.12:5053/dns-query#Foreign agents
+    - https://9.9.9.12/dns-query#Foreign agents
+    - https://149.112.112.12/dns-query#Foreign agents
+    - tls://[2620:fe::12]:853#Foreign agents
+    - tls://[2620:fe::fe:12]:853#Foreign agents
+    - https://[2620:fe::12]:5053/dns-query#Foreign agents
+    - https://[2620:fe::fe:12]:5053/dns-query#Foreign agents
+    - https://[2620:fe::12]/dns-query#Foreign agents
+    - https://[2620:fe::fe:12]/dns-query#Foreign agents
     - tls://anycast.uncensoreddns.org:853
     - https://anycast.uncensoreddns.org/dns-query
     - tls://91.239.100.100:853
