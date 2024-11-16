@@ -3341,6 +3341,7 @@ proxy-groups:
     # round-robin 随机连接
   - name: FallBack
     type: fallback
+    include-all-proxies: true
     include-all-providers: true
     use:
     url: http://clients3.google.com/generate_204
@@ -3349,6 +3350,7 @@ proxy-groups:
 
   - name: CF-Warp
     type: url-test
+    include-all-proxies: true
     include-all-providers: true
     use:
     url: http://clients3.google.com/generate_204
@@ -3357,6 +3359,7 @@ proxy-groups:
       
   - name: Domestic direct
     type: select
+    include-all-proxies: true
     include-all-providers: true
     proxies:
       - DIRECT
@@ -3366,6 +3369,7 @@ proxy-groups:
       
   - name: Load Balancer
     type: load-balance
+    include-all-proxies: true
     include-all-providers: true
     use:
     url: http://clients3.google.com/generate_204
