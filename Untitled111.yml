@@ -549,7 +549,7 @@ tun:
 proxy-providers:
   IPLC-1:
     type: http
-    url: https://telegeam.github.io/clashnode/uploads/2024/11/0-20241112.yaml
+    url: https://raw.githubusercontent.com/abbasdvd3/clash/refs/heads/main/vless/x
     interval: "300"
     path: /Proxy-Providers/IPLC-1.yaml
     health-check:
