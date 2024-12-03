@@ -12,9 +12,9 @@ skip-auth-prefixes:
 - 127.0.0.1/8
 - ::1/128
 ipv6: false
-allow-lan: true
+allow-lan: false
 tcp-concurrent: true
-unified-delay: true
+unified-delay: false
 geodata-mode: true
 geo-auto-update: true
 geo-update-interval: 24 
@@ -3350,7 +3350,7 @@ proxy-groups:
     include-all-providers: true
     use:
     url: http://clients3.google.com/generate_204
-    'interval': "300"
+    'interval': "180"
 
 
   - name: CF-Warp
