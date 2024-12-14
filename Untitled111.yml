@@ -177,7 +177,7 @@ proxy-providers:
 
   FreeV21:
     type: http
-    url: https:/4i2hMS.absslk.xyz/3fcd94e928ea57305bab5c8edde7224e
+    url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml
     interval: "3600"
     path: /Proxy-Providers/FreeV21.yaml
     health-check:
@@ -248,7 +248,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/anorika77/v2ray-subscribe/main/README.md"
     interval: 360
-    path: provide.yaml
+    path: /Proxy-Providers/provide.yaml
   #  exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅' 
     health-check:
       enable: true
@@ -258,7 +258,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/mheidari98/.proxy/main/all" # https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/lt-sub-all.txt # https://raw.githubusercontent.com/cry0ice/genode@main/public/all.txt
     interval: 360
-    path: provide1.yaml
+    path: /Proxy-Providers/provide1.yaml
  #   exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
     health-check:
       enable: true
@@ -268,7 +268,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/luxl-1379/merge/77247d23def72b25226dfa741614e9b07a569c72/sub/sub_merge_base64.txt"
     interval: 360
-    path: provide2.yaml
+    path: /Proxy-Providers/provide2.yaml
 #    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅' 
     health-check:
       enable: true
@@ -278,7 +278,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/barry-far/V2ray-Configs/main/All_Configs_Sub.txt"  # https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/speed.txt # https://raw.githubusercontent.com/itsyebekhe/vpnfail/refs/heads/main/subscription/base64
     interval: 360
-    path: provide3.yaml
+    path: /Proxy-Providers/provide3.yaml
  #   exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅' 
     health-check:
       enable: true
@@ -288,7 +288,7 @@ proxy-providers:
     type: http
     url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/ss.md"
     interval: 360
-    path: provide4.yaml
+    path: /Proxy-Providers/provide4.yaml
 #    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
     health-check:
       enable: true
@@ -298,7 +298,7 @@ proxy-providers:
     type: http
     url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/vmess.md"
     interval: 360
-    path: provide5.yaml
+    path: /Proxy-Providers/provide5.yaml
 #    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
     health-check:
       enable: true
@@ -308,7 +308,7 @@ proxy-providers:
     type: http
     url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/trojan.md"
     interval: 360
-    path: provide6.yaml
+    path: /Proxy-Providers/provide6.yaml
 #    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
     health-check:
       enable: true
@@ -318,7 +318,7 @@ proxy-providers:
     type: http
     url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/proxy.md"
     interval: 360
-    path: provide7.yaml
+    path: /Proxy-Providers/provide7.yaml
 #    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
     health-check:
       enable: true
@@ -328,7 +328,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/1/config.yaml"
     interval: 360
-    path: provide8.yaml
+    path: /Proxy-Providers/provide8.yaml
 #    exclude-filter: 'ctb|Traffic|Expired|Official website|Landing|Return to China|This site|User|If|Renewal|Email|Subscription|流量|过期|官网|落地|回国|本站|用户|若|续费|邮箱|订阅'
     health-check:
       enable: true
@@ -6239,6 +6239,7 @@ proxies:
 proxy-groups:
   - name: Foreign agents
     type: select
+    disable-udp: true
     proxies:
       - CF-Warp
       - FallBack
@@ -6253,12 +6254,12 @@ proxy-groups:
       - CF-Warp
     url: http://clients3.google.com/generate_204
     interval: "180"
-    # disable-udp: true
-#    strategy: consistent-hashing
-    # consistent-hashing 同域名同连接
-    # round-robin 随机连接
+    disable-udp: true
+    strategy: consistent-hashing  # round-robin 随机连接
+    
   - name: FallBack
     type: fallback
+    disable-udp: true
     include-all-proxies: true
     include-all-providers: true
     use:
@@ -6268,6 +6269,7 @@ proxy-groups:
 
   - name: CF-Warp
     type: url-test
+    disable-udp: true
     include-all-proxies: true
     include-all-providers: true
     use:
@@ -6277,6 +6279,7 @@ proxy-groups:
       
   - name: Domestic direct
     type: select
+    disable-udp: true
     include-all-proxies: true
     include-all-providers: true
     proxies:
@@ -6292,8 +6295,8 @@ proxy-groups:
     use:
     url: http://clients3.google.com/generate_204
     interval: "180"
-    # disable-udp: true
-#    strategy: consistent-hashing
+    disable-udp: true
+    strategy: round-robin
     # consistent-hashing 同域名同连接
     # round-robin 随机连接
 
