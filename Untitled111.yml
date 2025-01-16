@@ -6253,7 +6253,7 @@ proxy-groups:
       - Load Balancer
       - CF-Warp
     url: http://clients3.google.com/generate_204
-    interval: "180"
+    interval: "10"
     disable-udp: true
     strategy: consistent-hashing  # round-robin 随机连接
     
@@ -6264,7 +6264,7 @@ proxy-groups:
     include-all-providers: true
     use:
     url: http://clients3.google.com/generate_204
-    'interval': "180"
+    'interval': "18"
 
 
   - name: CF-Warp
@@ -6274,7 +6274,7 @@ proxy-groups:
     include-all-providers: true
     use:
     url: http://clients3.google.com/generate_204
-    'interval': "300"
+    'interval': "30"
 
       
   - name: Domestic direct
@@ -6294,7 +6294,7 @@ proxy-groups:
     include-all-providers: true
     use:
     url: http://clients3.google.com/generate_204
-    interval: "180"
+    interval: "10"
     disable-udp: true
     strategy: round-robin
     # consistent-hashing 同域名同连接
