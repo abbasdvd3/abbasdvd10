@@ -63,55 +63,16 @@ hosts:
    'adguard.ns.buildtest.site': 162.159.36.1
    'dns.alidns.com': 223.5.5.5
    'dns.tuna.tsinghua.edu.cn': 101.6.6.6
-   
-dns:   
-  cache-algorithm: arc 
-  enable: true  
+
+dns:
+  enable: true
+  ipv6: true
+  prefer-h3: true
   listen: 0.0.0.0:1053
   use-hosts: true
-  ipv6: true
-  ipv6-timeout: 300  
-  prefer-h3: true 
   enhanced-mode: fake-ip
-  fake-ip-range: 198.18.0.1/16
-  fake-ip-filter:
-    - '*'
-    - '+.lan'
-    - '+.local'
-  nameserver:    
-    - quic://dns.adguard.com:784#Foreign agents
-    - https://1.1.1.1/dns-query#Foreign agents
-    - https://1.0.0.1/dns-query#Foreign agents
-    - tls://223.5.5.5:853#Foreign agents
-    - https://doh.pub/dns-query#Foreign agents
-    - https://dns.alidns.com/dns-query&h3=true
-    - https://mozilla.cloudflare-dns.com/dns-query#Foreign agents
-    - dhcp://en0#
-    - tls://dns.google:853
-    - tls://8.8.8.8:853
-    - tls://8.8.4.4:853
-    - tls://dns.alidns.com
-    - tls://223.5.5.5
-    - tls://223.6.6.6
-    - tls://dot.pub
-    - tls://1.12.12.12
-    - tls://120.53.53.53
-    - https://dns.google/dns-query
-    - https://8.8.8.8/dns-query
-    - https://8.8.4.4/dns-query
-    - https://dns.alidns.com/dns-query
-    - https://223.5.5.5/dns-query
-    - https://223.6.6.6/dns-query
-    - https://doh.pub/dns-query
-    - https://1.12.12.12/dns-query
-    - https://120.53.53.53/dns-query
-    - 'tls://8.8.4.4#Foreign agents'
-    - 'tls://1.0.0.1#Foreign agents'
-    - 'tls://[2001:4860:4860::8844]#Foreign agents'
-    - 'tls://[2606:4700:4700::1001]#Foreign agents'
-  default-nameserver: 
-    - 1.12.12.12:853
-    - 223.5.5.5:853
+  fake-ip-range: 28.0.0.0/8
+  default-nameserver:
     - 114.114.114.114:53
     - 180.76.76.76:53
     - 119.29.29.29:53
@@ -125,90 +86,130 @@ dns:
     - '[2400:3200::1]'
     - '[2400:3200:baba::1]'
     - '[2402:4e00::]'
-  nameserver-policy:
-    "geosite:ir,private":
-      - https://223.5.5.5/dns-query
-      - https://doh.pub/dns-query
-      - https://doh.360.cn/dns-query
-      - tls://223.5.5.5
-      - tls://dot.pub
-    "geosite:category-ads-all:rcode://success":
-    "geosite:geolocation-!cn":
-      - https://223.5.5.5/dns-query
-      - https://doh.pub/dns-query
-      - https://doh.360.cn/dns-query
-      - tls://223.5.5.5
-      - tls://dot.pub
-      - https://94.140.14.14/dns-query#h3=true
-      - tls://[2620:119:35::35]
-      - tls://[2620:fe::11]
-      - tls://208.67.222.222
-      - tls://9.9.9.11
-    "rule-set:Direct,Local,Proxy,UnBlock":
-      - https://223.5.5.5/dns-query
-      - https://doh.pub/dns-query
-      - https://doh.360.cn/dns-query
-      - tls://223.5.5.5
-      - tls://dot.pub         
-  proxy-server-nameserver:
+  fake-ip-filter:
+    - "*.lan"
+    - "*"
+    - "+.local"
+  nameserver:
+    - 114.114.114.114
+    - 8.8.8.8
+    - 1.1.1.1
+    - 223.5.5.5:853
+    - 9.9.9.10
+    - 94.140.14.140:853
+    - 94.140.14.140
+    - 94.140.14.141:784
+    - 94.140.14.141:853
+    - 94.140.14.141
+    - https://94.140.14.14/dns-query#h3=true
+    - tls://9.9.9.11
+    - tls://208.67.222.222
+    - tls://[2620:fe::11]
+    - tls://[2620:119:35::35]
+    - https://9.9.9.10/dns-query
+    - https://dns.ipv6dns.com/dns-query
+    - tls://221.228.217.28:853
+    - https://221.228.217.28/dns-query
+    - tls://111.7.223.98:853
+    - https://111.7.223.98/dns-query
+    - tls://122.194.14.149:853
+    - https://122.194.14.149/dns-query
+    - tls://dns.alidns.com:853
+    - https://dns.alidns.com/dns-query
+    - tls://223.5.5.5:853
     - https://223.5.5.5/dns-query
-    - https://doh.pub/dns-query
+    - tls://223.6.6.6:853
+    - https://223.6.6.6/dns-queryh3=true
+    - tls://dot.360.cn:853
     - https://doh.360.cn/dns-query
+    - tls://dns.pub:853
+    - https://dns.pub/dns-query
+    - tls://120.53.53.53:853
+    - tls://1.12.12.12:853
+    - https://120.53.53.53/dns-query
+    - https://1.12.12.12/dns-query
+    - https://doh.360.cn/dns-query
+    - tls://dot.360.cn:853
+    - tls://dns.tuna.tsinghua.edu.cn:8853
+  nameserver-policy:
+    "+.ghproxy.com,+.jsdelivr.net": [ "https://223.5.5.5/dns-query#h3=true", "https://1.12.12.12/dns-query", "[2400:3200::1]", "[2400:3200:baba::1]", "[2402:4e00::]" ]
+    "geosite:ir,private": [ "https://223.5.5.5/dns-query#h3=true", "https://1.12.12.12/dns-query", "[2400:3200::1]", "[2400:3200:baba::1]", "[2402:4e00::]" ]
+    "geosite:category-ads-all": rcode://success
+    "rule-set:Direct,Local,Proxy,UnBlock": [ "https://94.140.14.14/dns-query#h3=true", "tls://9.9.9.11", "tls://208.67.222.222", "tls://[2620:fe::11]", "tls://[2620:119:35::35]" ]
+    "geosite:geolocation-!cn": [ "https://94.140.14.14/dns-query#h3=true", "tls://9.9.9.11", "tls://208.67.222.222", "tls://[2620:fe::11]", "tls://[2620:119:35::35]" ]
+  proxy-server-nameserver:
     - tls://223.5.5.5
-    - tls://dot.pub     
-  fallback:
+    - tls://dot.pub
+    - https://120.53.53.53/dns-query
+    - https://223.5.5.5/dns-query
     - tls://8.8.4.4
-    - quic://a.passcloud.xyz:784#Foreign agents
-    - tls://8.8.4.4:853#Foreign agents
-    - tcp://1.1.1.1#Foreign agents
-    - https://1.1.1.1/dns-query&h3=true
-    - https://1.0.0.1/dns-query#Foreign agents
-    - tls://1dot1dot1dot1.cloudflare-dns.com#Foreign agents
-  fallback-filter:    
-    geoip: true 
-    geoip-code: ir
-    geosite:      
-    ipcidr:
-      - 0.0.0.0/8
-      - 10.0.0.0/8
-      - 100.64.0.0/10
-      - 127.0.0.0/8
-      - 169.254.0.0/16
-      - 172.16.0.0/12
-      - 192.0.0.0/24
-      - 192.0.2.0/24
-      - 192.168.0.0/16
-      - 192.88.99.0/24
-      - 198.18.0.0/15
-      - 198.51.100.0/24
-      - 203.0.113.0/24
-      - 224.0.0.0/4
-      - 240.0.0.0/4
-      - 255.255.255.255/32
-    domain:
-      - '+.google.com'
-      - '+.facebook.com'
-      - '+.youtube.com'
-      - '+.googleapis.+'  
-      - '+.facebook.com'
-      - '+.google.com'
-      - '+.googleapis.com'
-      - '+.googlevideo.com'
-      - '+.youtube.com'
-      - '+.x.com'
-      - '+.tiktok.com'
-      - '+.instagram.com'
-      - '+.netfix.com'
-      - '+.hbo.com'
-      - '+.disneyplus.com'
-      - '+.github.com'
-      - '+.githubusercontent.com'
+    - tls://1.1.1.1
+    - quic://a.passcloud.xyz:784
+    - https://8.8.8.8/dns-query
+    - tls://45.90.28.0:853
+    - tls://45.90.30.0:853
+    - https://45.90.28.0/dns-query
+    - https://45.90.30.0/dns-query
+    - https://anycast.dns.nextdns.io/dns-query
+    - quic://dns-unfiltered.adguard.com:784
+    - tls://dns-unfiltered.adguard.com:853
+    - https://dns-unfiltered.adguard.com/dns-query
+    - quic://94.140.14.140:784
+    - tls://94.140.14.140:853
+    - https://94.140.14.140/dns-query
+    - quic://94.140.14.141:784
+    - tls://94.140.14.141:853
+    - https://94.140.14.141/dns-query
+    - quic://[2a10:50c0::1:ff]:784
+    - tls://[2a10:50c0::1:ff]:853
+    - https://[2a10:50c0::1:ff]/dns-query
+    - quic://[2a10:50c0::2:ff]:784
+    - tls://[2a10:50c0::2:ff]:853
+    - https://[2a10:50c0::2:ff]/dns-query
+    - https://dns-adguard.heinu.cf/dns-query
+    - https://dns-adguard.heinu.ga/dns-query
+  fallback-filter:
+     geoip: true
+     geoip-code: ir
+     geoipsite:
+     #  - gfw
+     ipcidr:
+       - 0.0.0.0/8
+       - 10.0.0.0/8
+       - 100.64.0.0/10
+       - 127.0.0.0/8
+       - 169.254.0.0/16
+       - 172.16.0.0/12
+       - 192.0.0.0/24
+       - 192.0.2.0/24
+       - 192.168.0.0/16
+       - 192.88.99.0/24
+       - 198.18.0.0/15
+       - 198.51.100.0/24
+       - 203.0.113.0/24
+       - 224.0.0.0/4
+       - 240.0.0.0/4
+       - 255.255.255.255/32
+     domain:
+       - '+.facebook.com'
+       - '+.google.com'
+       - '+.googleapis.com'
+       - '+.googlevideo.com'
+       - '+.youtube.com'
+       - '+.x.com'
+       - '+.tiktok.com'
+       - '+.instagram.com'
+       - '+.netfix.com'
+       - '+.hbo.com'
+       - '+.disneyplus.com'
+       - '+.github.com'
+       - '+.githubusercontent.com'
 
 
 proxy-providers:
   IPLC-1:
     type: http
-    url: https://raw.githubusercontent.com/abbasdvd3/clash/refs/heads/main/vless/x
+    url: "https://raw.githubusercontent.com/abbasdvd3/clash/refs/heads/main/vless/x"
     interval: "300"
     path: /Proxy-Providers/IPLC-1.yaml
     health-check:
@@ -217,7 +218,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   FreeV2:
     type: http
-    url: https://raw.githubusercontent.com/VpnNetwork01/vpn-net/main/README.md
+    url: "https://raw.githubusercontent.com/VpnNetwork01/vpn-net/main/README.md"
     interval: "300"
     path: /Proxy-Providers/FreeV2.yaml
     health-check:
@@ -226,7 +227,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   OneCNY:
     type: http
-    url: https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt
+    url: "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt"
     interval: "300"
     path: /Proxy-Providers/OneCNY.yaml
     health-check:
@@ -235,7 +236,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-4:
     type: http
-    url: https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription_num&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    url: "https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription_num&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
     interval: "300"
     path: /Proxy-Providers/IEPL-4.yaml
     health-check:
@@ -244,7 +245,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204 
   IEPL-3:
     type: http
-    url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml
+    url: "https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml"
     interval: "300"
     path: /Proxy-Providers/IEPL-3.yaml
     health-check:
@@ -253,7 +254,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-1:
     type: http
-    url: https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all
+    url: https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all"
     interval: "300"
     path: /Proxy-Providers/IEPL-1.yaml
     health-check:
@@ -262,7 +263,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IPLC-2:
     type: http
-    url: https://raw.githubusercontent.com/gtang8/SubCrawler/main/sub/share/all
+    url: https://raw.githubusercontent.com/gtang8/SubCrawler/main/sub/share/all"
     interval: "300"
     path: /Proxy-Providers/IPLC-2.yaml
     health-check:
@@ -271,7 +272,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   CloudFlare-Warp:
     type: http
-    url: https://raw.githubusercontent.com/zzz6839/SubCrawler/main/sub/share/all
+    url: https://raw.githubusercontent.com/zzz6839/SubCrawler/main/sub/share/all"
     interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp.yaml 
     health-check:
@@ -280,7 +281,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IPLC-11:
     type: http
-    url: https://raw.githubusercontent.com/freefq/free/master/README.md
+    url: https://raw.githubusercontent.com/freefq/free/master/README.md"
     interval: "300"
     path: /Proxy-Providers/IPLC-11.yaml
     health-check:
@@ -289,7 +290,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   FreeV21:
     type: http
-    url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml
+    url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml"
     interval: "300"
     path: /Proxy-Providers/FreeV21.yaml
     health-check:
@@ -298,7 +299,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   OneCNY1:
     type: http
-    url: https://raw.githubusercontent.com/caijh/FreeProxiesScraper/master/Eternity.yaml
+    url: https://raw.githubusercontent.com/caijh/FreeProxiesScraper/master/Eternity.yaml"
     interval: "300"
     path: /Proxy-Providers/OneCNY1.yaml
     health-check:
@@ -307,7 +308,7 @@ proxy-providers:
       url: hhttps://lab.skk.moe/test-204
   IEPL-41:
     type: http
-    url: https://raw.githubusercontent.com/youkai0100/youkai/master/README.md
+    url: https://raw.githubusercontent.com/youkai0100/youkai/master/README.md"
     interval: "300"
     path: /Proxy-Providers/IEPL-41.yaml
     health-check:
@@ -316,7 +317,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-31:
     type: http
-    url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml
+    url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml"
     interval: "300"
     path: /Proxy-Providers/IEPL-31.yaml
     health-check:
@@ -325,7 +326,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-11:
     type: http
-    url: https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md
+    url: https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md"
     interval: "300"
     path: /Proxy-Providers/IEPL-11.yaml
     health-check:
@@ -334,7 +335,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IPLC-21:
     type: http
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md"
     interval: "300"
     path: /Proxy-Providers/IPLC-21.yaml
     health-check:
@@ -343,7 +344,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   CloudFlare-Warp1:
     type: http
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md
+    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md"
     interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp1.yaml 
     health-check:
@@ -352,7 +353,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204  
   "provide":
     type: http
-    url: https://raw.githubusercontent.com/anorika77/v2ray-subscribe/main/README.md
+    url: https://raw.githubusercontent.com/anorika77/v2ray-subscribe/main/README.md"
     interval: 300
     path: /Proxy-Providers/provide.yaml
     health-check:
@@ -361,17 +362,16 @@ proxy-providers:
       interval: 300
   "provide1":
     type: http
-    url: https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmheidari98%2F.proxy%2Fmain%2Fall&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true # https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/lt-sub-all.txt # https://raw.githubusercontent.com/cry0ice/genode@main/public/all.txt
+    url: "https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmheidari98%2F.proxy%2Fmain%2Fall&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true # https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/lt-sub-all.txt# https://raw.githubusercontent.com/cry0ice/genode@main/public/all.txt"
     interval: 300
     path: /Proxy-Providers/provide1.yaml
- #   exclude-filter: https://raw.githubusercontent.com/lagzian/SS-Collector/main/reality_clash.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
       interval: 300
   "provide2":
     type: http
-    url: https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fluxl-1379%2Fmerge%2F77247d23def72b25226dfa741614e9b07a569c72%2Fsub%2Fsub_merge_base64.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true
+    url: "https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fluxl-1379%2Fmerge%2F77247d23def72b25226dfa741614e9b07a569c72%2Fsub%2Fsub_merge_base64.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
     interval: 300
     path: /Proxy-Providers/provide2.yaml
     health-check:
@@ -379,8 +379,8 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
       interval: 300
   "provide3":
-    type: http
-    url: https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fbarry-far%2FV2ray-Configs%2Fmain%2FAll_Configs_Sub.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true  # https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/speed.txt # https://raw.githubusercontent.com/itsyebekhe/vpnfail/refs/heads/main/subscription/base64
+    type: http 
+    url: "https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fbarry-far%2FV2ray-Configs%2Fmain%2FAll_Configs_Sub.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
     interval: 300
     path: /Proxy-Providers/provide3.yaml
     health-check:
@@ -389,7 +389,7 @@ proxy-providers:
       interval: 300
   "provide4":
     type: http
-    url: https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/ss.md
+    url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/ss.md"
     interval: 300
     path: /Proxy-Providers/provide4.yaml
     health-check:
@@ -398,7 +398,7 @@ proxy-providers:
       interval: 300
   "provide5":
     type: http
-    url: https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/vmess.md
+    url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/vmess.md"
     interval: 300
     path: /Proxy-Providers/provide5.yaml
     health-check:
@@ -407,7 +407,7 @@ proxy-providers:
       interval: 300
   "provide6":
     type: http
-    url: https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/trojan.md
+    url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/trojan.md"
     interval: 300
     path: /Proxy-Providers/provide6.yaml
     health-check:
@@ -416,7 +416,7 @@ proxy-providers:
       interval: 300
   "provide7":
     type: http
-    url: https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/proxy.md
+    url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/proxy.md"
     interval: 300
     path: /Proxy-Providers/provide7.yaml
     health-check:
@@ -425,7 +425,7 @@ proxy-providers:
       interval: 300
   "provide8":
     type: http
-    url: https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/1/config.yaml
+    url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/1/config.yaml"
     interval: 300
     path: /Proxy-Providers/provide8.yaml
     health-check:
@@ -6404,21 +6404,18 @@ rule-providers:
     path: ./Rule-Providers/Local.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Local.list
     'interval': "3600"
-
   Proxy:
     type: http
     behavior: classical
     path: ./Rule-Providers/Proxy.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Proxy.list
     'interval': "3600"
-
   UnBlock:
     type: http
     behavior: classical
     path: ./Rule-Providers/UnBlock.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/UnBlock.list
     'interval': "3600"
-
   Direct:
     type: http
     behavior: classical
@@ -6432,30 +6429,30 @@ rule-providers:
     path: ./ruleset/block.yaml
     interval: "3600"
 rules:
- - DOMAIN-SUFFIX,googlesyndication.com,Foreign agents
- - AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
- - GEOSITE,category-ads-all,REJECT
- - RULE-SET,block,REJECT
- - AND,((NETWORK,TCP),(DST-PORT,5228-5230)),Foreign agents
- - AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),Foreign agents
- - AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,GOOGLE)))),REJECT
- - AND,((NETWORK,udp),(GEOSITE,google)),REJECT
- - AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
- - AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
- - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
- - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
- - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
- - IP-CIDR6,::1/128,REJECT,no-resolve
- - GEOIP,telegram,Foreign agents
- - GEOSITE,telegram,Foreign agents
- - AND,((NETWORK,UDP),(DST-PORT,123)),Foreign agents
- - DST-PORT,123/136/137-139,Foreign agents,udp
- - AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
- - IN-TYPE,inner,Foreign agents
- - RULE-SET,Local,Domestic direct
- - RULE-SET,Direct,Domestic direct
- - RULE-SET,Proxy,Foreign agents
- - AND,((RULE-SET,UnBlock),(GEOIP,google)),Foreign agents
- - RULE-SET,UnBlock,Foreign agents
- - GEOIP,IR,Domestic direct
- - MATCH,Foreign agents
+- DOMAIN-SUFFIX,googlesyndication.com,Foreign agents
+- AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
+- GEOSITE,category-ads-all,REJECT
+- RULE-SET,block,REJECT
+- AND,((NETWORK,TCP),(DST-PORT,5228-5230)),Foreign agents
+- AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),Foreign agents
+- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,GOOGLE)))),REJECT
+- AND,((NETWORK,udp),(GEOSITE,google)),REJECT
+- AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
+- AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
+- IP-CIDR,127.0.0.1/32,REJECT,no-resolve
+- IP-CIDR,198.18.0.1/16,REJECT,no-resolve
+- IP-CIDR,28.0.0.1/8,REJECT,no-resolve
+- IP-CIDR6,::1/128,REJECT,no-resolve
+- GEOIP,telegram,Foreign agents
+- GEOSITE,telegram,Foreign agents
+- AND,((NETWORK,UDP),(DST-PORT,123)),Foreign agents
+- DST-PORT,123/136/137-139,Foreign agents,udp
+- AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
+- IN-TYPE,inner,Foreign agents
+- RULE-SET,Local,Domestic direct
+- RULE-SET,Direct,Domestic direct
+- RULE-SET,Proxy,Foreign agents
+- AND,((RULE-SET,UnBlock),(GEOIP,google)),Foreign agents
+- RULE-SET,UnBlock,Foreign agents
+- GEOIP,IR,Domestic direct
+- MATCH,Foreign agents
