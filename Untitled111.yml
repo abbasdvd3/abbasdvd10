@@ -15,7 +15,7 @@ ipv6: false
 allow-lan: false
 tcp-concurrent: true
 unified-delay: false
-geodata-mode: true
+geodata-mode: false
 geo-auto-update: true
 geo-update-interval: 24 
 keep-alive-interval: 15
@@ -169,7 +169,7 @@ dns:
     - https://dns-adguard.heinu.cf/dns-query
     - https://dns-adguard.heinu.ga/dns-query
   fallback-filter:
-     geoip: true
+     geoip: false
      geoip-code: ir
      geoipsite:
      #  - gfw
@@ -6336,6 +6336,8 @@ proxy-groups:
   - name: Foreign agents
     type: select
     disable-udp: true
+    include-all-proxies: true
+    include-all-providers: true
     proxies:
       - CF-Warp
       - FallBack
@@ -6349,7 +6351,7 @@ proxy-groups:
       - Load Balancer
       - CF-Warp
     url: https://lab.skk.moe/test-204
-    interval: "10"
+    interval: "100"
     disable-udp: true
     strategy: consistent-hashing  # round-robin 随机连接
     
@@ -6360,7 +6362,7 @@ proxy-groups:
     include-all-providers: true
     use:
     url: https://lab.skk.moe/test-204
-    'interval': "18"
+    'interval': "180"
 
 
   - name: CF-Warp
@@ -6370,7 +6372,7 @@ proxy-groups:
     include-all-providers: true
     use:
     url: https://lab.skk.moe/test-204
-    'interval': "30"
+    'interval': "300"
 
       
   - name: Domestic direct
