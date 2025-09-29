@@ -11,16 +11,16 @@ lan-disallowed-ips:
 skip-auth-prefixes:
 - 127.0.0.1/8
 - ::1/128
-ipv6: false
-allow-lan: false
+ipv6: true
+allow-lan: true
 tcp-concurrent: true
-unified-delay: false
-geodata-mode: false
+unified-delay: true
+geodata-mode: true
 geo-auto-update: true
 geo-update-interval: 24 
 keep-alive-interval: 15
 keep-alive-idle: 15
-disable-keep-alive: false
+disable-keep-alive: true
 global-ua: clash.meta
 etag-support: true
 interface-name: ""
@@ -34,10 +34,10 @@ allow-origins:
 allow-private-network: true
 external-controller-unix: mihomo.sock
 external-controller-pipe: \\.\pipe\mihomo
-external-controller-tls: 127.0.0.1:9443
+external-controller-tls: 127.0.0.1:9091
 external-controller: 127.0.0.1:9090 
-external-ui: /path/to/ui/folder
-external-ui-url: "https://github.com/MetaCubeX/metacubexd/archive/refs/heads/gh-pages.zip"
+external-ui: ui
+external-ui-url: "https://github.com/Zephyruso/zashboard/archive/refs/heads/gh-pages.zip"
 external-ui-name:
 
 geox-url:
@@ -254,7 +254,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-1:
     type: http
-    url: https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all"
+    url: "https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all"
     interval: "300"
     path: /Proxy-Providers/IEPL-1.yaml
     health-check:
@@ -263,7 +263,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IPLC-2:
     type: http
-    url: https://raw.githubusercontent.com/gtang8/SubCrawler/main/sub/share/all"
+    url: "https://raw.githubusercontent.com/gtang8/SubCrawler/main/sub/share/all"
     interval: "300"
     path: /Proxy-Providers/IPLC-2.yaml
     health-check:
@@ -272,7 +272,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   CloudFlare-Warp:
     type: http
-    url: https://raw.githubusercontent.com/zzz6839/SubCrawler/main/sub/share/all"
+    url: "https://raw.githubusercontent.com/zzz6839/SubCrawler/main/sub/share/all"
     interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp.yaml 
     health-check:
@@ -281,7 +281,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IPLC-11:
     type: http
-    url: https://raw.githubusercontent.com/freefq/free/master/README.md"
+    url: "https://raw.githubusercontent.com/freefq/free/master/README.md"
     interval: "300"
     path: /Proxy-Providers/IPLC-11.yaml
     health-check:
@@ -290,7 +290,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   FreeV21:
     type: http
-    url: https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml"
+    url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml"
     interval: "300"
     path: /Proxy-Providers/FreeV21.yaml
     health-check:
@@ -299,7 +299,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   OneCNY1:
     type: http
-    url: https://raw.githubusercontent.com/caijh/FreeProxiesScraper/master/Eternity.yaml"
+    url: "https://raw.githubusercontent.com/caijh/FreeProxiesScraper/master/Eternity.yaml"
     interval: "300"
     path: /Proxy-Providers/OneCNY1.yaml
     health-check:
@@ -308,7 +308,7 @@ proxy-providers:
       url: hhttps://lab.skk.moe/test-204
   IEPL-41:
     type: http
-    url: https://raw.githubusercontent.com/youkai0100/youkai/master/README.md"
+    url: "https://raw.githubusercontent.com/youkai0100/youkai/master/README.md"
     interval: "300"
     path: /Proxy-Providers/IEPL-41.yaml
     health-check:
@@ -317,7 +317,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-31:
     type: http
-    url: https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml"
+    url: "https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml"
     interval: "300"
     path: /Proxy-Providers/IEPL-31.yaml
     health-check:
@@ -326,7 +326,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-11:
     type: http
-    url: https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md"
+    url: "https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md"
     interval: "300"
     path: /Proxy-Providers/IEPL-11.yaml
     health-check:
@@ -335,7 +335,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IPLC-21:
     type: http
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md"
+    url: "https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md"
     interval: "300"
     path: /Proxy-Providers/IPLC-21.yaml
     health-check:
@@ -344,7 +344,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   CloudFlare-Warp1:
     type: http
-    url: https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md"
+    url: "https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md"
     interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp1.yaml 
     health-check:
@@ -353,7 +353,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204  
   "provide":
     type: http
-    url: https://raw.githubusercontent.com/anorika77/v2ray-subscribe/main/README.md"
+    url: "https://raw.githubusercontent.com/anorika77/v2ray-subscribe/main/README.md"
     interval: 300
     path: /Proxy-Providers/provide.yaml
     health-check:
@@ -6458,3 +6458,4 @@ rules:
 - RULE-SET,UnBlock,Foreign agents
 - GEOIP,IR,Domestic direct
 - MATCH,Foreign agents
+
