@@ -169,7 +169,7 @@ dns:
     - https://dns-adguard.heinu.cf/dns-query
     - https://dns-adguard.heinu.ga/dns-query
   fallback-filter:
-     geoip: false
+     geoip: true
      geoip-code: ir
      geoipsite:
      #  - gfw
@@ -6336,8 +6336,8 @@ proxy-groups:
   - name: Foreign agents
     type: select
     disable-udp: true
-    include-all-proxies: true
-    include-all-providers: true
+ #   include-all-proxies: true
+ #   include-all-providers: true
     proxies:
       - CF-Warp
       - FallBack
@@ -6403,32 +6403,27 @@ rule-providers:
   Local:
     type: http
     behavior: classical
-    path: ./Rule-Providers/Local.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Local.list
     'interval': "3600"
   Proxy:
     type: http
     behavior: classical
-    path: ./Rule-Providers/Proxy.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Proxy.list
     'interval': "3600"
   UnBlock:
     type: http
     behavior: classical
-    path: ./Rule-Providers/UnBlock.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/UnBlock.list
     'interval': "3600"
   Direct:
     type: http
     behavior: classical
-    path: ./Rule-Providers/Direct.list
     url: https://cdn.jsdelivr.net/gh/LittleRey/clash-yaml/rules/Direct.list
     'interval': "3600"
   block:
     type: http
     behavior: domain
     url: https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt
-    path: ./ruleset/block.yaml
     interval: "3600"
 rules:
 - DOMAIN-SUFFIX,googlesyndication.com,Foreign agents
@@ -6458,4 +6453,5 @@ rules:
 - RULE-SET,UnBlock,Foreign agents
 - GEOIP,IR,Domestic direct
 - MATCH,Foreign agents
+
 
