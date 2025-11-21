@@ -209,7 +209,7 @@ dns:
 proxy-providers:
   IPLC-1:
     type: http
-    url: "https://raw.githubusercontent.com/abbasdvd3/clash/refs/heads/main/vless/x"
+    url: "https://raw.githubusercontent.com/abbasdvd3/clash/refs/heads/main/vless/vip"
     interval: "300"
     path: /Proxy-Providers/IPLC-1.yaml
     health-check:
@@ -218,7 +218,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   FreeV2:
     type: http
-    url: "https://raw.githubusercontent.com/VpnNetwork01/vpn-net/main/README.md"
+    url: "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml"
     interval: "300"
     path: /Proxy-Providers/FreeV2.yaml
     health-check:
@@ -227,7 +227,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   OneCNY:
     type: http
-    url: "https://raw.githubusercontent.com/mahdibland/ShadowsocksAggregator/master/sub/sub_merge.txt"
+    url: "https://shadowmere.xyz/api/b64sub/"
     interval: "300"
     path: /Proxy-Providers/OneCNY.yaml
     health-check:
@@ -236,7 +236,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-4:
     type: http
-    url: "https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fw1770946466%2FAuto_proxy%2Fmain%2FLong_term_subscription_num&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
+    url: "https://proxypool1999.banyunxiaoxi.icu/clash/proxies"
     interval: "300"
     path: /Proxy-Providers/IEPL-4.yaml
     health-check:
@@ -263,7 +263,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IPLC-2:
     type: http
-    url: "https://raw.githubusercontent.com/gtang8/SubCrawler/main/sub/share/all"
+    url: "http://155.248.172.106:12580/clash/proxies"
     interval: "300"
     path: /Proxy-Providers/IPLC-2.yaml
     health-check:
@@ -272,7 +272,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   CloudFlare-Warp:
     type: http
-    url: "https://raw.githubusercontent.com/zzz6839/SubCrawler/main/sub/share/all"
+    url: "https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml"
     interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp.yaml 
     health-check:
@@ -281,7 +281,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IPLC-11:
     type: http
-    url: "https://raw.githubusercontent.com/freefq/free/master/README.md"
+    url: "https://raw.githubusercontent.com/HakurouKen/free-node/main/public"
     interval: "300"
     path: /Proxy-Providers/IPLC-11.yaml
     health-check:
@@ -326,7 +326,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   IEPL-11:
     type: http
-    url: "https://raw.githubusercontent.com/cdp2020/v2ray/master/README.md"
+    url: "https://config.v2cross.com/clashprofile/config"
     interval: "300"
     path: /Proxy-Providers/IEPL-11.yaml
     health-check:
@@ -344,7 +344,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   CloudFlare-Warp1:
     type: http
-    url: "https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/v2ray.md"
+    url: "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
     interval: "300"
     path: /Proxy-Providers/CloudFlare-Warp1.yaml 
     health-check:
@@ -353,7 +353,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204  
   "provide":
     type: http
-    url: "https://raw.githubusercontent.com/anorika77/v2ray-subscribe/main/README.md"
+    url: "http://66.42.50.118:12580/clash/proxies"
     interval: 300
     path: /Proxy-Providers/provide.yaml
     health-check:
@@ -6453,6 +6453,7 @@ rules:
 - RULE-SET,UnBlock,Foreign agents
 - GEOIP,IR,Domestic direct
 - MATCH,Foreign agents
+
 
 
 
