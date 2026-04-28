@@ -9,14 +9,11 @@ unified-delay: true
 auto-redir: true
 enable-process: true
 bind-address: '*'
-# info / warning / error / debug / silent
-log-level: warning
+log-level: silent
 ipv6: false
 external-controller: 0.0.0.0:9090 
-# secret: "123456"
 external-ui: 
-
-find-process-mode: always # always, strict, off
+find-process-mode: always 
 
 sniffer:
   enable: true
@@ -67,230 +64,15 @@ proxy-groups:
     proxies:
       - "FALLBACK"
       - "URL-TEST"
-    use:
-      - "provider1"
-      - "provider2"
-      - "provider3"
-      - "provider4"
-      - "provider5"
-      - "provider6"
-      - "provider7"
-      - "provider8"
-      - "provider9"
-      - "provider10"
-      - "provider11"
-      - "provider12"
-      - "provider13"
-      - "provider14"
-      - "provider15"
-      - "provider16"
-      - "provider17"
-      - "provider18"
-      - "provider19"
-      - "provider20"
-      - "provider21"
-      - "provider22"
-      - "provider23"
-      - "provider24"
-      - "provider26"
-      - "provider27"
-      - "provider28"
-      - "provider29"
-      - "provider30"
-      - "provider31"
-      - "provider32"
-      - "provider33"
-      - "provider34"
-      - "provider35"
-      - "provider36"
-      - "provider37"
-      - "provider38"
-      - "provider39"
-      - "provider40"
-      - "provider41"
-      - "provider42"
-      - "provider43"
-      - "provider44"
-      - "provider45"
-      - "provider46"
-      - "provider47"
-      - "provider48"
-      - "provider49"
-      - "provider50"
-      - "provider51"
-      - "provider52"
-      - "provider53"
-      - "provider54"
-      - "provider55"
-      - "provider56"
-      - "provider57"
-      - "provider58"
-      - "provider59" 
-      - "provider60"
-      - "provider61"
-      - "provider62"
-      - "provider63"
-      - "provider64"
-      - "provider65"
-      - "provider66"
-      - "provider67"
-      - "provider68"
-      - "provider69"
-      - "provider70"
-      - "provider71"
-      - "provider72"
-      - "provider73"  
+
   - name: "FALLBACK"
     type: fallback
-    use:
-      - "provider1"
-      - "provider2"
-      - "provider3"
-      - "provider4"
-      - "provider5"
-      - "provider6"
-      - "provider7"
-      - "provider8"
-      - "provider9"
-      - "provider10"
-      - "provider11"
-      - "provider12"
-      - "provider13"
-      - "provider14"
-      - "provider15"
-      - "provider16"
-      - "provider17"
-      - "provider18"
-      - "provider19"
-      - "provider20"
-      - "provider21"
-      - "provider22"
-      - "provider23"
-      - "provider24"
-      - "provider26"
-      - "provider27"
-      - "provider28"
-      - "provider29"
-      - "provider30"
-      - "provider31"
-      - "provider32"
-      - "provider33"
-      - "provider34"
-      - "provider35"
-      - "provider36"
-      - "provider37"
-      - "provider38"
-      - "provider39"
-      - "provider40"
-      - "provider41"
-      - "provider42"
-      - "provider43"
-      - "provider44"
-      - "provider45"
-      - "provider46"
-      - "provider47"
-      - "provider48"
-      - "provider49"
-      - "provider50"
-      - "provider51"
-      - "provider52"
-      - "provider53"
-      - "provider54"
-      - "provider55"
-      - "provider56"
-      - "provider57"
-      - "provider58"
-      - "provider59" 
-      - "provider60"
-      - "provider61"
-      - "provider62"
-      - "provider63"
-      - "provider64"
-      - "provider65"
-      - "provider66"
-      - "provider67"
-      - "provider68"
-      - "provider69"
-      - "provider70"
-      - "provider71"
-      - "provider72"
-      - "provider73" 
-      
+    include-all-providers: true
+
   - name: "URL-TEST"
     type: url-test
-    use:
-      - "provider1"
-      - "provider2"
-      - "provider3"
-      - "provider4"
-      - "provider5"
-      - "provider6"
-      - "provider7"
-      - "provider8"
-      - "provider9"
-      - "provider10"
-      - "provider11"
-      - "provider12"
-      - "provider13"
-      - "provider14"
-      - "provider15"
-      - "provider16"
-      - "provider17"
-      - "provider18"
-      - "provider19"
-      - "provider20"
-      - "provider21"
-      - "provider22"
-      - "provider23"
-      - "provider24"
-      - "provider26"
-      - "provider27"
-      - "provider28"
-      - "provider29"
-      - "provider30"
-      - "provider31"
-      - "provider32"
-      - "provider33"
-      - "provider34"
-      - "provider35"
-      - "provider36"
-      - "provider37"
-      - "provider38"
-      - "provider39"
-      - "provider40"
-      - "provider41"
-      - "provider42"
-      - "provider43"
-      - "provider44"
-      - "provider45"
-      - "provider46"
-      - "provider47"
-      - "provider48"
-      - "provider49"
-      - "provider50"
-      - "provider51"
-      - "provider52"
-      - "provider53"
-      - "provider54"
-      - "provider55"
-      - "provider56"
-      - "provider57"
-      - "provider58"
-      - "provider59" 
-      - "provider60"
-      - "provider61"
-      - "provider62"
-      - "provider63"
-      - "provider64"
-      - "provider65"
-      - "provider66"
-      - "provider67"
-      - "provider68"
-      - "provider69"
-      - "provider70"
-      - "provider71"
-      - "provider72"
-      - "provider73"     
+    include-all-providers: true
+
   - name: "block"
     type: select
     proxies:
@@ -1032,112 +814,96 @@ rule-providers:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    path: ./assets/rule-providers/block.yaml
     interval: 86400
 
   reject:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/reject.txt"
-    path: ./assets/rule-providers/reject.yaml
     interval: 86400
     
   icloud:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/icloud.txt"
-    path: ./assets/rule-providers/icloud.yaml
     interval: 86400
     
   apple:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/apple.txt"
-    path: ./assets/rule-providers/apple.yaml
     interval: 86400
     
   google:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/google.txt"
-    path: ./assets/rule-providers/google.yaml
     interval: 86400
     
   proxy:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/proxy.txt"
-    path: ./assets/rule-providers/proxy.yaml
     interval: 86400
     
   direct:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/direct.txt"
-    path: ./assets/rule-providers/direct.yaml
     interval: 86400
     
   private:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/private.txt"
-    path: ./assets/rule-providers/private.yaml
     interval: 86400
     
   gfw:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/gfw.txt"
-    path: ./assets/rule-providers/gfw.yaml
     interval: 86400
     
   greatfire:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/greatfire.txt"
-    path: ./assets/rule-providers/greatfire.yaml
     interval: 86400
     
   tld-not-cn:
     type: http
     behavior: domain
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/tld-not-cn.txt"
-    path: ./assets/rule-providers/tld-not-cn.yaml
     interval: 86400
     
   telegramcidr:
     type: http
     behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/telegramcidr.txt"
-    path: ./assets/rule-providers/telegramcidr.yaml
     interval: 86400
     
   lancidr:
     type: http
     behavior: ipcidr
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/lancidr.txt"
-    path: ./assets/rule-providers/lancidr.yaml
     interval: 86400
     
   applications:
     type: http
     behavior: classical
     url: "https://cdn.jsdelivr.net/gh/Loyalsoldier/clash-rules@release/applications.txt"
-    path: ./assets/rule-providers/applications.yaml
     interval: 86400
     
   porn:
     type: http
     behavior: domain
-    url: https://rules.kr328.app/category-porn.yaml
-    path: ./assets/rule-providers/porn.yaml
+    url: "https://rules.kr328.app/category-porn.yaml"
     interval: 86400
     
   iran:
     type: http
     behavior: classical
     url: "https://github.com/bootmortis/iran-hosted-domains/releases/latest/download/clash_rules.yaml"
-    path: ./assets/rule-providers/iran.yaml
     interval: 432000
     
 rules:
@@ -1159,26 +925,14 @@ rules:
   - DOMAIN-KEYWORD,github,DIRECT
   - DOMAIN-KEYWORD,appteka.store,DIRECT
   - DOMAIN-SUFFIX,collector.githubapp.com,DIRECT
-  ## block ads
-  # - DOMAIN-SUFFIX,googlesyndication.com,PROXY
+  - DOMAIN-SUFFIX,googlesyndication.com,PROXY
   - AND,((GEOSITE,category-ads-all),(NOT,((DOMAIN-SUFFIX,googlesyndication.com)))),REJECT
   - GEOSITE,category-ads-all,REJECT
   - RULE-SET,block,REJECT
-  ## direct FCM
-  # - AND,((NETWORK,TCP),(DST-PORT,5228-5230)),DIRECT
-  # - AND,((NETWORK,TCP),(DST-PORT,5228-5230),(OR,((DOMAIN-KEYWORD,google)))),DIRECT
-  ## block udp/quic YouTube
-  # - AND,((NETWORK,udp),(OR,((DST-PORT,443/80),(GEOSITE,youtube)))),REJECT
-  # - AND,((NETWORK,udp),(GEOSITE,youtube)),REJECT
-  # fix dnsleak
   - IP-CIDR,127.0.0.1/32,REJECT,no-resolve
   - IP-CIDR,198.18.0.1/16,REJECT,no-resolve
   - IP-CIDR,28.0.0.1/8,REJECT,no-resolve
   - IP-CIDR6,::1/128,REJECT,no-resolve
-  ## direct ntp
-  # - AND,((NETWORK,UDP),(DST-PORT,123)),DIRECT
-  # - DST-PORT,123/136/137-139,DIRECT,udp
-  ## rules inner, recommended untuk non kuota reguler
-  # - AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
-  # - IN-TYPE,inner,PROXY
+  - AND,((PROCESS-NAME,clash),(NOT,((IN-TYPE,inner)))),REJECT
+  - IN-TYPE,inner,PROXY
   - MATCH,PROXY
