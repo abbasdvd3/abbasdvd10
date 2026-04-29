@@ -83,7 +83,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/AzadNet_META_IRAN-Direct.yaml
+    path: proxy_providers/AzadNet_META_IRAN-Direct.yaml
     health-check:
       enable: true
       interval: "300"
@@ -91,9 +91,9 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   provider2:
     type: "http"
-    url: "https://raw.githubusercontent.com/abbasdvd3/clash/main/3april3.yaml"
+    url: "https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/3april3.yaml
+    path: proxy_providers/3april3.yaml
     health-check:
       enable: true
       interval: "300"
@@ -103,7 +103,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/SnapdragonLee/SystemProxy/master/dist/clash_config.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider3.yaml
+    path: proxy_providers/provider3.yaml
     health-check:
       enable: true
       interval: "300"
@@ -113,7 +113,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/tbbatbb/Proxy/master/dist/clash.config.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider4.yaml
+    path: proxy_providers/provider4.yaml
     health-check:
       enable: true
       interval: "300"
@@ -123,7 +123,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/colatiger/clash-config/master/clash.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider5.yaml
+    path: proxy_providers/provider5.yaml
     health-check:
       enable: true
       interval: "300"
@@ -133,7 +133,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.fastgit.org/freefq/free/master/v2"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider6.yaml
+    path: proxy_providers/provider6.yaml
     health-check:
       enable: true
       interval: "300"
@@ -143,7 +143,7 @@ proxy-providers:
     type: "file"
     url: "https://raw.githubusercontent.com/openrunner/clash-freenode/main/clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider7.yaml
+    path: proxy_providers/provider7.yaml
     health-check:
       enable: true
       interval: "300"
@@ -153,7 +153,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/vveg26/get_proxy/main/dist/clash.config.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider8.yaml
+    path: proxy_providers/provider8.yaml
     health-check:
       enable: true
       interval: "300"
@@ -163,7 +163,7 @@ proxy-providers:
     type: "http"
     url: "https://cdn.jsdelivr.net/gh/learnhard-cn/free_proxy_ss@main/clash/clash.provider.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider9.yaml
+    path: proxy_providers/provider9.yaml
     health-check:
       enable: true
       interval: "300"
@@ -173,7 +173,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider10.yaml
+    path: proxy_providers/provider10.yaml
     health-check:
       enable: true
       interval: "300"
@@ -183,7 +183,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.nicevpn.top/Clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider11.yaml
+    path: proxy_providers/provider11.yaml
     health-check:
       enable: true
       interval: "300"
@@ -192,7 +192,7 @@ proxy-providers:
   provider12:
     type: "http"
     url: "https://clashnode.com/wp-content/uploads/2023/05/20230525.yaml"
-    path: ./assets/proxy_providers/config/provider12.yaml
+    path: proxy_providers/provider12.yaml
     health-check:
       enable: true
       interval: "300"
@@ -202,7 +202,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/anaer/Sub/main/clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider13.yaml
+    path: proxy_providers/provider13.yaml
     health-check:
       enable: true
       interval: "300"
@@ -212,7 +212,7 @@ proxy-providers:
     type: "http"
     url: "https://nodefree.org/dy/2023/05/20230525.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider14.yaml
+    path: proxy_providers/provider14.yaml
     health-check:
       enable: true
       interval: "300"
@@ -222,7 +222,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fhkaa0%2Fpermalink%2Fmain%2Fproxy%2FV2ray&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider15.yaml
+    path: proxy_providers/provider15.yaml
     health-check:
       enable: true
       interval: "300"
@@ -232,7 +232,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/mahdibland/SSAggregator/master/sub/sub_merge_yaml.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider16.yaml
+    path: proxy_providers/provider16.yaml
     health-check:
       enable: true
       interval: "300"
@@ -242,7 +242,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fwuzhuohua168%2Fclash5%2Fmain%2F5&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider17.yaml
+    path: proxy_providers/provider17.yaml
     health-check:
       enable: true
       interval: "300"
@@ -252,7 +252,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fyzcjd%2Fjiedian%2Fmain%2F%2540yzcjd&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider18.yaml
+    path: proxy_providers/provider18.yaml
     health-check:
       enable: true
       interval: "300"
@@ -262,7 +262,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/Rokate/Proxy-Sub/main/clash/clash_v2ray.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider19.yaml
+    path: proxy_providers/provider19.yaml
     health-check:
       enable: true
       interval: "300"
@@ -272,7 +272,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Ffreefq.neocities.org%2Ffree.txt&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider20.yaml
+    path: proxy_providers/provider20.yaml
     health-check:
       enable: true
       interval: "300"
@@ -282,7 +282,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fadobe.zhuzhu12.com%2Flink%2FrbPHm87z7HiuVw68%3Fsub%3D3%26extend%3D1&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider21.yaml
+    path: proxy_providers/provider21.yaml
     health-check:
       enable: true
       interval: "300"
@@ -292,7 +292,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/mfuu/v2ray/master/clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider22.yaml
+    path: proxy_providers/provider22.yaml
     health-check:
       enable: true
       interval: "300"
@@ -302,7 +302,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmfuu%2Fv2ray%2Fmaster%2Fv2ray&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider23.yaml
+    path: proxy_providers/provider23.yaml
     health-check:
       enable: true
       interval: "300"
@@ -312,7 +312,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.fastgit.org%2FPawdroid%2FFree-servers%2Fmain%2Fsub&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=false&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider24.yaml
+    path: proxy_providers/provider24.yaml
     health-check:
       enable: true
       interval: "300"
@@ -322,7 +322,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/aiboboxx/clashfree/main/clash.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider25.yaml
+    path: proxy_providers/provider25.yaml
     health-check:
       enable: true
       interval: "300"
@@ -332,7 +332,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2FJsnzkpg%2FJsnzkpg%2FJsnzkpg%2FJsnzkpg&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider26.yaml
+    path: proxy_providers/provider26.yaml
     health-check:
       enable: true
       interval: "300"
@@ -342,7 +342,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fbulink.me%2Fsub%2Fge4wfp%2Fvm&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider27.yaml
+    path: proxy_providers/provider27.yaml
     health-check:
       enable: true
       interval: "300"
@@ -352,7 +352,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/ermaozi/get_subscribe/main/subscribe/clash.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider28.yaml
+    path: proxy_providers/provider28.yaml
     health-check:
       enable: true
       interval: "300"
@@ -362,7 +362,7 @@ proxy-providers:
     type: "http"
     url: "https://nodefree.org/dy/2023/06/20230614.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider29.yaml
+    path: proxy_providers/provider29.yaml
     health-check:
       enable: true
       interval: "300"
@@ -372,7 +372,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/zhlx2835/freefq/main/clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider30.yaml
+    path: proxy_providers/provider30.yaml
     health-check:
       enable: true
       interval: "300"
@@ -382,7 +382,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2Fe6f02cfba1a94a029c5ec2c5d17b71ba%2Ffiles%2F47e51fcbb1c84163b37c596dcd6fb754%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider31.yaml
+    path: proxy_providers/provider31.yaml
     health-check:
       enable: true
       interval: "300"
@@ -392,7 +392,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/clash/main/Ios.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider32.yaml
+    path: proxy_providers/provider32.yaml
     health-check:
       enable: true
       interval: "300"
@@ -402,7 +402,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fchfchf0306%2Fjeidian4.18%2Fmain%2F4.18&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider33.yaml
+    path: proxy_providers/provider33.yaml
     health-check:
       enable: true
       interval: "300"
@@ -412,7 +412,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpastebin.com%2Fraw%2FGxR5pELe&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider34.yaml
+    path: proxy_providers/provider34.yaml
     health-check:
       enable: true
       interval: "300"
@@ -422,7 +422,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/cxr9912/cxr2022/main/ss.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider35.yaml
+    path: proxy_providers/provider35.yaml
     health-check:
       enable: true
       interval: "300"
@@ -432,7 +432,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/freefq/free/master/v2"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider36.yaml
+    path: proxy_providers/provider36.yaml
     health-check:
       enable: true
       interval: "300"
@@ -442,7 +442,7 @@ proxy-providers:
     type: "http"
     url: "https://wefound.cc/freenode/2023/06/20230614.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider37.yaml
+    path: proxy_providers/provider37.yaml
     health-check:
       enable: true
       interval: "300"
@@ -452,7 +452,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F07a7d580494d45969bd46a14cdb01ba8%2Ffiles%2F683e79d508c7449baa7078e234e24e74%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider38.yaml
+    path: proxy_providers/provider38.yaml
     health-check:
       enable: true
       interval: "300"
@@ -462,7 +462,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F07a7d580494d45969bd46a14cdb01ba8%2Ffiles%2F683e79d508c7449baa7078e234e24e74%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider39.yaml
+    path: proxy_providers/provider39.yaml
     health-check:
       enable: true
       interval: "300"
@@ -472,7 +472,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2F26c9d923f5084ea48011ec464388c072%2Ffiles%2F26def9f134174d678c2a40fa6f105df2%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider40.yaml
+    path: proxy_providers/provider40.yaml
     health-check:
       enable: true
       interval: "300"
@@ -482,7 +482,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2Fd44cc182226f47a38cd85c83e55a0602%2Ffiles%2Fa301999ada85423383c59ac3c1f5c902%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider41.yaml
+    path: proxy_providers/provider41.yaml
     health-check:
       enable: true
       interval: "300"
@@ -492,7 +492,7 @@ proxy-providers:
     type: "http"
     url: "https://openit-fq.ml/Clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider42.yaml
+    path: proxy_providers/provider42.yaml
     health-check:
       enable: true
       interval: "300"
@@ -502,7 +502,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.pmsub.me/clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider43.yaml
+    path: proxy_providers/provider43.yaml
     health-check:
       enable: true
       interval: "300"
@@ -512,7 +512,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fbulink.me%2Fsub%2Fmqxkn%2Fvm&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider44.yaml
+    path: proxy_providers/provider44.yaml
     health-check:
       enable: true
       interval: "300"
@@ -522,7 +522,7 @@ proxy-providers:
     type: "http"
     url: "https://jetflow.site/api/v1/public/services/127720/0e90044aa40a35307494342da3ade301?client=clash"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider45.yaml
+    path: proxy_providers/provider45.yaml
     health-check:
       enable: true
       interval: "300"
@@ -532,7 +532,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fjiang.netlify.app%2F&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider46.yaml
+    path: proxy_providers/provider46.yaml
     health-check:
       enable: true
       interval: "300"
@@ -542,7 +542,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Ff.kxyz.eu.org%2Ff.php%3Fr%3DaHR0cHM6Ly9yc3Mub2tnZ3Jzcy5idXp6L2xpbmsvMHEzTGJGbU9uM0NTQWZYeT9tdT0y&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider47.yaml
+    path: proxy_providers/provider47.yaml
     health-check:
       enable: true
       interval: "300"
@@ -552,7 +552,7 @@ proxy-providers:
     type: "http"
     url: "https://clashnode.com/wp-content/uploads/2023/06/20230614.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider48.yaml
+    path: proxy_providers/provider48.yaml
     health-check:
       enable: true
       interval: "300"
@@ -562,7 +562,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.wmlabs.net%2Fraw%2F866a5fee4436&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider49.yaml
+    path: proxy_providers/provider49.yaml
     health-check:
       enable: true
       interval: "300"
@@ -572,7 +572,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/clash/main/Ios.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider50.yaml
+    path: proxy_providers/provider50.yaml
     health-check:
       enable: true
       interval: "300"
@@ -582,7 +582,7 @@ proxy-providers:
     type: "http"
     url: "https://proxy.yiun.xyz/clash/proxies"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider51.yaml
+    path: proxy_providers/provider51.yaml
     health-check:
       enable: true
       interval: "300"
@@ -592,7 +592,7 @@ proxy-providers:
     type: "http"
     url: "https://sub.bonds.id/sub2?target=clash&url=https%3A%2F%2Fpaste.gg%2Fp%2Fanonymous%2Ff19e2944302a470686689b8d6d32177f%2Ffiles%2F3bfa58d0eb954043aeb2d3eb07b47db8%2Fraw&insert=false&config=base%2Fdatabase%2Fconfig%2Fstandard%2Fstandard_redir.ini&emoji=false&list=false&udp=true&tfo=true&expand=false&scv=true&fdn=false&sort=false&new_name=true"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider52.yaml
+    path: proxy_providers/provider52.yaml
     health-check:
       enable: true
       interval: "300"
@@ -602,7 +602,7 @@ proxy-providers:
     type: "http"
     url: "http://proxies.haisto.cn/clash/proxies"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider53.yaml
+    path: proxy_providers/provider53.yaml
     health-check:
       enable: true
       interval: "300"
@@ -612,7 +612,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/tro.562.Profiles-20221211014547.txt"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider54.yaml
+    path: proxy_providers/provider54.yaml
     health-check:
       enable: true
       interval: "300"
@@ -622,7 +622,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/mahdibland/V2RayAggregator/master/update/provider/provider.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider55.yaml
+    path: proxy_providers/provider55.yaml
     health-check:
       enable: true
       interval: "300"
@@ -632,7 +632,7 @@ proxy-providers:
     type: "http"
     url: "https://free.iam7.tk/clash/config"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider56.yaml
+    path: proxy_providers/provider56.yaml
     health-check:
       enable: true
       interval: "300"
@@ -642,7 +642,7 @@ proxy-providers:
     type: "http"
     url: "https://proxy.yugogo.xyz/clash/config"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider57.yaml
+    path: proxy_providers/provider57.yaml
     health-check:
       enable: true
       interval: "300"
@@ -652,7 +652,7 @@ proxy-providers:
     type: "http"
     url: "https://klausvpn.posyao.com/clash/config"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider58.yaml
+    path: proxy_providers/provider58.yaml
     health-check:
       enable: true
       interval: "300"
@@ -662,7 +662,7 @@ proxy-providers:
     type: "http"
     url: "https://clash.myvm.cc/clash/config"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider59.yaml
+    path: proxy_providers/provider59.yaml
     health-check:
       enable: true
       interval: "300"
@@ -672,7 +672,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/11380.txt"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider60.yaml
+    path: proxy_providers/provider60.yaml
     health-check:
       enable: true
       interval: "300"
@@ -682,7 +682,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/7025.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider61.yaml
+    path: proxy_providers/provider61.yaml
     health-check:
       enable: true
       interval: "300"
@@ -692,7 +692,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/4444.txt"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider62.yaml
+    path: proxy_providers/provider62.yaml
     health-check:
       enable: true
       interval: "300"
@@ -702,7 +702,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/1164abbas.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider63.yaml
+    path: proxy_providers/provider63.yaml
     health-check:
       enable: true
       interval: "300"
@@ -712,7 +712,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider64.yaml
+    path: proxy_providers/provider64.yaml
     health-check:
       enable: true
       interval: "300"
@@ -722,7 +722,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/990.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider65.yaml
+    path: proxy_providers/provider65.yaml
     health-check:
       enable: true
       interval: "300"
@@ -732,7 +732,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/abbbasdvd10.txt"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider66.yaml
+    path: proxy_providers/provider66.yaml
     health-check:
       enable: true
       interval: "300"
@@ -742,7 +742,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/easy.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider67.yaml
+    path: proxy_providers/provider67.yaml
     health-check:
       enable: true
       interval: "300"
@@ -752,7 +752,7 @@ proxy-providers:
     type: "http"
     url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/iran.12.22.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider68.yaml
+    path: proxy_providers/provider68.yaml
     health-check:
       enable: true
       interval: "300"
@@ -760,9 +760,9 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   provider69:
     type: "http"
-    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/irancell.yaml"
+    url: "https://raw.githubusercontent.com/awesome-vpn/awesome-vpn/refs/heads/master/clash.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider69.yaml
+    path: proxy_providers/provider69.yaml
     health-check:
       enable: true
       interval: "300"
@@ -770,9 +770,9 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"    
   provider70:
     type: "http"
-    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/tro_abbbasdvd.txt"
+    url: "https://sos.cmliussss.net/auto"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider70.yaml
+    path: proxy_providers/provider70.yaml
     health-check:
       enable: true
       interval: "300"
@@ -780,9 +780,9 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   provider71:
     type: "http"
-    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/txt.ss.txt"
+    url: "https://raw.githubusercontent.com/PuddinCat/BestClash/refs/heads/main/proxies.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider71.yaml
+    path: proxy_providers/provider71.yaml
     health-check:
       enable: true
       interval: "300"
@@ -790,9 +790,9 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   provider72:
     type: "http"
-    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/v2r.txt"
+    url: "https://raw.githubusercontent.com/chengaopan/AutoMergePublicNodes/master/list.yml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider72.yaml
+    path: proxy_providers/provider72.yaml
     health-check:
       enable: true
       interval: "300"
@@ -800,9 +800,9 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   provider73:
     type: "http"
-    url: "https://raw.githubusercontent.com/abbasdvd3/abbasdvd10/main/zan-zendegi-azadi.yaml"
+    url: "https://raw.githubusercontent.com/Misaka-blog/chromego_merge/refs/heads/main/sub/merged_proxies_new.yaml"
     interval: "3600"
-    path: ./assets/proxy_providers/config/provider73.yaml
+    path: proxy_providers/provider73.yaml
     health-check:
       enable: true
       interval: "300"
