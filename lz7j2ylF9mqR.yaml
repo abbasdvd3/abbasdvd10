@@ -1,11 +1,9 @@
 port: 10809
 socks-port: 10808
-mixed-port: 7890
-redir-port: 9797
-tproxy-port: 9898
+
 mode: rule
 allow-lan: true
-unified-delay: true
+unified-delay: false
 auto-redir: true
 enable-process: true
 bind-address: '*'
@@ -16,9 +14,9 @@ external-ui:
 find-process-mode: always 
 
 sniffer:
-  enable: true
+  enable: false
   force-dns-mapping: true
-  parse-pure-ip: false
+  parse-pure-ip: true
   override-destination: true
   sniff:
     TLS:
@@ -37,7 +35,7 @@ sniffer:
     - "80"
     - "443"
 tun:
-  enable: true
+  enable: false
   device: utun
   mtu: 9000
   stack: system
@@ -45,6 +43,7 @@ tun:
     - any:53
     - tcp://any:53
   auto-route: true
+  auto-redir: true
   auto-detect-interface: true
   inet4-address: 172.19.0.1/30
   inet6-address: [fdfe:dcba:9876::1/126]
