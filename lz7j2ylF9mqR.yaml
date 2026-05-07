@@ -180,7 +180,7 @@ proxy-providers:
       url: "https://cp.cloudflare.com/generate_204"
   provider11:
     type: "http"
-    url: "https://sub.nicevpn.top/Clash.yaml"
+    url: "https://raw.githubusercontent.com/vmheaven/VMHeaven.io-Free-Proxy-List/refs/heads/main/all_proxies.txt"
     interval: "3600"
     path: proxy_providers/provider11.yaml
     health-check:
