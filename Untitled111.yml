@@ -169,7 +169,7 @@ dns:
     - https://dns-adguard.heinu.cf/dns-query
     - https://dns-adguard.heinu.ga/dns-query
   fallback-filter:
-     geoip: true
+     geoip: false
      geoip-code: ir
      geoipsite:
      #  - gfw
@@ -6334,8 +6334,8 @@ proxies:
       path: /
 proxy-groups:
   - name: Foreign agents
-    type: url-test
-    disable-udp: true
+    type: fallback
+#    disable-udp: true
  #   include-all-proxies: true
  #   include-all-providers: true
     proxies:
@@ -6357,7 +6357,7 @@ proxy-groups:
     
   - name: FallBack
     type: fallback
-    disable-udp: true
+ #   disable-udp: true
     include-all-proxies: true
     include-all-providers: true
     use:
@@ -6367,7 +6367,7 @@ proxy-groups:
 
   - name: CF-Warp
     type: url-test
-    disable-udp: true
+#    disable-udp: true
     include-all-proxies: true
     include-all-providers: true
     use:
@@ -6377,7 +6377,7 @@ proxy-groups:
       
   - name: Domestic direct
     type: select
-    disable-udp: true
+#    disable-udp: true
     include-all-proxies: true
     include-all-providers: true
     proxies:
@@ -6393,7 +6393,7 @@ proxy-groups:
     use:
     url: https://lab.skk.moe/test-204
     interval: "10"
-    disable-udp: true
+#    disable-udp: true
     strategy: round-robin
     # consistent-hashing 同域名同连接
     # round-robin 随机连接
