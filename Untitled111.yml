@@ -15,19 +15,13 @@ ipv6: true
 allow-lan: true
 tcp-concurrent: true
 unified-delay: false
-geodata-mode: true
-geo-auto-update: true
 geo-update-interval: 24 
 keep-alive-interval: 15
 keep-alive-idle: 15
 disable-keep-alive: true
-global-ua: clash.meta
-etag-support: true
 interface-name: ""
 # mode: global 
 log-level: debug
-global-client-fingerprint: random # 
-geodata-loader: standard 
 find-process-mode: always
 external-controller-cors:
 allow-origins:
@@ -131,12 +125,6 @@ dns:
     - https://doh.360.cn/dns-query
     - tls://dot.360.cn:853
     - tls://dns.tuna.tsinghua.edu.cn:8853
-  nameserver-policy:
-    "+.ghproxy.com,+.jsdelivr.net": [ "https://223.5.5.5/dns-query#h3=true", "https://1.12.12.12/dns-query", "[2400:3200::1]", "[2400:3200:baba::1]", "[2402:4e00::]" ]
-    "geosite:ir,private": [ "https://223.5.5.5/dns-query#h3=true", "https://1.12.12.12/dns-query", "[2400:3200::1]", "[2400:3200:baba::1]", "[2402:4e00::]" ]
-    "geosite:category-ads-all": rcode://success
-    "rule-set:Direct,Local,Proxy,UnBlock": [ "https://94.140.14.14/dns-query#h3=true", "tls://9.9.9.11", "tls://208.67.222.222", "tls://[2620:fe::11]", "tls://[2620:119:35::35]" ]
-    "geosite:geolocation-!cn": [ "https://94.140.14.14/dns-query#h3=true", "tls://9.9.9.11", "tls://208.67.222.222", "tls://[2620:fe::11]", "tls://[2620:119:35::35]" ]
   proxy-server-nameserver:
     - tls://223.5.5.5
     - tls://dot.pub
@@ -198,7 +186,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/abbasdvd3/clash/refs/heads/main/vless/vip"
     interval: "300"
-    path: /Proxy-Providers/IPLC-1.yaml
+    path: Proxy-Providers/IPLC-1.yaml
     health-check:
       enable: true
       interval: 300
@@ -207,7 +195,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/Ruk1ng001/freeSub/main/clash.yaml"
     interval: "300"
-    path: /Proxy-Providers/FreeV2.yaml
+    path: Proxy-Providers/FreeV2.yaml
     health-check:
       enable: true
       interval: 300
@@ -216,7 +204,7 @@ proxy-providers:
     type: http
     url: "https://shadowmere.xyz/api/b64sub/"
     interval: "300"
-    path: /Proxy-Providers/OneCNY.yaml
+    path: Proxy-Providers/OneCNY.yaml
     health-check:
       enable: true
       interval: 300
@@ -225,7 +213,7 @@ proxy-providers:
     type: http
     url: "https://proxypool1999.banyunxiaoxi.icu/clash/proxies"
     interval: "300"
-    path: /Proxy-Providers/IEPL-4.yaml
+    path: Proxy-Providers/IEPL-4.yaml
     health-check:
       enable: true
       interval: 300
@@ -234,7 +222,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/lagzian/SS-Collector/main/SS/trinity_clash.yaml"
     interval: "300"
-    path: /Proxy-Providers/IEPL-3.yaml
+    path: Proxy-Providers/IEPL-3.yaml
     health-check:
       enable: true
       interval: 300
@@ -243,7 +231,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/zjfb/SubCrawler/main/sub/share/all"
     interval: "300"
-    path: /Proxy-Providers/IEPL-1.yaml
+    path: Proxy-Providers/IEPL-1.yaml
     health-check:
       enable: true
       interval: 300
@@ -252,7 +240,7 @@ proxy-providers:
     type: http
     url: "http://155.248.172.106:12580/clash/proxies"
     interval: "300"
-    path: /Proxy-Providers/IPLC-2.yaml
+    path: Proxy-Providers/IPLC-2.yaml
     health-check:
       enable: true
       interval: 300
@@ -261,7 +249,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml"
     interval: "300"
-    path: /Proxy-Providers/CloudFlare-Warp.yaml 
+    path: Proxy-Providers/CloudFlare-Warp.yaml 
     health-check:
       enable: true
       interval: 300
@@ -270,7 +258,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/HakurouKen/free-node/main/public"
     interval: "300"
-    path: /Proxy-Providers/IPLC-11.yaml
+    path: Proxy-Providers/IPLC-11.yaml
     health-check:
       enable: true
       interval: 300
@@ -279,7 +267,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml"
     interval: "300"
-    path: /Proxy-Providers/FreeV21.yaml
+    path: Proxy-Providers/FreeV21.yaml
     health-check:
       enable: true
       interval: 300
@@ -288,7 +276,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/caijh/FreeProxiesScraper/master/Eternity.yaml"
     interval: "300"
-    path: /Proxy-Providers/OneCNY1.yaml
+    path: Proxy-Providers/OneCNY1.yaml
     health-check:
       enable: true
       interval: 300
@@ -297,7 +285,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/youkai0100/youkai/master/README.md"
     interval: "300"
-    path: /Proxy-Providers/IEPL-41.yaml
+    path: Proxy-Providers/IEPL-41.yaml
     health-check:
       enable: true
       interval: 300
@@ -306,7 +294,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/lagzian/SS-Collector/main/mix_clash.yaml"
     interval: "300"
-    path: /Proxy-Providers/IEPL-31.yaml
+    path: Proxy-Providers/IEPL-31.yaml
     health-check:
       enable: true
       interval: 300
@@ -315,7 +303,7 @@ proxy-providers:
     type: http
     url: "https://config.v2cross.com/clashprofile/config"
     interval: "300"
-    path: /Proxy-Providers/IEPL-11.yaml
+    path: Proxy-Providers/IEPL-11.yaml
     health-check:
       enable: true
       interval: 300
@@ -324,7 +312,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/umelabs/node.umelabs.dev/master/Subscribe/SSR.md"
     interval: "300"
-    path: /Proxy-Providers/IPLC-21.yaml
+    path: Proxy-Providers/IPLC-21.yaml
     health-check:
       enable: true
       interval: 300
@@ -333,7 +321,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/snakem982/proxypool/main/source/clash-meta.yaml"
     interval: "300"
-    path: /Proxy-Providers/CloudFlare-Warp1.yaml 
+    path: Proxy-Providers/CloudFlare-Warp1.yaml 
     health-check:
       enable: true
       interval: 300
@@ -342,7 +330,7 @@ proxy-providers:
     type: http
     url: "http://66.42.50.118:12580/clash/proxies"
     interval: 300
-    path: /Proxy-Providers/provide.yaml
+    path: Proxy-Providers/provide.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -351,7 +339,7 @@ proxy-providers:
     type: http
     url: "https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fmheidari98%2F.proxy%2Fmain%2Fall&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true # https://raw.githubusercontent.com/ndsphonemy/proxy-sub/main/lt-sub-all.txt# https://raw.githubusercontent.com/cry0ice/genode@main/public/all.txt"
     interval: 300
-    path: /Proxy-Providers/provide1.yaml
+    path: Proxy-Providers/provide1.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -360,7 +348,7 @@ proxy-providers:
     type: http
     url: "https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fluxl-1379%2Fmerge%2F77247d23def72b25226dfa741614e9b07a569c72%2Fsub%2Fsub_merge_base64.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
     interval: 300
-    path: /Proxy-Providers/provide2.yaml
+    path: Proxy-Providers/provide2.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -369,7 +357,7 @@ proxy-providers:
     type: http 
     url: "https://suc-store.usuc.cc/sub?target=clash&url=https%3A%2F%2Fraw.githubusercontent.com%2Fbarry-far%2FV2ray-Configs%2Fmain%2FAll_Configs_Sub.txt&insert=false&config=https%3A%2F%2Fraw.githubusercontent.com%2FACL4SSR%2FACL4SSR%2Fmaster%2FClash%2Fconfig%2FACL4SSR_Online.ini&emoji=true&list=false&xudp=false&udp=false&tfo=false&expand=true&scv=false&fdn=false&new_name=true"
     interval: 300
-    path: /Proxy-Providers/provide3.yaml
+    path: Proxy-Providers/provide3.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -378,7 +366,7 @@ proxy-providers:
     type: http
     url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/ss.md"
     interval: 300
-    path: /Proxy-Providers/provide4.yaml
+    path: Proxy-Providers/provide4.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -387,7 +375,7 @@ proxy-providers:
     type: http
     url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/vmess.md"
     interval: 300
-    path: /Proxy-Providers/provide5.yaml
+    path: Proxy-Providers/provide5.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -396,7 +384,7 @@ proxy-providers:
     type: http
     url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/trojan.md"
     interval: 300
-    path: /Proxy-Providers/provide6.yaml
+    path: Proxy-Providers/provide6.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -405,7 +393,7 @@ proxy-providers:
     type: http
     url: "https://bitbucket.org/huwo1/proxy_nodes/raw/f31ca9ec67b84071515729ff45b011b6b09c10f2/proxy.md"
     interval: 300
-    path: /Proxy-Providers/provide7.yaml
+    path: Proxy-Providers/provide7.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -414,7 +402,7 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/Alvin9999/pac2/master/clash/1/config.yaml"
     interval: 300
-    path: /Proxy-Providers/provide8.yaml
+    path: Proxy-Providers/provide8.yaml
     health-check:
       enable: true
       url: https://lab.skk.moe/test-204
@@ -6321,10 +6309,11 @@ proxies:
       path: /
 proxy-groups:
   - name: Foreign agents
-    type: fallback
-#    disable-udp: true
- #   include-all-proxies: true
- #   include-all-providers: true
+    type: select
+    exclude-type: Direct, Reject, RejectDrop, Compatible, Pass, PassRule, Rematch, Dns, Relay, Selector, Fallback, URLTest, LoadBalance, Smart, Shadowsocks, ShadowsocksR, Snell, Trojan, Ssh, Masque, TrustTunnel, ShadowQuic, OpenVPN, Tailscale, ZeroTier, EasyTier, GostRelay
+    filter: "美国|USA|美國|us|US|United States|美|🇺🇸|US|USA|SJC|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD"
+    include-all-proxies: true
+    include-all-providers: true
     proxies:
       - CF-Warp
       - FallBack
@@ -6344,7 +6333,8 @@ proxy-groups:
     
   - name: FallBack
     type: fallback
- #   disable-udp: true
+    filter: "美国|USA|美國|us|US|United States|美|🇺🇸|US|USA|SJC|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD"
+    exclude-type: Direct, Reject, RejectDrop, Compatible, Pass, PassRule, Rematch, Dns, Relay, Selector, Fallback, URLTest, LoadBalance, Smart, Shadowsocks, ShadowsocksR, Snell, Trojan, Ssh, Masque, TrustTunnel, ShadowQuic, OpenVPN, Tailscale, ZeroTier, EasyTier, GostRelay
     include-all-proxies: true
     include-all-providers: true
     use:
@@ -6354,7 +6344,8 @@ proxy-groups:
 
   - name: CF-Warp
     type: url-test
-#    disable-udp: true
+    filter: "美国|USA|美國|us|US|United States|美|🇺🇸|US|USA|SJC|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD"
+    exclude-type: Direct, Reject, RejectDrop, Compatible, Pass, PassRule, Rematch, Dns, Relay, Selector, Fallback, URLTest, LoadBalance, Smart, Shadowsocks, ShadowsocksR, Snell, Trojan, Ssh, Masque, TrustTunnel, ShadowQuic, OpenVPN, Tailscale, ZeroTier, EasyTier, GostRelay
     include-all-proxies: true
     include-all-providers: true
     use:
@@ -6380,7 +6371,8 @@ proxy-groups:
     use:
     url: https://lab.skk.moe/test-204
     interval: "10"
-#    disable-udp: true
+    filter: "美国|USA|美國|us|US|United States|美|🇺🇸|US|USA|SJC|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD"
+    exclude-type: Direct, Reject, RejectDrop, Compatible, Pass, PassRule, Rematch, Dns, Relay, Selector, Fallback, URLTest, LoadBalance, Smart, Shadowsocks, ShadowsocksR, Snell, Trojan, Ssh, Masque, TrustTunnel, ShadowQuic, OpenVPN, Tailscale, ZeroTier, EasyTier, GostRelay
     strategy: round-robin
     # consistent-hashing 同域名同连接
     # round-robin 随机连接
