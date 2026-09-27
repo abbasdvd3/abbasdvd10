@@ -60,16 +60,23 @@ proxies:
 proxy-groups:
   - name: "PROXY"
     type: select
+    include-all-providers: true
+    filter: "美国|USA|美國|us|US|United States|美|🇺🇸|US|USA|SJC|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD"
+    exclude-type: Direct, Reject, RejectDrop, Compatible, Pass, PassRule, Rematch, Dns, Relay, Selector, Fallback, URLTest, LoadBalance, Smart, Shadowsocks, ShadowsocksR, Snell, Trojan, Ssh, Masque, TrustTunnel, ShadowQuic, OpenVPN, Tailscale, ZeroTier, EasyTier, GostRelay
     proxies:
       - "FALLBACK"
       - "URL-TEST"
 
   - name: "FALLBACK"
     type: fallback
+    filter: "美国|USA|美國|us|US|United States|美|🇺🇸|US|USA|SJC|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD"
+    exclude-type: Direct, Reject, RejectDrop, Compatible, Pass, PassRule, Rematch, Dns, Relay, Selector, Fallback, URLTest, LoadBalance, Smart, Shadowsocks, ShadowsocksR, Snell, Trojan, Ssh, Masque, TrustTunnel, ShadowQuic, OpenVPN, Tailscale, ZeroTier, EasyTier, GostRelay
     include-all-providers: true
 
   - name: "URL-TEST"
     type: url-test
+    filter: "美国|USA|美國|us|US|United States|美|🇺🇸|US|USA|SJC|JFK|LAX|ORD|ATL|DFW|SFO|MIA|SEA|IAD"
+    exclude-type: Direct, Reject, RejectDrop, Compatible, Pass, PassRule, Rematch, Dns, Relay, Selector, Fallback, URLTest, LoadBalance, Smart, Shadowsocks, ShadowsocksR, Snell, Trojan, Ssh, Masque, TrustTunnel, ShadowQuic, OpenVPN, Tailscale, ZeroTier, EasyTier, GostRelay
     include-all-providers: true
 
   - name: "block"
