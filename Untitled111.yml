@@ -184,7 +184,7 @@ dns:
 proxy-providers:
   IPLC-1:
     type: http
-    url: "https://raw.githubusercontent.com/abbasdvd3/clash/refs/heads/main/vless/vip"
+    url: "https://raw.githubusercontent.com/abbasdvd3/clash/refs/heads/main/v2ray/C2"
     interval: "300"
     path: Proxy-Providers/IPLC-1.yaml
     health-check:
@@ -265,7 +265,7 @@ proxy-providers:
       url: https://lab.skk.moe/test-204
   FreeV21:
     type: http
-    url: "https://raw.githubusercontent.com/AzadNetCH/Clash/main/AzadNet_META_IRAN-Direct.yml"
+    url: "https://raw.githubusercontent.com/ssrsub/ssr/master/clash.yaml"
     interval: "300"
     path: Proxy-Providers/FreeV21.yaml
     health-check:
